@@ -1,6 +1,48 @@
 # Current Updates
 
+
+## v0.60 — universal speak button
+
+- Reworked Speak / complete so it works across all configurations, including specialized stored utterances.
+- The button now speaks the current text output through the browser speech-synthesis API when text output is available.
+- Speak / complete now remains useful after an auto-completed stored phrase or stored utterance: it can still vocalize the output and mark the run as spoken/complete.
+- Shape-sequence output is treated as a non-speech output mode and is still marked complete rather than spoken as symbols.
+- JavaScript syntax validated.
+
+
+## v0.59 — enlarged all text-keyboard characters
+
+- Extended the enlarged QWERTY character styling to all text keyboard layouts.
+- Alphabetic, frequency, and QWERTY keyboards now use the same large 4× character-label treatment.
+- Shape-layout sizing remains separate and unchanged.
+- JavaScript syntax validated.
+
+
+## v0.58 — scan cursor auditory feedback
+
+- Added a distinct scan-cursor tone when the scanning cursor enters a new row, group, prediction item, or keyboard item.
+- Kept the accepted-selection tone separate from the scanning cursor tone.
+- Scan focus movement now produces brief auditory feedback while scanning; accepted selections still produce the higher selection tone.
+- The existing Sound on/off button controls both accepted-selection tones and scan cursor tones.
+- JavaScript syntax validated.
+
+
+## v0.57 — enlarged QWERTY key characters
+
+- Increased QWERTY keyboard character glyphs by a factor of four.
+- Applied the enlargement to QWERTY key labels while leaving the key geometry and square/constrained grid behavior intact.
+- JavaScript syntax validated.
+
 This file is intended to be appended with each revision of AAC Access Systems.
+
+## v0.56 — auditory selection feedback
+
+- Added auditory feedback across access methods.
+- The app now plays a brief tone whenever a user selection is accepted.
+- Feedback is triggered for direct selection, scanning row/item selection, step scanning selection, joystick selection, Morse switch input, ambiguous-key input, abbreviation/icon/core/phrase selections, and correction selections.
+- Scan focus movement alone does not play a tone.
+- Added a Sound on/off button beside the Active interface field.
+- JavaScript syntax validated.
 
 ## v0.55 — compact output shape tokens
 
@@ -39,27 +81,4 @@ This file is intended to be appended with each revision of AAC Access Systems.
 - Removed the visible Interface label.
 - Moved interface instructions to a Help button.
 - Reduced vertical spacing in the persistent Test/Output pane.
-- JavaScript syntax validated.
-
-## v0.50 — fixed access workspace layout
-
-- Integrated the revised interface layout.
-- Made Test and Output rows persistently visible above the interface area.
-- Positioned run controls to the right of the Test/Output area.
-- Kept keyboard/interface area below the persistent top section.
-- Preserved square/constrained key grids.
-- JavaScript syntax validated.
-
-## v0.49 — square constrained key grids
-
-- Made onscreen keyboard keys more square using a true 1:1 key aspect ratio.
-- Applied square-key behavior to keyboard boards, colored-shape boards, scanning rows, and joystick rows.
-- Added constraints so large matrices shrink to stay inside the available interface area.
-- JavaScript syntax validated.
-
-## v0.48 — renamed AAC Access Systems
-
-- Renamed the app to AAC Access Systems.
-- Updated browser title, main header, setup pane title, tooltips/help text, and visible app language.
-- Updated export filenames to use `aac_access_systems`.
 - JavaScript syntax validated.

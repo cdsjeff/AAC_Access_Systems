@@ -1,13 +1,13 @@
 # AAC Access Systems
 
-AAC Access Systems is a single-file browser-based teaching and demonstration app for comparing AAC access systems. It supports hands-on practice, test runs, and maximum-efficiency simulation across input devices, selection techniques, selection sets, keyboard layouts, colored-shape layouts, Morse input, prediction, scanning, joystick navigation, direct selection, and head-tracking options.
+AAC Access Systems is a single-file browser-based teaching and demonstration app for comparing AAC access systems. It supports hands-on practice, test runs, and maximum-efficiency simulation across input devices, selection techniques, selection sets, keyboard layouts, colored-shape layouts, Morse input, prediction, scanning, joystick navigation, direct selection, auditory feedback, speech output, and head-tracking options.
 
 ## Files in this ZIP
 
 - `index.html`  
   A copy of the current program file, named for easy hosting through GitHub Pages or another static web host.
 
-- `AAC_Access_Systems_v0_55.html`  
+- `AAC_Access_Systems_v0_60.html`  
   The current versioned standalone program file.
 
 - `AAC_Access_Systems_User_Manual_v1.pdf`  
@@ -36,4 +36,4 @@ For GitHub Pages:
 
 - The app is self-contained in the HTML file.
 - Camera-based head tracking may require browser permission and may work best from HTTPS, localhost, or a standalone browser tab.
-- Some browser download and camera features may be restricted when the file is opened inside an embedded preview.
+- Some browser download, sound, speech, and camera features may be restricted when the file is opened inside an embedded preview.
