@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>AAC Access Systems v0.60</title>
+<title>AAC Access Systems v0.61</title>
 <style>
   :root {
     --bg: #f6f7fb;
@@ -382,6 +382,20 @@
   .shapePreviewTitle { font-size:12px; color:var(--muted); margin-bottom:5px; }
   .targetModeControls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:8px 0; }
   .targetModeControls label { font-size:12px; color:var(--muted); }
+  label.inlineCheck {
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    border:1px solid var(--line);
+    border-radius:9px;
+    padding:7px 9px;
+    background:#fff;
+    color:var(--ink);
+    font-size:12px;
+    cursor:pointer;
+  }
+  label.inlineCheck input { margin:0; }
+  body.hideTemporalMeasures .temporalMetric { display:none !important; }
   body.shapeTask #targetText { opacity:.55; }
   .layoutCoverageNote { font-size:11px; color:var(--muted); margin-top:3px; }
   .morseOptionHeader {
@@ -571,8 +585,8 @@
 </head>
 <body>
 <header>
-  <h1>AAC Access Systems <span class="tag">v0.60 universal speak button</span></h1>
-  <p>Compare AAC machine architectures using the same target text or colored-shape target sequence. Students can use the interface directly, then watch the maximum-efficiency path animate on that same interface. Measures emphasize selection efficiency, not production time.</p>
+  <h1>AAC Access Systems <span class="tag">v0.61 temporal production measures</span></h1>
+  <p>Compare AAC machine architectures using the same target text or colored-shape target sequence. Students can use the interface directly, then watch the maximum-efficiency path animate on that same interface. Measures include selection efficiency and optional temporal production measures.</p>
 </header>
 <main>
   <details class="panel setupPanel accordionPanel" id="machineBenchPane">
@@ -584,6 +598,7 @@
           <h2>Task and information set</h2>
           <div class="targetModeControls">
             <label>Target type<br><select id="targetMode"><option value="text" selected>Text sentence</option><option value="shape">Colored-shape sentence</option></select></label>
+            <label class="inlineCheck" for="showTemporalMeasures"><input id="showTemporalMeasures" type="checkbox" checked /> Show temporal measures</label>
           </div>
           <details class="subAccordion accordionPanel" id="textTaskPane">
             <summary>Text sentence <span class="accordionHint">typed sentence and presets</span></summary>
@@ -659,7 +674,7 @@
     <div class="sectionTitle">
       <h2>1. User interface / student production mode</h2>
     </div>
-    <div class="note ok">Students produce the same target sentence through the selected interface. The app records selections, activations, scan ticks, navigation actions, code elements, prediction selections, corrections, and errors, then compares the run to the maximum-efficiency simulation for that same machine. Timing is intentionally not scored in this unit.</div>
+    <div class="note ok">Students produce the same target sentence through the selected interface. The app records selections, activations, scan ticks, navigation actions, code elements, prediction selections, corrections, and errors, then compares the run to the maximum-efficiency simulation for that same machine. Temporal measures can be shown or hidden from the Task and information set pane.</div>
     <div class="studentTop" style="margin-top:10px;">
       <div>
         <div class="studentInterfaceSelectors" aria-label="Student interface selectors">
@@ -843,6 +858,9 @@
               <th>Sel/char</th>
               <th>Sel/word</th>
               <th>Info/sel</th>
+              <th class="temporalMetric">Seconds</th>
+              <th class="temporalMetric">CPM</th>
+              <th class="temporalMetric">WPM</th>
               <th>Unsupported</th>
             </tr>
           </thead>
@@ -1218,12 +1236,44 @@
     res.events.push(ev);
     if(outputDelta) res.producedText += outputDelta;
   }
+  function ratePerMinute(count, seconds){
+    return seconds > 0 ? (count / seconds) * 60 : 0;
+  }
+  function temporalStatsFromMs(ms, text){
+    const seconds = Math.max(0, (Number(ms) || 0) / 1000);
+    const chars = targetUnitCount(text || "");
+    const words = targetWordLikeCount(text || "");
+    return { totalSeconds: seconds, cpm: ratePerMinute(chars, seconds), wpm: ratePerMinute(words, seconds) };
+  }
+  function temporalMeasuresEnabled(){
+    return document.getElementById("showTemporalMeasures")?.checked !== false;
+  }
+  function syncTemporalMeasureVisibility(){
+    document.body.classList.toggle("hideTemporalMeasures", !temporalMeasuresEnabled());
+    renderStudentMetrics();
+    renderSimLiveMetrics();
+    renderResults();
+  }
+  function eventEstimatedMs(cost={}, label=""){
+    const timing = getTiming();
+    const lower = String(label || "").toLowerCase();
+    let ms = 0;
+    if(cost.morseUnits) ms += cost.morseUnits * timing.morseUnitMs;
+    if(cost.scanTicks) ms += cost.scanTicks * timing.scanInterval;
+    if(cost.navActions) ms += cost.navActions * timing.navMs;
+    const activationCount = cost.activations || 0;
+    if(activationCount && !cost.morseUnits){
+      const selectionMs = (cost.scanTicks || /scan|row|column|group|item|switch/.test(lower)) ? timing.switchMs : timing.keyMs;
+      ms += activationCount * selectionMs;
+    }
+    return ms;
+  }
   function finalize(res){
-    // Time values are retained only for backward compatibility with older exports.
-    // This unit reports selection-efficiency measures, not time-based performance.
-    res.timeSeconds = 0;
-    res.wpm = 0;
-    res.cpm = 0;
+    const temporal = temporalStatsFromMs(res.estimatedTimeMs || 0, res.producedText || res.targetText || "");
+    res.timeSeconds = temporal.totalSeconds;
+    res.totalSeconds = temporal.totalSeconds;
+    res.wpm = temporal.wpm;
+    res.cpm = temporal.cpm;
     res.selPerChar = res.chars > 0 ? res.selections / res.chars : 0;
     res.selPerWord = res.words > 0 ? res.selections / res.words : 0;
     res.infoPerSelection = res.selections > 0 ? res.chars / res.selections : 0;
@@ -1824,6 +1874,7 @@
     if(el.tagName === "SELECT"){
       const idTips = {
         targetMode:"Choose whether the task uses typed language or a visual colored-shape sequence.",
+      showTemporalMeasures:"Show or hide temporal output measures: total seconds, characters per minute, and words per minute for student and simulated runs.",
         presetSelect:"Choose a built-in sentence to load as the text target.",
         shapeMatrixSize:"Choose which colored-shape board size supplies the five target squares.",
         studentTechnique:"Choose how the user will operate the onscreen interface: direct pointer, scanning, joystick, or head tracking.",
@@ -2087,7 +2138,7 @@ function currentSelectedMachineId(){
     const tbody = document.querySelector("#resultsTable tbody"); tbody.innerHTML="";
     lastResults.forEach((r,i)=>{
       const tr = document.createElement("tr"); tr.className = i===selectedIndex ? "selected" : "";
-      tr.innerHTML = `<td><strong>${r.machineLabel}</strong><span class="tag">${r.family}</span></td><td>${r.selections}</td><td>${r.activations}</td><td>${r.scanTicks}</td><td>${r.navActions}</td><td>${r.predSelections}</td><td>${r.codeElements}</td><td>${fmt(r.selPerChar,2)}</td><td>${fmt(r.selPerWord,2)}</td><td>${fmt(r.infoPerSelection,2)}</td><td>${r.unsupported}</td>`;
+      tr.innerHTML = `<td><strong>${r.machineLabel}</strong><span class="tag">${r.family}</span></td><td>${r.selections}</td><td>${r.activations}</td><td>${r.scanTicks}</td><td>${r.navActions}</td><td>${r.predSelections}</td><td>${r.codeElements}</td><td>${fmt(r.selPerChar,2)}</td><td>${fmt(r.selPerWord,2)}</td><td>${fmt(r.infoPerSelection,2)}</td><td class="temporalMetric">${fmt(r.totalSeconds ?? r.timeSeconds,2)}</td><td class="temporalMetric">${fmt(r.cpm,1)}</td><td class="temporalMetric">${fmt(r.wpm,1)}</td><td>${r.unsupported}</td>`;
       tr.addEventListener("click",()=>{ selectedIndex=i; renderResults(); const sel=document.getElementById("studentMachine"); if(sel){ sel.value=lastResults[i].machineId; student.machineId=sel.value; resetStudentRun(); renderStudentInterface(); renderStudentAll(); } });
       tbody.appendChild(tr);
     });
@@ -2105,6 +2156,7 @@ function currentSelectedMachineId(){
       <div class="card"><div class="n">${fewestActivations.activations}</div><div class="l">Fewest input activations: ${fewestActivations.machineLabel}</div></div>
       <div class="card"><div class="n">${fewestTicks.scanTicks}</div><div class="l">Fewest scan ticks: ${fewestTicks.machineLabel}</div></div>
       <div class="card"><div class="n">${fmt(highestInfo.infoPerSelection,2)}</div><div class="l">Highest characters per selection: ${highestInfo.machineLabel}</div></div>
+      <div class="card temporalMetric"><div class="n">${fmt(fewestSelections.wpm,1)}</div><div class="l">WPM for fewest-selection machine</div></div>
       <div class="card"><div class="n">${lastResults.length}</div><div class="l">Machines compared</div></div>
     `;
   }
@@ -2122,6 +2174,7 @@ function currentSelectedMachineId(){
       <b>Family</b><span>${r.family}</span>
       <b>Target length</b><span>${r.chars} characters; ${r.words} words</span>
       <b>Selection efficiency</b><span>${fmt(r.selPerChar,2)} selections/character; ${fmt(r.selPerWord,2)} selections/word; ${fmt(r.infoPerSelection,2)} characters/selection</span>
+      <b class="temporalMetric">Temporal output</b><span class="temporalMetric">${fmt(r.totalSeconds ?? r.timeSeconds,2)} seconds; ${fmt(r.cpm,1)} characters/min; ${fmt(r.wpm,1)} words/min</span>
       <b>Machine costs</b><span>${r.activations} activations; ${r.scanTicks} scan ticks; ${r.navActions} navigation actions; ${r.predSelections} prediction selections; ${r.codeElements} code elements</span>
     </div>${notes}`;
   }
@@ -2133,13 +2186,13 @@ function currentSelectedMachineId(){
   function csvEscape(v){ const s = String(v ?? ""); return /[",\n]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s; }
   function downloadCsv(){
     if(!lastResults.length) runAll();
-    const cols = ["machineLabel","family","targetText","selections","activations","scanTicks","navActions","predSelections","codeElements","selPerChar","selPerWord","infoPerSelection","unsupported","producedText"];
+    const cols = ["machineLabel","family","targetText","selections","activations","scanTicks","navActions","predSelections","codeElements","selPerChar","selPerWord","infoPerSelection","totalSeconds","cpm","wpm","unsupported","producedText"];
     const rows = [cols.join(",")].concat(lastResults.map(r => cols.map(c => csvEscape(typeof r[c]==="number"?fmt(r[c],4):r[c])).join(",")));
     download("aac_access_systems_results.csv", rows.join("\n"), "text/csv");
   }
   function downloadJson(){
     if(!lastResults.length) runAll();
-    const payload = {aacsimVersion:"0.60", scope:"machine_selection_efficiency_only", createdAt:new Date().toISOString(), playbackSettings:getTiming(), targetText:targetDisplayText(currentTargetText()), results:lastResults, studentRun: student.lastRun || null};
+    const payload = {aacsimVersion:"0.61", scope:"machine_selection_efficiency_only", createdAt:new Date().toISOString(), playbackSettings:getTiming(), targetText:targetDisplayText(currentTargetText()), results:lastResults, studentRun: student.lastRun || null};
     download("aac_access_systems_results.aacsim.json", JSON.stringify(payload,null,2), "application/json");
   }
   function sleepPlayback(ms, token){
@@ -2493,13 +2546,13 @@ function showSimMessage(label, body=""){
   }
 
   const simLive = {
-    produced:"", chars:0, words:0,
+    produced:"", chars:0, words:0, timeMs:0,
     selections:0, activations:0, scanTicks:0, navActions:0, predSelections:0, codeElements:0, corrections:0, errors:0, unsupported:0, pathUnits:0,
     liveRows:[]
   };
   function resetSimLive(){
     Object.assign(simLive, {
-      produced:"", chars:0, words:0,
+      produced:"", chars:0, words:0, timeMs:0,
       selections:0, activations:0, scanTicks:0, navActions:0, predSelections:0, codeElements:0, corrections:0, errors:0, unsupported:0, pathUnits:0,
       liveRows:[]
     });
@@ -2512,6 +2565,7 @@ function showSimMessage(label, body=""){
   }
   function recordSimLiveEvent(label, cost={}, outputDelta="", detail=""){
     applySimLiveCost(cost);
+    simLive.timeMs += eventEstimatedMs(cost, label);
     if(outputDelta){
       simLive.produced += outputDelta;
       simLive.chars = targetUnitCount(simLive.produced);
@@ -2536,6 +2590,7 @@ function showSimMessage(label, body=""){
       codeElements:simLive.codeElements,
       chars:simLive.chars,
       words:simLive.words,
+      timeMs:simLive.timeMs,
       produced:simLive.produced
     });
     renderSimLiveMetrics();
@@ -2572,6 +2627,7 @@ function showSimMessage(label, body=""){
     const selPerChar = simLive.chars>0 ? simLive.selections/simLive.chars : 0;
     const selPerWord = simLive.words>0 ? simLive.selections/simLive.words : 0;
     const infoPerSelection = simLive.selections>0 ? simLive.chars/simLive.selections : 0;
+    const temporal = temporalStatsFromMs(simLive.timeMs, simLive.produced);
     const elapsed = playbackRunning ? Math.max(0, Math.round((Date.now()-playbackStartedAt)/1000)) : 0;
     const status = playbackRunning ? `Running optimal event ${playbackEventCount} of ${playbackTotalEvents}` : (playbackStoppedByUser ? "Stopped" : (playbackTotalEvents && playbackEventCount >= playbackTotalEvents ? "Complete" : "Not running"));
     div.innerHTML = `
@@ -2586,6 +2642,9 @@ function showSimMessage(label, body=""){
       <div class="metricCard"><div class="n">${fmt(infoPerSelection,2)}</div><div class="l">characters / selection so far</div></div>
       <div class="metricCard"><div class="n">${simLive.chars}</div><div class="l">characters output so far</div></div>
       <div class="metricCard"><div class="n">${simLive.words}</div><div class="l">words output so far</div></div>
+      <div class="metricCard temporalMetric"><div class="n">${fmt(temporal.totalSeconds,2)}</div><div class="l">simulated seconds so far</div></div>
+      <div class="metricCard temporalMetric"><div class="n">${fmt(temporal.cpm,1)}</div><div class="l">characters / minute so far</div></div>
+      <div class="metricCard temporalMetric"><div class="n">${fmt(temporal.wpm,1)}</div><div class="l">words / minute so far</div></div>
       <div class="metricCard"><div class="n">${playbackEventCount}/${playbackTotalEvents}</div><div class="l">optimal events processed</div></div>
       <div class="bufferBox" style="grid-column:1/-1;"><b>Status:</b> ${escapeHtml(status)}${playbackRunning ? ` · elapsed display time ${elapsed}s` : ""}<br><b>Selected simulation:</b> ${escapeHtml(playbackMachineLabel || "none")}<br><b>Intermediate product:</b> ${simLive.produced ? escapeHtml(simLive.produced) : "<span class='small'>No output committed yet.</span>"}</div>
       <div class="liveAccounting">${liveAccountingRows()}</div>`;
@@ -3471,11 +3530,11 @@ function showSimMessage(label, body=""){
   }
   function makeStudentRunObject(){
     const m = studentMetrics();
-    return {aacsimVersion:"0.60", scope:"student_production", practiceMode:student.practiceMode, createdAt:new Date().toISOString(), machineId:student.machineId, machineLabel:(machines.find(x=>x.id===student.machineId)||{}).label, targetText:student.target, producedText:student.produced, metrics:m, events:student.events};
+    return {aacsimVersion:"0.61", scope:"student_production", practiceMode:student.practiceMode, createdAt:new Date().toISOString(), machineId:student.machineId, machineLabel:(machines.find(x=>x.id===student.machineId)||{}).label, targetText:student.target, producedText:student.produced, metrics:m, events:student.events};
   }
   function studentMetrics(){
     const ms = elapsedMs(); const sec = ms/1000; const chars = targetUnitCount(student.produced); const words = targetWordLikeCount(student.produced);
-    return {chars, words, selections:student.selections, activations:student.activations, scanTicks:student.scanTicks, navActions:student.navActions, predSelections:student.predSelections, codeElements:student.codeElements, corrections:student.corrections, errors:student.errors, unsupported:student.unsupported, selPerChar:chars>0?student.selections/chars:0, selPerWord:words>0?student.selections/words:0, infoPerSelection:student.selections>0?chars/student.selections:0, complete:!student.practiceMode && student.produced===student.target};
+    return {chars, words, totalSeconds:sec, cpm:ratePerMinute(chars, sec), wpm:ratePerMinute(words, sec), selections:student.selections, activations:student.activations, scanTicks:student.scanTicks, navActions:student.navActions, predSelections:student.predSelections, codeElements:student.codeElements, corrections:student.corrections, errors:student.errors, unsupported:student.unsupported, selPerChar:chars>0?student.selections/chars:0, selPerWord:words>0?student.selections/words:0, infoPerSelection:student.selections>0?chars/student.selections:0, complete:!student.practiceMode && student.produced===student.target};
   }
   function renderStudentAll(){
     renderStudentProgress(); renderStudentMetrics(); renderStudentLog();
@@ -3540,6 +3599,9 @@ function showSimMessage(label, body=""){
       <div class="metricCard"><div class="n">${m.scanTicks}</div><div class="l">scan ticks</div></div>
       <div class="metricCard"><div class="n">${m.navActions}</div><div class="l">navigation actions</div></div>
       <div class="metricCard"><div class="n">${fmt(m.infoPerSelection,2)}</div><div class="l">characters / selection</div></div>
+      <div class="metricCard temporalMetric"><div class="n">${fmt(m.totalSeconds,2)}</div><div class="l">total seconds</div></div>
+      <div class="metricCard temporalMetric"><div class="n">${fmt(m.cpm,1)}</div><div class="l">characters / minute</div></div>
+      <div class="metricCard temporalMetric"><div class="n">${fmt(m.wpm,1)}</div><div class="l">words / minute</div></div>
       <div class="metricCard"><div class="n">${m.errors}</div><div class="l">prefix mismatch errors</div></div>`;
     renderCompareTable(m);
   }
@@ -3557,6 +3619,9 @@ function showSimMessage(label, body=""){
       selections:simLive.selections, activations:simLive.activations, scanTicks:simLive.scanTicks, navActions:simLive.navActions,
       predSelections:simLive.predSelections, codeElements:simLive.codeElements, selPerChar:simLive.chars>0?simLive.selections/simLive.chars:0,
       selPerWord:simLive.words>0?simLive.selections/simLive.words:0, infoPerSelection:simLive.selections>0?simLive.chars/simLive.selections:0,
+      totalSeconds:temporalStatsFromMs(simLive.timeMs, simLive.produced).totalSeconds,
+      cpm:temporalStatsFromMs(simLive.timeMs, simLive.produced).cpm,
+      wpm:temporalStatsFromMs(simLive.timeMs, simLive.produced).wpm,
       complete: false
     } : (finalApplies ? completedOptimalResult : null);
     const pending = liveApplies ? "running…" : "run Simulate";
@@ -3573,9 +3638,12 @@ function showSimMessage(label, body=""){
       ["Selections / character", optVal("selPerChar",x=>fmt(x,2)), fmt(m.selPerChar,2), optRatio(m.selPerChar,"selPerChar")],
       ["Selections / word", optVal("selPerWord",x=>fmt(x,2)), fmt(m.selPerWord,2), optRatio(m.selPerWord,"selPerWord")],
       ["Characters / selection", optVal("infoPerSelection",x=>fmt(x,2)), fmt(m.infoPerSelection,2), optRatio(m.infoPerSelection,"infoPerSelection")],
+      ["Total seconds", optVal("totalSeconds",x=>fmt(x,2)), fmt(m.totalSeconds,2), optRatio(m.totalSeconds,"totalSeconds")],
+      ["Characters / minute", optVal("cpm",x=>fmt(x,1)), fmt(m.cpm,1), optRatio(m.cpm,"cpm")],
+      ["Words / minute", optVal("wpm",x=>fmt(x,1)), fmt(m.wpm,1), optRatio(m.wpm,"wpm")],
       ["Complete target?", opt ? (finalApplies ? "yes" : "running…") : "run Simulate", m.complete ? "yes" : "no", ""]
     ];
-    tbody.innerHTML = rows.map(r => `<tr><td><strong>${r[0]}</strong></td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`).join("");
+    tbody.innerHTML = rows.map(r => `<tr class="${/seconds|minute/i.test(r[0]) ? 'temporalMetric' : ''}"><td><strong>${r[0]}</strong></td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`).join("");
   }
   function renderStudentLog(){
     const log = document.getElementById("studentLog");
@@ -4019,6 +4087,7 @@ function renderMorseStudent(area){
   }
 
   document.getElementById("targetMode").addEventListener("change",()=>handleTaskMachineSetChanged({forceResetStudent:true}));
+  document.getElementById("showTemporalMeasures")?.addEventListener("change", syncTemporalMeasureVisibility);
   document.getElementById("shapeMatrixSize").addEventListener("change",()=>{ ensureShapeTarget(); handleTaskMachineSetChanged({forceResetStudent:true}); });
   document.getElementById("generateShapeTarget").addEventListener("click",setShapeTargetAndRefresh);
   document.getElementById("loadPreset").addEventListener("click",()=>{setTargetTextAndRefresh(document.getElementById("presetSelect").value);});
@@ -4117,6 +4186,7 @@ function renderMorseStudent(area){
   applyStaticTooltips();
   updateStudentSelectorTooltips();
   updateActionButtonStates();
+  syncTemporalMeasureVisibility();
   updateInterfaceHelpButton();
 })();
 </script>
