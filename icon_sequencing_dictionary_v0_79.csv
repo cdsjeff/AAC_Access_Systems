@@ -1,0 +1,66 @@
+level,icons,labels,output,meaning,explanation
+1,person,Person / I,i,I / me,The person icon represents the speaker or a person.
+1,home,Home,home,Home,The house icon represents home as a place.
+1,book,Book,book,Book,The book icon represents a book or written material.
+1,food,Food,food,Food,The food icon represents something to eat.
+1,drink,Drink,drink,Drink,The cup icon represents something to drink.
+1,happy,Happy,happy,Happy,The happy face represents a positive feeling.
+1,sad,Sad,sad,Sad,The sad face represents a negative feeling.
+1,school,School,school,School,The school building represents school as a place.
+1,phone,Phone,phone,Phone,The phone icon represents the phone or calling device.
+1,bed,Bed,bed,Bed,The bed icon represents a bed or resting place.
+2,person + heart,Person / I + Like,friend,Friend,A person associated with liking or affection.
+2,food + mouth,Food + Mouth,eat,Eat,Food plus mouth represents moving food to the mouth.
+2,drink + mouth,Drink + Mouth,drink,Drink,Drink plus mouth represents drinking.
+2,home + go,Home + Go,go home,Go home,Movement directed toward home.
+2,book + eye,Book + Eye,read,Read,A book plus eye represents looking at written material.
+2,phone + talk,Phone + Talk,call,Call,A phone plus talk represents communicating by phone.
+2,question + talk,Question + Talk,ask,Ask,Question plus talk represents asking.
+2,ear + talk,Listen + Talk,listen,Listen,Ear plus talk represents receiving spoken language.
+2,school + go,School + Go,go to school,Go to school,Movement directed toward school.
+2,bed + sleep,Bed + Sleep,sleep,Sleep,Bed plus sleep/rest mark represents sleeping.
+2,car + go,Car + Go,drive,Drive,A car plus movement represents driving.
+2,hospital + go,Hospital + Go,go to the hospital,Go to the hospital,Movement directed toward a medical place.
+2,person + happy,Person / I + Happy,i am happy,I am happy,Person plus happy represents the speaker's positive state.
+2,person + sad,Person / I + Sad,i am sad,I am sad,Person plus sad represents the speaker's negative state.
+2,more + food,More + Food,more food,More food,More modifies food to request an additional amount.
+3,person + home + go,Person / I + Home + Go,i go home,I go home,Person plus home plus movement builds a simple subject-destination-action message.
+3,person + food + mouth,Person / I + Food + Mouth,i eat,I eat,Person plus food-to-mouth represents the speaker eating.
+3,person + book + eye,Person / I + Book + Eye,i read,I read,Person plus book plus eye represents the speaker reading.
+3,person + phone + talk,Person / I + Phone + Talk,i call,I call,Person plus phone plus talk represents the speaker making a call.
+3,person + school + go,Person / I + School + Go,i go to school,I go to school,Person plus school plus movement represents going to school.
+3,person + car + go,Person / I + Car + Go,i drive,I drive,Person plus car plus movement represents driving.
+3,person + happy + talk,Person / I + Happy + Talk,i am happy,I am happy,Person plus happy plus communication makes the feeling into a tellable message.
+3,person + sad + talk,Person / I + Sad + Talk,i am sad,I am sad,Person plus sad plus communication makes the feeling into a tellable message.
+3,person + drink + mouth,Person / I + Drink + Mouth,i drink,I drink,Person plus drink-to-mouth represents the speaker drinking.
+3,person + bed + sleep,Person / I + Bed + Sleep,i sleep,I sleep,Person plus bed plus sleep represents the speaker sleeping.
+3,person + ear + talk,Person / I + Listen + Talk,i listen,I listen,Person plus ear plus talk represents listening.
+3,person + question + talk,Person / I + Question + Talk,i ask,I ask,Person plus question plus talk represents asking a question.
+3,person + heart + you,Person / I + Like + You,i like you,I like you,Person plus like plus you represents a positive social stance toward the partner.
+3,person + want + food,Person / I + Want + Food,i want food,I want food,Person plus want plus food represents a desire or request for food.
+3,person + hospital + go,Person / I + Hospital + Go,i go to the hospital,I go to the hospital,Person plus hospital plus movement represents going to a medical place.
+2,person + end,Person / I + End,person,person,Person / I plus END completes the sequence and produces the button name.
+2,you + end,You + End,you,you,You plus END completes the sequence and produces the button name.
+2,home + end,Home + End,home,home,Home plus END completes the sequence and produces the button name.
+2,school + end,School + End,school,school,School plus END completes the sequence and produces the button name.
+2,hospital + end,Hospital + End,hospital,hospital,Hospital plus END completes the sequence and produces the button name.
+2,go + end,Go + End,go,go,Go plus END completes the sequence and produces the button name.
+2,come + end,Come + End,come,come,Come plus END completes the sequence and produces the button name.
+2,food + end,Food + End,food,food,Food plus END completes the sequence and produces the button name.
+2,mouth + end,Mouth + End,mouth,mouth,Mouth plus END completes the sequence and produces the button name.
+2,drink + end,Drink + End,drink,drink,Drink plus END completes the sequence and produces the button name.
+2,book + end,Book + End,book,book,Book plus END completes the sequence and produces the button name.
+2,eye + end,Eye + End,eye,eye,Eye plus END completes the sequence and produces the button name.
+2,phone + end,Phone + End,phone,phone,Phone plus END completes the sequence and produces the button name.
+2,talk + end,Talk + End,talk,talk,Talk plus END completes the sequence and produces the button name.
+2,question + end,Question + End,question,question,Question plus END completes the sequence and produces the button name.
+2,ear + end,Listen + End,listen,listen,Listen plus END completes the sequence and produces the button name.
+2,bed + end,Bed + End,bed,bed,Bed plus END completes the sequence and produces the button name.
+2,sleep + end,Sleep + End,sleep,sleep,Sleep plus END completes the sequence and produces the button name.
+2,happy + end,Happy + End,happy,happy,Happy plus END completes the sequence and produces the button name.
+2,sad + end,Sad + End,sad,sad,Sad plus END completes the sequence and produces the button name.
+2,heart + end,Like + End,like,like,Like plus END completes the sequence and produces the button name.
+2,more + end,More + End,more,more,More plus END completes the sequence and produces the button name.
+2,not + end,Not + End,not,not,Not plus END completes the sequence and produces the button name.
+2,car + end,Car + End,car,car,Car plus END completes the sequence and produces the button name.
+2,want + end,Want + End,want,want,Want plus END completes the sequence and produces the button name.
