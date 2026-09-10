@@ -1,0 +1,7508 @@
+{
+  "aacsimVersion": "0.81",
+  "module": "Statistical word prediction",
+  "model": "count-based trigram/bigram/unigram backoff",
+  "core_training_string_count": 1500,
+  "training_strings": [
+    {
+      "index": 1,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i need help"
+    },
+    {
+      "index": 2,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i need help with my wheelchair"
+    },
+    {
+      "index": 3,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i want to go outside"
+    },
+    {
+      "index": 4,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i do not understand"
+    },
+    {
+      "index": 5,
+      "category": "core/high-frequency AAC phrases",
+      "text": "can you say that again"
+    },
+    {
+      "index": 6,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i am tired"
+    },
+    {
+      "index": 7,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i need a break"
+    },
+    {
+      "index": 8,
+      "category": "core/high-frequency AAC phrases",
+      "text": "please stop"
+    },
+    {
+      "index": 9,
+      "category": "core/high-frequency AAC phrases",
+      "text": "that is funny"
+    },
+    {
+      "index": 10,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i want a drink"
+    },
+    {
+      "index": 11,
+      "category": "core/high-frequency AAC phrases",
+      "text": "thank you"
+    },
+    {
+      "index": 12,
+      "category": "core/high-frequency AAC phrases",
+      "text": "no thank you"
+    },
+    {
+      "index": 13,
+      "category": "core/high-frequency AAC phrases",
+      "text": "yes please"
+    },
+    {
+      "index": 14,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i need more time"
+    },
+    {
+      "index": 15,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i need to try again"
+    },
+    {
+      "index": 16,
+      "category": "core/high-frequency AAC phrases",
+      "text": "wait a minute"
+    },
+    {
+      "index": 17,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i am still typing"
+    },
+    {
+      "index": 18,
+      "category": "core/high-frequency AAC phrases",
+      "text": "please wait while i type"
+    },
+    {
+      "index": 19,
+      "category": "core/high-frequency AAC phrases",
+      "text": "that is not what i meant"
+    },
+    {
+      "index": 20,
+      "category": "core/high-frequency AAC phrases",
+      "text": "let me try again"
+    },
+    {
+      "index": 21,
+      "category": "core/high-frequency AAC phrases",
+      "text": "you misunderstood me"
+    },
+    {
+      "index": 22,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i have something to say"
+    },
+    {
+      "index": 23,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i want to talk"
+    },
+    {
+      "index": 24,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i want to answer"
+    },
+    {
+      "index": 25,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i have a question"
+    },
+    {
+      "index": 26,
+      "category": "core/high-frequency AAC phrases",
+      "text": "can i ask a question"
+    },
+    {
+      "index": 27,
+      "category": "core/high-frequency AAC phrases",
+      "text": "please slow down"
+    },
+    {
+      "index": 28,
+      "category": "core/high-frequency AAC phrases",
+      "text": "please give me time"
+    },
+    {
+      "index": 29,
+      "category": "core/high-frequency AAC phrases",
+      "text": "please ask me again"
+    },
+    {
+      "index": 30,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i am ready"
+    },
+    {
+      "index": 31,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i am not ready"
+    },
+    {
+      "index": 32,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i am finished"
+    },
+    {
+      "index": 33,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i am not finished"
+    },
+    {
+      "index": 34,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the scan is too fast"
+    },
+    {
+      "index": 35,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the scan is too slow"
+    },
+    {
+      "index": 36,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the dwell time is too long"
+    },
+    {
+      "index": 37,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the dwell time is too short"
+    },
+    {
+      "index": 38,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the target is too small"
+    },
+    {
+      "index": 39,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the keyboard is hard to use"
+    },
+    {
+      "index": 40,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the prediction is helpful"
+    },
+    {
+      "index": 41,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the prediction is wrong"
+    },
+    {
+      "index": 42,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the device is not working"
+    },
+    {
+      "index": 43,
+      "category": "core/high-frequency AAC phrases",
+      "text": "the screen is hard to see"
+    },
+    {
+      "index": 44,
+      "category": "core/high-frequency AAC phrases",
+      "text": "my switch is not working"
+    },
+    {
+      "index": 45,
+      "category": "core/high-frequency AAC phrases",
+      "text": "my pointer is stuck"
+    },
+    {
+      "index": 46,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i selected the wrong word"
+    },
+    {
+      "index": 47,
+      "category": "core/high-frequency AAC phrases",
+      "text": "i made a mistake"
+    },
+    {
+      "index": 48,
+      "category": "core/high-frequency AAC phrases",
+      "text": "please erase that"
+    },
+    {
+      "index": 49,
+      "category": "core/high-frequency AAC phrases",
+      "text": "please clear that"
+    },
+    {
+      "index": 50,
+      "category": "core/high-frequency AAC phrases",
+      "text": "please repeat that"
+    },
+    {
+      "index": 51,
+      "category": "core/high-frequency AAC phrases",
+      "text": "speak my message"
+    },
+    {
+      "index": 52,
+      "category": "core/high-frequency AAC phrases",
+      "text": "can you hear my device"
+    },
+    {
+      "index": 53,
+      "category": "basic needs and requests",
+      "text": "i need help with the wheelchair"
+    },
+    {
+      "index": 54,
+      "category": "partner requests",
+      "text": "can you help me with the wheelchair"
+    },
+    {
+      "index": 55,
+      "category": "basic needs and requests",
+      "text": "i need help with my communication device"
+    },
+    {
+      "index": 56,
+      "category": "partner requests",
+      "text": "can you help me with my communication device"
+    },
+    {
+      "index": 57,
+      "category": "basic needs and requests",
+      "text": "i need help with my switch"
+    },
+    {
+      "index": 58,
+      "category": "partner requests",
+      "text": "can you help me with my switch"
+    },
+    {
+      "index": 59,
+      "category": "basic needs and requests",
+      "text": "i need help with my head pointer"
+    },
+    {
+      "index": 60,
+      "category": "partner requests",
+      "text": "can you help me with my head pointer"
+    },
+    {
+      "index": 61,
+      "category": "basic needs and requests",
+      "text": "i need help with my eye gaze"
+    },
+    {
+      "index": 62,
+      "category": "partner requests",
+      "text": "can you help me with my eye gaze"
+    },
+    {
+      "index": 63,
+      "category": "basic needs and requests",
+      "text": "i need help with my positioning"
+    },
+    {
+      "index": 64,
+      "category": "partner requests",
+      "text": "can you help me with my positioning"
+    },
+    {
+      "index": 65,
+      "category": "basic needs and requests",
+      "text": "i need help with my homework"
+    },
+    {
+      "index": 66,
+      "category": "partner requests",
+      "text": "can you help me with my homework"
+    },
+    {
+      "index": 67,
+      "category": "basic needs and requests",
+      "text": "i need help with my assignment"
+    },
+    {
+      "index": 68,
+      "category": "partner requests",
+      "text": "can you help me with my assignment"
+    },
+    {
+      "index": 69,
+      "category": "basic needs and requests",
+      "text": "i need help with my tablet"
+    },
+    {
+      "index": 70,
+      "category": "partner requests",
+      "text": "can you help me with my tablet"
+    },
+    {
+      "index": 71,
+      "category": "basic needs and requests",
+      "text": "i need help with my keyboard"
+    },
+    {
+      "index": 72,
+      "category": "partner requests",
+      "text": "can you help me with my keyboard"
+    },
+    {
+      "index": 73,
+      "category": "basic needs and requests",
+      "text": "i need help with my mouse"
+    },
+    {
+      "index": 74,
+      "category": "partner requests",
+      "text": "can you help me with my mouse"
+    },
+    {
+      "index": 75,
+      "category": "basic needs and requests",
+      "text": "i need help with my trackball"
+    },
+    {
+      "index": 76,
+      "category": "partner requests",
+      "text": "can you help me with my trackball"
+    },
+    {
+      "index": 77,
+      "category": "basic needs and requests",
+      "text": "i need help with my joystick"
+    },
+    {
+      "index": 78,
+      "category": "partner requests",
+      "text": "can you help me with my joystick"
+    },
+    {
+      "index": 79,
+      "category": "basic needs and requests",
+      "text": "i need help with my scanner"
+    },
+    {
+      "index": 80,
+      "category": "partner requests",
+      "text": "can you help me with my scanner"
+    },
+    {
+      "index": 81,
+      "category": "basic needs and requests",
+      "text": "i need help with my screen"
+    },
+    {
+      "index": 82,
+      "category": "partner requests",
+      "text": "can you help me with my screen"
+    },
+    {
+      "index": 83,
+      "category": "basic needs and requests",
+      "text": "i need help with my mount"
+    },
+    {
+      "index": 84,
+      "category": "partner requests",
+      "text": "can you help me with my mount"
+    },
+    {
+      "index": 85,
+      "category": "basic needs and requests",
+      "text": "i need help with my tray"
+    },
+    {
+      "index": 86,
+      "category": "partner requests",
+      "text": "can you help me with my tray"
+    },
+    {
+      "index": 87,
+      "category": "basic needs and requests",
+      "text": "i need help with my headrest"
+    },
+    {
+      "index": 88,
+      "category": "partner requests",
+      "text": "can you help me with my headrest"
+    },
+    {
+      "index": 89,
+      "category": "basic needs and requests",
+      "text": "i need help with my footrest"
+    },
+    {
+      "index": 90,
+      "category": "partner requests",
+      "text": "can you help me with my footrest"
+    },
+    {
+      "index": 91,
+      "category": "basic needs and requests",
+      "text": "i need help with my message"
+    },
+    {
+      "index": 92,
+      "category": "partner requests",
+      "text": "can you help me with my message"
+    },
+    {
+      "index": 93,
+      "category": "basic needs and requests",
+      "text": "i need help with my sentence"
+    },
+    {
+      "index": 94,
+      "category": "partner requests",
+      "text": "can you help me with my sentence"
+    },
+    {
+      "index": 95,
+      "category": "basic needs and requests",
+      "text": "i need help with my word prediction"
+    },
+    {
+      "index": 96,
+      "category": "partner requests",
+      "text": "can you help me with my word prediction"
+    },
+    {
+      "index": 97,
+      "category": "basic needs and requests",
+      "text": "i need help with my dwell setting"
+    },
+    {
+      "index": 98,
+      "category": "partner requests",
+      "text": "can you help me with my dwell setting"
+    },
+    {
+      "index": 99,
+      "category": "basic needs and requests",
+      "text": "i need help with my volume"
+    },
+    {
+      "index": 100,
+      "category": "partner requests",
+      "text": "can you help me with my volume"
+    },
+    {
+      "index": 101,
+      "category": "basic needs and requests",
+      "text": "i need help with my sound"
+    },
+    {
+      "index": 102,
+      "category": "partner requests",
+      "text": "can you help me with my sound"
+    },
+    {
+      "index": 103,
+      "category": "basic needs and requests",
+      "text": "i need help with my camera"
+    },
+    {
+      "index": 104,
+      "category": "partner requests",
+      "text": "can you help me with my camera"
+    },
+    {
+      "index": 105,
+      "category": "basic needs and requests",
+      "text": "i need help with my webcam"
+    },
+    {
+      "index": 106,
+      "category": "partner requests",
+      "text": "can you help me with my webcam"
+    },
+    {
+      "index": 107,
+      "category": "basic needs and requests",
+      "text": "i need help with my calibration"
+    },
+    {
+      "index": 108,
+      "category": "partner requests",
+      "text": "can you help me with my calibration"
+    },
+    {
+      "index": 109,
+      "category": "basic needs and requests",
+      "text": "i need help with my access method"
+    },
+    {
+      "index": 110,
+      "category": "partner requests",
+      "text": "can you help me with my access method"
+    },
+    {
+      "index": 111,
+      "category": "basic needs and requests",
+      "text": "i need help with my selection technique"
+    },
+    {
+      "index": 112,
+      "category": "partner requests",
+      "text": "can you help me with my selection technique"
+    },
+    {
+      "index": 113,
+      "category": "basic needs and requests",
+      "text": "i need help with my layout"
+    },
+    {
+      "index": 114,
+      "category": "partner requests",
+      "text": "can you help me with my layout"
+    },
+    {
+      "index": 115,
+      "category": "basic needs and requests",
+      "text": "i need help with my target"
+    },
+    {
+      "index": 116,
+      "category": "partner requests",
+      "text": "can you help me with my target"
+    },
+    {
+      "index": 117,
+      "category": "basic needs and requests",
+      "text": "i need help with my practice run"
+    },
+    {
+      "index": 118,
+      "category": "partner requests",
+      "text": "can you help me with my practice run"
+    },
+    {
+      "index": 119,
+      "category": "basic needs and requests",
+      "text": "i need help with my test run"
+    },
+    {
+      "index": 120,
+      "category": "partner requests",
+      "text": "can you help me with my test run"
+    },
+    {
+      "index": 121,
+      "category": "basic needs and requests",
+      "text": "i need help with my data sheet"
+    },
+    {
+      "index": 122,
+      "category": "partner requests",
+      "text": "can you help me with my data sheet"
+    },
+    {
+      "index": 123,
+      "category": "basic needs and requests",
+      "text": "i need help with my rubric"
+    },
+    {
+      "index": 124,
+      "category": "partner requests",
+      "text": "can you help me with my rubric"
+    },
+    {
+      "index": 125,
+      "category": "basic needs and requests",
+      "text": "i need help with my worksheet"
+    },
+    {
+      "index": 126,
+      "category": "partner requests",
+      "text": "can you help me with my worksheet"
+    },
+    {
+      "index": 127,
+      "category": "basic needs and requests",
+      "text": "i need help with my field note"
+    },
+    {
+      "index": 128,
+      "category": "partner requests",
+      "text": "can you help me with my field note"
+    },
+    {
+      "index": 129,
+      "category": "basic needs and requests",
+      "text": "i need help with the chair"
+    },
+    {
+      "index": 130,
+      "category": "partner requests",
+      "text": "can you help me with the chair"
+    },
+    {
+      "index": 131,
+      "category": "basic needs and requests",
+      "text": "i need help with the book"
+    },
+    {
+      "index": 132,
+      "category": "partner requests",
+      "text": "can you help me with the book"
+    },
+    {
+      "index": 133,
+      "category": "basic needs and requests",
+      "text": "i need help with the phone"
+    },
+    {
+      "index": 134,
+      "category": "partner requests",
+      "text": "can you help me with the phone"
+    },
+    {
+      "index": 135,
+      "category": "basic needs and requests",
+      "text": "i need help with the bag"
+    },
+    {
+      "index": 136,
+      "category": "partner requests",
+      "text": "can you help me with the bag"
+    },
+    {
+      "index": 137,
+      "category": "basic needs and requests",
+      "text": "i need help with the jacket"
+    },
+    {
+      "index": 138,
+      "category": "partner requests",
+      "text": "can you help me with the jacket"
+    },
+    {
+      "index": 139,
+      "category": "basic needs and requests",
+      "text": "i need help with the water bottle"
+    },
+    {
+      "index": 140,
+      "category": "partner requests",
+      "text": "can you help me with the water bottle"
+    },
+    {
+      "index": 141,
+      "category": "basic needs and requests",
+      "text": "i need help with the door"
+    },
+    {
+      "index": 142,
+      "category": "partner requests",
+      "text": "can you help me with the door"
+    },
+    {
+      "index": 143,
+      "category": "basic needs and requests",
+      "text": "i need help with the light"
+    },
+    {
+      "index": 144,
+      "category": "partner requests",
+      "text": "can you help me with the light"
+    },
+    {
+      "index": 145,
+      "category": "basic needs and requests",
+      "text": "i need help with the computer"
+    },
+    {
+      "index": 146,
+      "category": "partner requests",
+      "text": "can you help me with the computer"
+    },
+    {
+      "index": 147,
+      "category": "basic needs and requests",
+      "text": "i need help with the charger"
+    },
+    {
+      "index": 148,
+      "category": "partner requests",
+      "text": "can you help me with the charger"
+    },
+    {
+      "index": 149,
+      "category": "partner requests",
+      "text": "please give me a break"
+    },
+    {
+      "index": 150,
+      "category": "basic needs and requests",
+      "text": "i need a drink"
+    },
+    {
+      "index": 151,
+      "category": "partner requests",
+      "text": "please give me a drink"
+    },
+    {
+      "index": 152,
+      "category": "basic needs and requests",
+      "text": "i need water"
+    },
+    {
+      "index": 153,
+      "category": "partner requests",
+      "text": "please give me water"
+    },
+    {
+      "index": 154,
+      "category": "basic needs and requests",
+      "text": "i need food"
+    },
+    {
+      "index": 155,
+      "category": "partner requests",
+      "text": "please give me food"
+    },
+    {
+      "index": 156,
+      "category": "basic needs and requests",
+      "text": "i need medicine"
+    },
+    {
+      "index": 157,
+      "category": "partner requests",
+      "text": "please help me get medicine"
+    },
+    {
+      "index": 158,
+      "category": "basic needs and requests",
+      "text": "i need rest"
+    },
+    {
+      "index": 159,
+      "category": "partner requests",
+      "text": "please help me get rest"
+    },
+    {
+      "index": 160,
+      "category": "partner requests",
+      "text": "please give me more time"
+    },
+    {
+      "index": 161,
+      "category": "basic needs and requests",
+      "text": "i need more space"
+    },
+    {
+      "index": 162,
+      "category": "partner requests",
+      "text": "please give me more space"
+    },
+    {
+      "index": 163,
+      "category": "basic needs and requests",
+      "text": "i need privacy"
+    },
+    {
+      "index": 164,
+      "category": "partner requests",
+      "text": "please give me privacy"
+    },
+    {
+      "index": 165,
+      "category": "basic needs and requests",
+      "text": "i need attention"
+    },
+    {
+      "index": 166,
+      "category": "partner requests",
+      "text": "please give me attention"
+    },
+    {
+      "index": 167,
+      "category": "basic needs and requests",
+      "text": "i need quiet"
+    },
+    {
+      "index": 168,
+      "category": "partner requests",
+      "text": "please give me quiet"
+    },
+    {
+      "index": 169,
+      "category": "partner requests",
+      "text": "please help me get help"
+    },
+    {
+      "index": 170,
+      "category": "basic needs and requests",
+      "text": "i need the bathroom"
+    },
+    {
+      "index": 171,
+      "category": "partner requests",
+      "text": "please help me get the bathroom"
+    },
+    {
+      "index": 172,
+      "category": "basic needs and requests",
+      "text": "i need my glasses"
+    },
+    {
+      "index": 173,
+      "category": "partner requests",
+      "text": "please help me get my glasses"
+    },
+    {
+      "index": 174,
+      "category": "basic needs and requests",
+      "text": "i need my hearing aids"
+    },
+    {
+      "index": 175,
+      "category": "partner requests",
+      "text": "please help me get my hearing aids"
+    },
+    {
+      "index": 176,
+      "category": "basic needs and requests",
+      "text": "i need my jacket"
+    },
+    {
+      "index": 177,
+      "category": "partner requests",
+      "text": "please help me get my jacket"
+    },
+    {
+      "index": 178,
+      "category": "basic needs and requests",
+      "text": "i need my notebook"
+    },
+    {
+      "index": 179,
+      "category": "partner requests",
+      "text": "please help me get my notebook"
+    },
+    {
+      "index": 180,
+      "category": "basic needs and requests",
+      "text": "i need my phone"
+    },
+    {
+      "index": 181,
+      "category": "partner requests",
+      "text": "please help me get my phone"
+    },
+    {
+      "index": 182,
+      "category": "basic needs and requests",
+      "text": "i need my charger"
+    },
+    {
+      "index": 183,
+      "category": "partner requests",
+      "text": "please help me get my charger"
+    },
+    {
+      "index": 184,
+      "category": "basic needs and requests",
+      "text": "i need my communication device"
+    },
+    {
+      "index": 185,
+      "category": "partner requests",
+      "text": "please help me get my communication device"
+    },
+    {
+      "index": 186,
+      "category": "basic needs and requests",
+      "text": "i need my wheelchair"
+    },
+    {
+      "index": 187,
+      "category": "partner requests",
+      "text": "please help me get my wheelchair"
+    },
+    {
+      "index": 188,
+      "category": "basic needs and requests",
+      "text": "i need my switch"
+    },
+    {
+      "index": 189,
+      "category": "partner requests",
+      "text": "please help me get my switch"
+    },
+    {
+      "index": 190,
+      "category": "basic needs and requests",
+      "text": "i need my headrest adjusted"
+    },
+    {
+      "index": 191,
+      "category": "partner requests",
+      "text": "please help me get my headrest adjusted"
+    },
+    {
+      "index": 192,
+      "category": "basic needs and requests",
+      "text": "i need my tray moved"
+    },
+    {
+      "index": 193,
+      "category": "partner requests",
+      "text": "please help me get my tray moved"
+    },
+    {
+      "index": 194,
+      "category": "basic needs and requests",
+      "text": "i need my arm supported"
+    },
+    {
+      "index": 195,
+      "category": "partner requests",
+      "text": "please help me get my arm supported"
+    },
+    {
+      "index": 196,
+      "category": "basic needs and requests",
+      "text": "i need my legs moved"
+    },
+    {
+      "index": 197,
+      "category": "partner requests",
+      "text": "please help me get my legs moved"
+    },
+    {
+      "index": 198,
+      "category": "basic needs and requests",
+      "text": "i need my feet repositioned"
+    },
+    {
+      "index": 199,
+      "category": "partner requests",
+      "text": "please help me get my feet repositioned"
+    },
+    {
+      "index": 200,
+      "category": "basic needs and requests",
+      "text": "i need my back supported"
+    },
+    {
+      "index": 201,
+      "category": "partner requests",
+      "text": "please help me get my back supported"
+    },
+    {
+      "index": 202,
+      "category": "basic needs and requests",
+      "text": "i need my head repositioned"
+    },
+    {
+      "index": 203,
+      "category": "partner requests",
+      "text": "please help me get my head repositioned"
+    },
+    {
+      "index": 204,
+      "category": "basic needs and requests",
+      "text": "i need the screen closer"
+    },
+    {
+      "index": 205,
+      "category": "partner requests",
+      "text": "please help me get the screen closer"
+    },
+    {
+      "index": 206,
+      "category": "basic needs and requests",
+      "text": "i need the screen farther away"
+    },
+    {
+      "index": 207,
+      "category": "partner requests",
+      "text": "please help me get the screen farther away"
+    },
+    {
+      "index": 208,
+      "category": "basic needs and requests",
+      "text": "i need the volume up"
+    },
+    {
+      "index": 209,
+      "category": "partner requests",
+      "text": "please help me get the volume up"
+    },
+    {
+      "index": 210,
+      "category": "basic needs and requests",
+      "text": "i need the volume down"
+    },
+    {
+      "index": 211,
+      "category": "partner requests",
+      "text": "please help me get the volume down"
+    },
+    {
+      "index": 212,
+      "category": "basic needs and requests",
+      "text": "i need the lights dimmed"
+    },
+    {
+      "index": 213,
+      "category": "partner requests",
+      "text": "please help me get the lights dimmed"
+    },
+    {
+      "index": 214,
+      "category": "basic needs and requests",
+      "text": "i need the door opened"
+    },
+    {
+      "index": 215,
+      "category": "partner requests",
+      "text": "please help me get the door opened"
+    },
+    {
+      "index": 216,
+      "category": "basic needs and requests",
+      "text": "i need the door closed"
+    },
+    {
+      "index": 217,
+      "category": "partner requests",
+      "text": "please help me get the door closed"
+    },
+    {
+      "index": 218,
+      "category": "basic needs and requests",
+      "text": "i need the window opened"
+    },
+    {
+      "index": 219,
+      "category": "partner requests",
+      "text": "please help me get the window opened"
+    },
+    {
+      "index": 220,
+      "category": "basic needs and requests",
+      "text": "i need the window closed"
+    },
+    {
+      "index": 221,
+      "category": "partner requests",
+      "text": "please help me get the window closed"
+    },
+    {
+      "index": 222,
+      "category": "basic needs and requests",
+      "text": "i need to stop"
+    },
+    {
+      "index": 223,
+      "category": "partner requests",
+      "text": "please help me get to stop"
+    },
+    {
+      "index": 224,
+      "category": "basic needs and requests",
+      "text": "i need to go home"
+    },
+    {
+      "index": 225,
+      "category": "partner requests",
+      "text": "please help me get to go home"
+    },
+    {
+      "index": 226,
+      "category": "basic needs and requests",
+      "text": "i need to go outside"
+    },
+    {
+      "index": 227,
+      "category": "partner requests",
+      "text": "please help me get to go outside"
+    },
+    {
+      "index": 228,
+      "category": "basic needs and requests",
+      "text": "i need to talk to you"
+    },
+    {
+      "index": 229,
+      "category": "partner requests",
+      "text": "please help me get to talk to you"
+    },
+    {
+      "index": 230,
+      "category": "basic needs and requests",
+      "text": "i need to ask something"
+    },
+    {
+      "index": 231,
+      "category": "partner requests",
+      "text": "please help me get to ask something"
+    },
+    {
+      "index": 232,
+      "category": "basic needs and requests",
+      "text": "i need to answer that"
+    },
+    {
+      "index": 233,
+      "category": "partner requests",
+      "text": "please help me get to answer that"
+    },
+    {
+      "index": 234,
+      "category": "partner requests",
+      "text": "please help me get to try again"
+    },
+    {
+      "index": 235,
+      "category": "basic needs and requests",
+      "text": "i need to finish this"
+    },
+    {
+      "index": 236,
+      "category": "partner requests",
+      "text": "please help me get to finish this"
+    },
+    {
+      "index": 237,
+      "category": "basic needs and requests",
+      "text": "i need to change activities"
+    },
+    {
+      "index": 238,
+      "category": "partner requests",
+      "text": "please help me get to change activities"
+    },
+    {
+      "index": 239,
+      "category": "basic needs and requests",
+      "text": "i need to rest now"
+    },
+    {
+      "index": 240,
+      "category": "partner requests",
+      "text": "please help me get to rest now"
+    },
+    {
+      "index": 241,
+      "category": "wants and choices",
+      "text": "do you want to go outside"
+    },
+    {
+      "index": 242,
+      "category": "wants and choices",
+      "text": "we can go outside"
+    },
+    {
+      "index": 243,
+      "category": "wants and choices",
+      "text": "i want to go home"
+    },
+    {
+      "index": 244,
+      "category": "wants and choices",
+      "text": "do you want to go home"
+    },
+    {
+      "index": 245,
+      "category": "wants and choices",
+      "text": "we can go home"
+    },
+    {
+      "index": 246,
+      "category": "wants and choices",
+      "text": "i want to go to class"
+    },
+    {
+      "index": 247,
+      "category": "wants and choices",
+      "text": "do you want to go to class"
+    },
+    {
+      "index": 248,
+      "category": "wants and choices",
+      "text": "we can go to class"
+    },
+    {
+      "index": 249,
+      "category": "wants and choices",
+      "text": "i want to go to school"
+    },
+    {
+      "index": 250,
+      "category": "wants and choices",
+      "text": "do you want to go to school"
+    },
+    {
+      "index": 251,
+      "category": "wants and choices",
+      "text": "we can go to school"
+    },
+    {
+      "index": 252,
+      "category": "wants and choices",
+      "text": "i want to go back"
+    },
+    {
+      "index": 253,
+      "category": "wants and choices",
+      "text": "do you want to go back"
+    },
+    {
+      "index": 254,
+      "category": "wants and choices",
+      "text": "we can go back"
+    },
+    {
+      "index": 255,
+      "category": "wants and choices",
+      "text": "i want to go now"
+    },
+    {
+      "index": 256,
+      "category": "wants and choices",
+      "text": "do you want to go now"
+    },
+    {
+      "index": 257,
+      "category": "wants and choices",
+      "text": "we can go now"
+    },
+    {
+      "index": 258,
+      "category": "wants and choices",
+      "text": "do you want to talk"
+    },
+    {
+      "index": 259,
+      "category": "wants and choices",
+      "text": "we can talk"
+    },
+    {
+      "index": 260,
+      "category": "wants and choices",
+      "text": "i want to stop"
+    },
+    {
+      "index": 261,
+      "category": "wants and choices",
+      "text": "do you want to stop"
+    },
+    {
+      "index": 262,
+      "category": "wants and choices",
+      "text": "we can stop"
+    },
+    {
+      "index": 263,
+      "category": "wants and choices",
+      "text": "i want to rest"
+    },
+    {
+      "index": 264,
+      "category": "wants and choices",
+      "text": "do you want to rest"
+    },
+    {
+      "index": 265,
+      "category": "wants and choices",
+      "text": "we can rest"
+    },
+    {
+      "index": 266,
+      "category": "wants and choices",
+      "text": "i want to eat"
+    },
+    {
+      "index": 267,
+      "category": "wants and choices",
+      "text": "do you want to eat"
+    },
+    {
+      "index": 268,
+      "category": "wants and choices",
+      "text": "we can eat"
+    },
+    {
+      "index": 269,
+      "category": "wants and choices",
+      "text": "i want to drink"
+    },
+    {
+      "index": 270,
+      "category": "wants and choices",
+      "text": "do you want to drink"
+    },
+    {
+      "index": 271,
+      "category": "wants and choices",
+      "text": "we can drink"
+    },
+    {
+      "index": 272,
+      "category": "wants and choices",
+      "text": "i want to watch a movie"
+    },
+    {
+      "index": 273,
+      "category": "wants and choices",
+      "text": "do you want to watch a movie"
+    },
+    {
+      "index": 274,
+      "category": "wants and choices",
+      "text": "we can watch a movie"
+    },
+    {
+      "index": 275,
+      "category": "wants and choices",
+      "text": "i want to listen to music"
+    },
+    {
+      "index": 276,
+      "category": "wants and choices",
+      "text": "do you want to listen to music"
+    },
+    {
+      "index": 277,
+      "category": "wants and choices",
+      "text": "we can listen to music"
+    },
+    {
+      "index": 278,
+      "category": "wants and choices",
+      "text": "i want to read"
+    },
+    {
+      "index": 279,
+      "category": "wants and choices",
+      "text": "do you want to read"
+    },
+    {
+      "index": 280,
+      "category": "wants and choices",
+      "text": "we can read"
+    },
+    {
+      "index": 281,
+      "category": "wants and choices",
+      "text": "i want to play a game"
+    },
+    {
+      "index": 282,
+      "category": "wants and choices",
+      "text": "do you want to play a game"
+    },
+    {
+      "index": 283,
+      "category": "wants and choices",
+      "text": "we can play a game"
+    },
+    {
+      "index": 284,
+      "category": "wants and choices",
+      "text": "i want to join the group"
+    },
+    {
+      "index": 285,
+      "category": "wants and choices",
+      "text": "do you want to join the group"
+    },
+    {
+      "index": 286,
+      "category": "wants and choices",
+      "text": "we can join the group"
+    },
+    {
+      "index": 287,
+      "category": "wants and choices",
+      "text": "i want to leave the room"
+    },
+    {
+      "index": 288,
+      "category": "wants and choices",
+      "text": "do you want to leave the room"
+    },
+    {
+      "index": 289,
+      "category": "wants and choices",
+      "text": "we can leave the room"
+    },
+    {
+      "index": 290,
+      "category": "wants and choices",
+      "text": "i want to sit up"
+    },
+    {
+      "index": 291,
+      "category": "wants and choices",
+      "text": "do you want to sit up"
+    },
+    {
+      "index": 292,
+      "category": "wants and choices",
+      "text": "we can sit up"
+    },
+    {
+      "index": 293,
+      "category": "wants and choices",
+      "text": "i want to lie down"
+    },
+    {
+      "index": 294,
+      "category": "wants and choices",
+      "text": "do you want to lie down"
+    },
+    {
+      "index": 295,
+      "category": "wants and choices",
+      "text": "we can lie down"
+    },
+    {
+      "index": 296,
+      "category": "wants and choices",
+      "text": "i want to move closer"
+    },
+    {
+      "index": 297,
+      "category": "wants and choices",
+      "text": "do you want to move closer"
+    },
+    {
+      "index": 298,
+      "category": "wants and choices",
+      "text": "we can move closer"
+    },
+    {
+      "index": 299,
+      "category": "wants and choices",
+      "text": "i want to move away"
+    },
+    {
+      "index": 300,
+      "category": "wants and choices",
+      "text": "do you want to move away"
+    },
+    {
+      "index": 301,
+      "category": "wants and choices",
+      "text": "we can move away"
+    },
+    {
+      "index": 302,
+      "category": "wants and choices",
+      "text": "i want to call my family"
+    },
+    {
+      "index": 303,
+      "category": "wants and choices",
+      "text": "do you want to call my family"
+    },
+    {
+      "index": 304,
+      "category": "wants and choices",
+      "text": "we can call my family"
+    },
+    {
+      "index": 305,
+      "category": "wants and choices",
+      "text": "i want to send a message"
+    },
+    {
+      "index": 306,
+      "category": "wants and choices",
+      "text": "do you want to send a message"
+    },
+    {
+      "index": 307,
+      "category": "wants and choices",
+      "text": "we can send a message"
+    },
+    {
+      "index": 308,
+      "category": "wants and choices",
+      "text": "i want to tell a story"
+    },
+    {
+      "index": 309,
+      "category": "wants and choices",
+      "text": "do you want to tell a story"
+    },
+    {
+      "index": 310,
+      "category": "wants and choices",
+      "text": "we can tell a story"
+    },
+    {
+      "index": 311,
+      "category": "wants and choices",
+      "text": "i want to make a joke"
+    },
+    {
+      "index": 312,
+      "category": "wants and choices",
+      "text": "do you want to make a joke"
+    },
+    {
+      "index": 313,
+      "category": "wants and choices",
+      "text": "we can make a joke"
+    },
+    {
+      "index": 314,
+      "category": "wants and choices",
+      "text": "i want to ask a question"
+    },
+    {
+      "index": 315,
+      "category": "wants and choices",
+      "text": "do you want to ask a question"
+    },
+    {
+      "index": 316,
+      "category": "wants and choices",
+      "text": "we can ask a question"
+    },
+    {
+      "index": 317,
+      "category": "wants and choices",
+      "text": "i want to answer the question"
+    },
+    {
+      "index": 318,
+      "category": "wants and choices",
+      "text": "do you want to answer the question"
+    },
+    {
+      "index": 319,
+      "category": "wants and choices",
+      "text": "we can answer the question"
+    },
+    {
+      "index": 320,
+      "category": "wants and choices",
+      "text": "i want to choose another activity"
+    },
+    {
+      "index": 321,
+      "category": "wants and choices",
+      "text": "do you want to choose another activity"
+    },
+    {
+      "index": 322,
+      "category": "wants and choices",
+      "text": "we can choose another activity"
+    },
+    {
+      "index": 323,
+      "category": "wants and choices",
+      "text": "i want to try that again"
+    },
+    {
+      "index": 324,
+      "category": "wants and choices",
+      "text": "do you want to try that again"
+    },
+    {
+      "index": 325,
+      "category": "wants and choices",
+      "text": "we can try that again"
+    },
+    {
+      "index": 326,
+      "category": "wants and choices",
+      "text": "i want to use the keyboard"
+    },
+    {
+      "index": 327,
+      "category": "wants and choices",
+      "text": "do you want to use the keyboard"
+    },
+    {
+      "index": 328,
+      "category": "wants and choices",
+      "text": "we can use the keyboard"
+    },
+    {
+      "index": 329,
+      "category": "wants and choices",
+      "text": "i want to use scanning"
+    },
+    {
+      "index": 330,
+      "category": "wants and choices",
+      "text": "do you want to use scanning"
+    },
+    {
+      "index": 331,
+      "category": "wants and choices",
+      "text": "we can use scanning"
+    },
+    {
+      "index": 332,
+      "category": "wants and choices",
+      "text": "i want to use the joystick"
+    },
+    {
+      "index": 333,
+      "category": "wants and choices",
+      "text": "do you want to use the joystick"
+    },
+    {
+      "index": 334,
+      "category": "wants and choices",
+      "text": "we can use the joystick"
+    },
+    {
+      "index": 335,
+      "category": "wants and choices",
+      "text": "i want to use word prediction"
+    },
+    {
+      "index": 336,
+      "category": "wants and choices",
+      "text": "do you want to use word prediction"
+    },
+    {
+      "index": 337,
+      "category": "wants and choices",
+      "text": "we can use word prediction"
+    },
+    {
+      "index": 338,
+      "category": "wants and choices",
+      "text": "i want to use a bigger target"
+    },
+    {
+      "index": 339,
+      "category": "wants and choices",
+      "text": "do you want to use a bigger target"
+    },
+    {
+      "index": 340,
+      "category": "wants and choices",
+      "text": "we can use a bigger target"
+    },
+    {
+      "index": 341,
+      "category": "wants and choices",
+      "text": "i want to use a slower scan"
+    },
+    {
+      "index": 342,
+      "category": "wants and choices",
+      "text": "do you want to use a slower scan"
+    },
+    {
+      "index": 343,
+      "category": "wants and choices",
+      "text": "we can use a slower scan"
+    },
+    {
+      "index": 344,
+      "category": "wants and choices",
+      "text": "i want to use a different layout"
+    },
+    {
+      "index": 345,
+      "category": "wants and choices",
+      "text": "do you want to use a different layout"
+    },
+    {
+      "index": 346,
+      "category": "wants and choices",
+      "text": "we can use a different layout"
+    },
+    {
+      "index": 347,
+      "category": "wants and choices",
+      "text": "i want to practice first"
+    },
+    {
+      "index": 348,
+      "category": "wants and choices",
+      "text": "do you want to practice first"
+    },
+    {
+      "index": 349,
+      "category": "wants and choices",
+      "text": "we can practice first"
+    },
+    {
+      "index": 350,
+      "category": "wants and choices",
+      "text": "i want to take the test"
+    },
+    {
+      "index": 351,
+      "category": "wants and choices",
+      "text": "do you want to take the test"
+    },
+    {
+      "index": 352,
+      "category": "wants and choices",
+      "text": "we can take the test"
+    },
+    {
+      "index": 353,
+      "category": "wants and choices",
+      "text": "i want to see the results"
+    },
+    {
+      "index": 354,
+      "category": "wants and choices",
+      "text": "do you want to see the results"
+    },
+    {
+      "index": 355,
+      "category": "wants and choices",
+      "text": "we can see the results"
+    },
+    {
+      "index": 356,
+      "category": "wants and choices",
+      "text": "i want to compare the methods"
+    },
+    {
+      "index": 357,
+      "category": "wants and choices",
+      "text": "do you want to compare the methods"
+    },
+    {
+      "index": 358,
+      "category": "wants and choices",
+      "text": "we can compare the methods"
+    },
+    {
+      "index": 359,
+      "category": "wants and choices",
+      "text": "i want to change the setting"
+    },
+    {
+      "index": 360,
+      "category": "wants and choices",
+      "text": "do you want to change the setting"
+    },
+    {
+      "index": 361,
+      "category": "wants and choices",
+      "text": "we can change the setting"
+    },
+    {
+      "index": 362,
+      "category": "wants and choices",
+      "text": "i want to save my work"
+    },
+    {
+      "index": 363,
+      "category": "wants and choices",
+      "text": "do you want to save my work"
+    },
+    {
+      "index": 364,
+      "category": "wants and choices",
+      "text": "we can save my work"
+    },
+    {
+      "index": 365,
+      "category": "wants and choices",
+      "text": "i want to print the worksheet"
+    },
+    {
+      "index": 366,
+      "category": "wants and choices",
+      "text": "do you want to print the worksheet"
+    },
+    {
+      "index": 367,
+      "category": "wants and choices",
+      "text": "we can print the worksheet"
+    },
+    {
+      "index": 368,
+      "category": "partner requests",
+      "text": "please wait"
+    },
+    {
+      "index": 369,
+      "category": "partner requests",
+      "text": "can you wait"
+    },
+    {
+      "index": 370,
+      "category": "partner requests",
+      "text": "can you stop"
+    },
+    {
+      "index": 371,
+      "category": "partner requests",
+      "text": "please listen"
+    },
+    {
+      "index": 372,
+      "category": "partner requests",
+      "text": "can you listen"
+    },
+    {
+      "index": 373,
+      "category": "partner requests",
+      "text": "can you slow down"
+    },
+    {
+      "index": 374,
+      "category": "partner requests",
+      "text": "can you give me time"
+    },
+    {
+      "index": 375,
+      "category": "partner requests",
+      "text": "please ask again"
+    },
+    {
+      "index": 376,
+      "category": "partner requests",
+      "text": "can you ask again"
+    },
+    {
+      "index": 377,
+      "category": "partner requests",
+      "text": "please say that again"
+    },
+    {
+      "index": 378,
+      "category": "partner requests",
+      "text": "can you repeat that"
+    },
+    {
+      "index": 379,
+      "category": "partner requests",
+      "text": "please move closer"
+    },
+    {
+      "index": 380,
+      "category": "partner requests",
+      "text": "can you move closer"
+    },
+    {
+      "index": 381,
+      "category": "partner requests",
+      "text": "please move away"
+    },
+    {
+      "index": 382,
+      "category": "partner requests",
+      "text": "can you move away"
+    },
+    {
+      "index": 383,
+      "category": "partner requests",
+      "text": "please speak louder"
+    },
+    {
+      "index": 384,
+      "category": "partner requests",
+      "text": "can you speak louder"
+    },
+    {
+      "index": 385,
+      "category": "partner requests",
+      "text": "please speak softer"
+    },
+    {
+      "index": 386,
+      "category": "partner requests",
+      "text": "can you speak softer"
+    },
+    {
+      "index": 387,
+      "category": "partner requests",
+      "text": "please look at me"
+    },
+    {
+      "index": 388,
+      "category": "partner requests",
+      "text": "can you look at me"
+    },
+    {
+      "index": 389,
+      "category": "partner requests",
+      "text": "please watch the screen"
+    },
+    {
+      "index": 390,
+      "category": "partner requests",
+      "text": "can you watch the screen"
+    },
+    {
+      "index": 391,
+      "category": "partner requests",
+      "text": "please check my device"
+    },
+    {
+      "index": 392,
+      "category": "partner requests",
+      "text": "can you check my device"
+    },
+    {
+      "index": 393,
+      "category": "partner requests",
+      "text": "please check my switch"
+    },
+    {
+      "index": 394,
+      "category": "partner requests",
+      "text": "can you check my switch"
+    },
+    {
+      "index": 395,
+      "category": "partner requests",
+      "text": "please fix my device"
+    },
+    {
+      "index": 396,
+      "category": "partner requests",
+      "text": "can you fix my device"
+    },
+    {
+      "index": 397,
+      "category": "partner requests",
+      "text": "please change the volume"
+    },
+    {
+      "index": 398,
+      "category": "partner requests",
+      "text": "can you change the volume"
+    },
+    {
+      "index": 399,
+      "category": "partner requests",
+      "text": "please move my chair"
+    },
+    {
+      "index": 400,
+      "category": "partner requests",
+      "text": "can you move my chair"
+    },
+    {
+      "index": 401,
+      "category": "partner requests",
+      "text": "please adjust my headrest"
+    },
+    {
+      "index": 402,
+      "category": "partner requests",
+      "text": "can you adjust my headrest"
+    },
+    {
+      "index": 403,
+      "category": "partner requests",
+      "text": "please move my arm"
+    },
+    {
+      "index": 404,
+      "category": "partner requests",
+      "text": "can you move my arm"
+    },
+    {
+      "index": 405,
+      "category": "partner requests",
+      "text": "please move my tray"
+    },
+    {
+      "index": 406,
+      "category": "partner requests",
+      "text": "can you move my tray"
+    },
+    {
+      "index": 407,
+      "category": "partner requests",
+      "text": "please turn the page"
+    },
+    {
+      "index": 408,
+      "category": "partner requests",
+      "text": "can you turn the page"
+    },
+    {
+      "index": 409,
+      "category": "partner requests",
+      "text": "please open the door"
+    },
+    {
+      "index": 410,
+      "category": "partner requests",
+      "text": "can you open the door"
+    },
+    {
+      "index": 411,
+      "category": "partner requests",
+      "text": "please close the door"
+    },
+    {
+      "index": 412,
+      "category": "partner requests",
+      "text": "can you close the door"
+    },
+    {
+      "index": 413,
+      "category": "partner requests",
+      "text": "please turn on the light"
+    },
+    {
+      "index": 414,
+      "category": "partner requests",
+      "text": "can you turn on the light"
+    },
+    {
+      "index": 415,
+      "category": "partner requests",
+      "text": "please turn off the light"
+    },
+    {
+      "index": 416,
+      "category": "partner requests",
+      "text": "can you turn off the light"
+    },
+    {
+      "index": 417,
+      "category": "partner requests",
+      "text": "please clear the message"
+    },
+    {
+      "index": 418,
+      "category": "partner requests",
+      "text": "can you clear the message"
+    },
+    {
+      "index": 419,
+      "category": "partner requests",
+      "text": "please delete that word"
+    },
+    {
+      "index": 420,
+      "category": "partner requests",
+      "text": "can you delete that word"
+    },
+    {
+      "index": 421,
+      "category": "partner requests",
+      "text": "please start over"
+    },
+    {
+      "index": 422,
+      "category": "partner requests",
+      "text": "can you start over"
+    },
+    {
+      "index": 423,
+      "category": "partner requests",
+      "text": "please try again"
+    },
+    {
+      "index": 424,
+      "category": "partner requests",
+      "text": "can you try again"
+    },
+    {
+      "index": 425,
+      "category": "partner requests",
+      "text": "please save this"
+    },
+    {
+      "index": 426,
+      "category": "partner requests",
+      "text": "can you save this"
+    },
+    {
+      "index": 427,
+      "category": "partner requests",
+      "text": "please write that down"
+    },
+    {
+      "index": 428,
+      "category": "partner requests",
+      "text": "can you write that down"
+    },
+    {
+      "index": 429,
+      "category": "partner requests",
+      "text": "please call my mom"
+    },
+    {
+      "index": 430,
+      "category": "partner requests",
+      "text": "can you call my mom"
+    },
+    {
+      "index": 431,
+      "category": "partner requests",
+      "text": "please call my dad"
+    },
+    {
+      "index": 432,
+      "category": "partner requests",
+      "text": "can you call my dad"
+    },
+    {
+      "index": 433,
+      "category": "partner requests",
+      "text": "please call the nurse"
+    },
+    {
+      "index": 434,
+      "category": "partner requests",
+      "text": "can you call the nurse"
+    },
+    {
+      "index": 435,
+      "category": "partner requests",
+      "text": "please call the teacher"
+    },
+    {
+      "index": 436,
+      "category": "partner requests",
+      "text": "can you call the teacher"
+    },
+    {
+      "index": 437,
+      "category": "partner requests",
+      "text": "please tell the group"
+    },
+    {
+      "index": 438,
+      "category": "partner requests",
+      "text": "can you tell the group"
+    },
+    {
+      "index": 439,
+      "category": "partner requests",
+      "text": "please help me choose"
+    },
+    {
+      "index": 440,
+      "category": "partner requests",
+      "text": "can you help me choose"
+    },
+    {
+      "index": 441,
+      "category": "partner requests",
+      "text": "please help me practice"
+    },
+    {
+      "index": 442,
+      "category": "partner requests",
+      "text": "can you help me practice"
+    },
+    {
+      "index": 443,
+      "category": "partner requests",
+      "text": "please help me finish"
+    },
+    {
+      "index": 444,
+      "category": "partner requests",
+      "text": "can you help me finish"
+    },
+    {
+      "index": 445,
+      "category": "partner requests",
+      "text": "please help me explain"
+    },
+    {
+      "index": 446,
+      "category": "partner requests",
+      "text": "can you help me explain"
+    },
+    {
+      "index": 447,
+      "category": "feelings and states",
+      "text": "i feel tired"
+    },
+    {
+      "index": 448,
+      "category": "feelings and states",
+      "text": "are you tired"
+    },
+    {
+      "index": 449,
+      "category": "feelings and states",
+      "text": "i am hungry"
+    },
+    {
+      "index": 450,
+      "category": "feelings and states",
+      "text": "i feel hungry"
+    },
+    {
+      "index": 451,
+      "category": "feelings and states",
+      "text": "are you hungry"
+    },
+    {
+      "index": 452,
+      "category": "feelings and states",
+      "text": "i am thirsty"
+    },
+    {
+      "index": 453,
+      "category": "feelings and states",
+      "text": "i feel thirsty"
+    },
+    {
+      "index": 454,
+      "category": "feelings and states",
+      "text": "are you thirsty"
+    },
+    {
+      "index": 455,
+      "category": "feelings and states",
+      "text": "i feel finished"
+    },
+    {
+      "index": 456,
+      "category": "feelings and states",
+      "text": "are you finished"
+    },
+    {
+      "index": 457,
+      "category": "feelings and states",
+      "text": "i feel ready"
+    },
+    {
+      "index": 458,
+      "category": "feelings and states",
+      "text": "are you ready"
+    },
+    {
+      "index": 459,
+      "category": "feelings and states",
+      "text": "i feel not ready"
+    },
+    {
+      "index": 460,
+      "category": "feelings and states",
+      "text": "are you not ready"
+    },
+    {
+      "index": 461,
+      "category": "feelings and states",
+      "text": "i am happy"
+    },
+    {
+      "index": 462,
+      "category": "feelings and states",
+      "text": "i feel happy"
+    },
+    {
+      "index": 463,
+      "category": "feelings and states",
+      "text": "are you happy"
+    },
+    {
+      "index": 464,
+      "category": "feelings and states",
+      "text": "i am sad"
+    },
+    {
+      "index": 465,
+      "category": "feelings and states",
+      "text": "i feel sad"
+    },
+    {
+      "index": 466,
+      "category": "feelings and states",
+      "text": "are you sad"
+    },
+    {
+      "index": 467,
+      "category": "feelings and states",
+      "text": "i am frustrated"
+    },
+    {
+      "index": 468,
+      "category": "feelings and states",
+      "text": "i feel frustrated"
+    },
+    {
+      "index": 469,
+      "category": "feelings and states",
+      "text": "are you frustrated"
+    },
+    {
+      "index": 470,
+      "category": "feelings and states",
+      "text": "i am uncomfortable"
+    },
+    {
+      "index": 471,
+      "category": "feelings and states",
+      "text": "i feel uncomfortable"
+    },
+    {
+      "index": 472,
+      "category": "feelings and states",
+      "text": "are you uncomfortable"
+    },
+    {
+      "index": 473,
+      "category": "feelings and states",
+      "text": "i am comfortable"
+    },
+    {
+      "index": 474,
+      "category": "feelings and states",
+      "text": "i feel comfortable"
+    },
+    {
+      "index": 475,
+      "category": "feelings and states",
+      "text": "are you comfortable"
+    },
+    {
+      "index": 476,
+      "category": "feelings and states",
+      "text": "i am okay"
+    },
+    {
+      "index": 477,
+      "category": "feelings and states",
+      "text": "i feel okay"
+    },
+    {
+      "index": 478,
+      "category": "feelings and states",
+      "text": "are you okay"
+    },
+    {
+      "index": 479,
+      "category": "feelings and states",
+      "text": "i am not okay"
+    },
+    {
+      "index": 480,
+      "category": "feelings and states",
+      "text": "i feel not okay"
+    },
+    {
+      "index": 481,
+      "category": "feelings and states",
+      "text": "are you not okay"
+    },
+    {
+      "index": 482,
+      "category": "feelings and states",
+      "text": "i am angry"
+    },
+    {
+      "index": 483,
+      "category": "feelings and states",
+      "text": "i feel angry"
+    },
+    {
+      "index": 484,
+      "category": "feelings and states",
+      "text": "are you angry"
+    },
+    {
+      "index": 485,
+      "category": "feelings and states",
+      "text": "i am worried"
+    },
+    {
+      "index": 486,
+      "category": "feelings and states",
+      "text": "i feel worried"
+    },
+    {
+      "index": 487,
+      "category": "feelings and states",
+      "text": "are you worried"
+    },
+    {
+      "index": 488,
+      "category": "feelings and states",
+      "text": "i am excited"
+    },
+    {
+      "index": 489,
+      "category": "feelings and states",
+      "text": "i feel excited"
+    },
+    {
+      "index": 490,
+      "category": "feelings and states",
+      "text": "are you excited"
+    },
+    {
+      "index": 491,
+      "category": "feelings and states",
+      "text": "i am bored"
+    },
+    {
+      "index": 492,
+      "category": "feelings and states",
+      "text": "i feel bored"
+    },
+    {
+      "index": 493,
+      "category": "feelings and states",
+      "text": "are you bored"
+    },
+    {
+      "index": 494,
+      "category": "feelings and states",
+      "text": "i am confused"
+    },
+    {
+      "index": 495,
+      "category": "feelings and states",
+      "text": "i feel confused"
+    },
+    {
+      "index": 496,
+      "category": "feelings and states",
+      "text": "are you confused"
+    },
+    {
+      "index": 497,
+      "category": "feelings and states",
+      "text": "i am interested"
+    },
+    {
+      "index": 498,
+      "category": "feelings and states",
+      "text": "i feel interested"
+    },
+    {
+      "index": 499,
+      "category": "feelings and states",
+      "text": "are you interested"
+    },
+    {
+      "index": 500,
+      "category": "feelings and states",
+      "text": "i am cold"
+    },
+    {
+      "index": 501,
+      "category": "feelings and states",
+      "text": "i feel cold"
+    },
+    {
+      "index": 502,
+      "category": "feelings and states",
+      "text": "are you cold"
+    },
+    {
+      "index": 503,
+      "category": "feelings and states",
+      "text": "i am hot"
+    },
+    {
+      "index": 504,
+      "category": "feelings and states",
+      "text": "i feel hot"
+    },
+    {
+      "index": 505,
+      "category": "feelings and states",
+      "text": "are you hot"
+    },
+    {
+      "index": 506,
+      "category": "feelings and states",
+      "text": "i am sore"
+    },
+    {
+      "index": 507,
+      "category": "feelings and states",
+      "text": "i feel sore"
+    },
+    {
+      "index": 508,
+      "category": "feelings and states",
+      "text": "are you sore"
+    },
+    {
+      "index": 509,
+      "category": "feelings and states",
+      "text": "i am dizzy"
+    },
+    {
+      "index": 510,
+      "category": "feelings and states",
+      "text": "i feel dizzy"
+    },
+    {
+      "index": 511,
+      "category": "feelings and states",
+      "text": "are you dizzy"
+    },
+    {
+      "index": 512,
+      "category": "feelings and states",
+      "text": "i am nervous"
+    },
+    {
+      "index": 513,
+      "category": "feelings and states",
+      "text": "i feel nervous"
+    },
+    {
+      "index": 514,
+      "category": "feelings and states",
+      "text": "are you nervous"
+    },
+    {
+      "index": 515,
+      "category": "feelings and states",
+      "text": "i am calm"
+    },
+    {
+      "index": 516,
+      "category": "feelings and states",
+      "text": "i feel calm"
+    },
+    {
+      "index": 517,
+      "category": "feelings and states",
+      "text": "are you calm"
+    },
+    {
+      "index": 518,
+      "category": "feelings and states",
+      "text": "i am proud"
+    },
+    {
+      "index": 519,
+      "category": "feelings and states",
+      "text": "i feel proud"
+    },
+    {
+      "index": 520,
+      "category": "feelings and states",
+      "text": "are you proud"
+    },
+    {
+      "index": 521,
+      "category": "feelings and states",
+      "text": "i am embarrassed"
+    },
+    {
+      "index": 522,
+      "category": "feelings and states",
+      "text": "i feel embarrassed"
+    },
+    {
+      "index": 523,
+      "category": "feelings and states",
+      "text": "are you embarrassed"
+    },
+    {
+      "index": 524,
+      "category": "feelings and states",
+      "text": "i am afraid"
+    },
+    {
+      "index": 525,
+      "category": "feelings and states",
+      "text": "i feel afraid"
+    },
+    {
+      "index": 526,
+      "category": "feelings and states",
+      "text": "are you afraid"
+    },
+    {
+      "index": 527,
+      "category": "feelings and states",
+      "text": "i am safe"
+    },
+    {
+      "index": 528,
+      "category": "feelings and states",
+      "text": "i feel safe"
+    },
+    {
+      "index": 529,
+      "category": "feelings and states",
+      "text": "are you safe"
+    },
+    {
+      "index": 530,
+      "category": "feelings and states",
+      "text": "i am unsafe"
+    },
+    {
+      "index": 531,
+      "category": "feelings and states",
+      "text": "i feel unsafe"
+    },
+    {
+      "index": 532,
+      "category": "feelings and states",
+      "text": "are you unsafe"
+    },
+    {
+      "index": 533,
+      "category": "feelings and states",
+      "text": "i am busy"
+    },
+    {
+      "index": 534,
+      "category": "feelings and states",
+      "text": "i feel busy"
+    },
+    {
+      "index": 535,
+      "category": "feelings and states",
+      "text": "are you busy"
+    },
+    {
+      "index": 536,
+      "category": "feelings and states",
+      "text": "i feel still typing"
+    },
+    {
+      "index": 537,
+      "category": "feelings and states",
+      "text": "are you still typing"
+    },
+    {
+      "index": 538,
+      "category": "feelings and states",
+      "text": "i am thinking"
+    },
+    {
+      "index": 539,
+      "category": "feelings and states",
+      "text": "i feel thinking"
+    },
+    {
+      "index": 540,
+      "category": "feelings and states",
+      "text": "are you thinking"
+    },
+    {
+      "index": 541,
+      "category": "feelings and states",
+      "text": "i am listening"
+    },
+    {
+      "index": 542,
+      "category": "feelings and states",
+      "text": "i feel listening"
+    },
+    {
+      "index": 543,
+      "category": "feelings and states",
+      "text": "are you listening"
+    },
+    {
+      "index": 544,
+      "category": "feelings and states",
+      "text": "i am waiting"
+    },
+    {
+      "index": 545,
+      "category": "feelings and states",
+      "text": "i feel waiting"
+    },
+    {
+      "index": 546,
+      "category": "feelings and states",
+      "text": "are you waiting"
+    },
+    {
+      "index": 547,
+      "category": "feelings and states",
+      "text": "i am trying"
+    },
+    {
+      "index": 548,
+      "category": "feelings and states",
+      "text": "i feel trying"
+    },
+    {
+      "index": 549,
+      "category": "feelings and states",
+      "text": "are you trying"
+    },
+    {
+      "index": 550,
+      "category": "feelings and states",
+      "text": "i am done"
+    },
+    {
+      "index": 551,
+      "category": "feelings and states",
+      "text": "i feel done"
+    },
+    {
+      "index": 552,
+      "category": "feelings and states",
+      "text": "are you done"
+    },
+    {
+      "index": 553,
+      "category": "feelings and states",
+      "text": "i am in pain"
+    },
+    {
+      "index": 554,
+      "category": "feelings and states",
+      "text": "i feel in pain"
+    },
+    {
+      "index": 555,
+      "category": "feelings and states",
+      "text": "are you in pain"
+    },
+    {
+      "index": 556,
+      "category": "feelings and states",
+      "text": "i am having trouble"
+    },
+    {
+      "index": 557,
+      "category": "feelings and states",
+      "text": "i feel having trouble"
+    },
+    {
+      "index": 558,
+      "category": "feelings and states",
+      "text": "are you having trouble"
+    },
+    {
+      "index": 559,
+      "category": "feelings and states",
+      "text": "i am doing better"
+    },
+    {
+      "index": 560,
+      "category": "feelings and states",
+      "text": "i feel doing better"
+    },
+    {
+      "index": 561,
+      "category": "feelings and states",
+      "text": "are you doing better"
+    },
+    {
+      "index": 562,
+      "category": "feelings and states",
+      "text": "i am having fun"
+    },
+    {
+      "index": 563,
+      "category": "feelings and states",
+      "text": "i feel having fun"
+    },
+    {
+      "index": 564,
+      "category": "feelings and states",
+      "text": "are you having fun"
+    },
+    {
+      "index": 565,
+      "category": "body comfort and positioning",
+      "text": "my head hurts"
+    },
+    {
+      "index": 566,
+      "category": "body comfort and positioning",
+      "text": "my head is tired"
+    },
+    {
+      "index": 567,
+      "category": "body comfort and positioning",
+      "text": "my head is stiff"
+    },
+    {
+      "index": 568,
+      "category": "body comfort and positioning",
+      "text": "my head is uncomfortable"
+    },
+    {
+      "index": 569,
+      "category": "body comfort and positioning",
+      "text": "my head needs support"
+    },
+    {
+      "index": 570,
+      "category": "body comfort and positioning",
+      "text": "my head needs to move"
+    },
+    {
+      "index": 571,
+      "category": "body comfort and positioning",
+      "text": "my head feels better"
+    },
+    {
+      "index": 572,
+      "category": "body comfort and positioning",
+      "text": "my head feels worse"
+    },
+    {
+      "index": 573,
+      "category": "body comfort and positioning",
+      "text": "my neck hurts"
+    },
+    {
+      "index": 574,
+      "category": "body comfort and positioning",
+      "text": "my neck is tired"
+    },
+    {
+      "index": 575,
+      "category": "body comfort and positioning",
+      "text": "my neck is stiff"
+    },
+    {
+      "index": 576,
+      "category": "body comfort and positioning",
+      "text": "my neck is uncomfortable"
+    },
+    {
+      "index": 577,
+      "category": "body comfort and positioning",
+      "text": "my neck needs support"
+    },
+    {
+      "index": 578,
+      "category": "body comfort and positioning",
+      "text": "my neck needs to move"
+    },
+    {
+      "index": 579,
+      "category": "body comfort and positioning",
+      "text": "my neck feels better"
+    },
+    {
+      "index": 580,
+      "category": "body comfort and positioning",
+      "text": "my neck feels worse"
+    },
+    {
+      "index": 581,
+      "category": "body comfort and positioning",
+      "text": "my shoulder hurts"
+    },
+    {
+      "index": 582,
+      "category": "body comfort and positioning",
+      "text": "my shoulder is tired"
+    },
+    {
+      "index": 583,
+      "category": "body comfort and positioning",
+      "text": "my shoulder is stiff"
+    },
+    {
+      "index": 584,
+      "category": "body comfort and positioning",
+      "text": "my shoulder is uncomfortable"
+    },
+    {
+      "index": 585,
+      "category": "body comfort and positioning",
+      "text": "my shoulder needs support"
+    },
+    {
+      "index": 586,
+      "category": "body comfort and positioning",
+      "text": "my shoulder needs to move"
+    },
+    {
+      "index": 587,
+      "category": "body comfort and positioning",
+      "text": "my shoulder feels better"
+    },
+    {
+      "index": 588,
+      "category": "body comfort and positioning",
+      "text": "my shoulder feels worse"
+    },
+    {
+      "index": 589,
+      "category": "body comfort and positioning",
+      "text": "my arm hurts"
+    },
+    {
+      "index": 590,
+      "category": "body comfort and positioning",
+      "text": "my arm is tired"
+    },
+    {
+      "index": 591,
+      "category": "body comfort and positioning",
+      "text": "my arm is stiff"
+    },
+    {
+      "index": 592,
+      "category": "body comfort and positioning",
+      "text": "my arm is uncomfortable"
+    },
+    {
+      "index": 593,
+      "category": "body comfort and positioning",
+      "text": "my arm needs support"
+    },
+    {
+      "index": 594,
+      "category": "body comfort and positioning",
+      "text": "my arm needs to move"
+    },
+    {
+      "index": 595,
+      "category": "body comfort and positioning",
+      "text": "my arm feels better"
+    },
+    {
+      "index": 596,
+      "category": "body comfort and positioning",
+      "text": "my arm feels worse"
+    },
+    {
+      "index": 597,
+      "category": "body comfort and positioning",
+      "text": "my hand hurts"
+    },
+    {
+      "index": 598,
+      "category": "body comfort and positioning",
+      "text": "my hand is tired"
+    },
+    {
+      "index": 599,
+      "category": "body comfort and positioning",
+      "text": "my hand is stiff"
+    },
+    {
+      "index": 600,
+      "category": "body comfort and positioning",
+      "text": "my hand is uncomfortable"
+    },
+    {
+      "index": 601,
+      "category": "body comfort and positioning",
+      "text": "my hand needs support"
+    },
+    {
+      "index": 602,
+      "category": "body comfort and positioning",
+      "text": "my hand needs to move"
+    },
+    {
+      "index": 603,
+      "category": "body comfort and positioning",
+      "text": "my hand feels better"
+    },
+    {
+      "index": 604,
+      "category": "body comfort and positioning",
+      "text": "my hand feels worse"
+    },
+    {
+      "index": 605,
+      "category": "body comfort and positioning",
+      "text": "my finger hurts"
+    },
+    {
+      "index": 606,
+      "category": "body comfort and positioning",
+      "text": "my finger is tired"
+    },
+    {
+      "index": 607,
+      "category": "body comfort and positioning",
+      "text": "my finger is stiff"
+    },
+    {
+      "index": 608,
+      "category": "body comfort and positioning",
+      "text": "my finger is uncomfortable"
+    },
+    {
+      "index": 609,
+      "category": "body comfort and positioning",
+      "text": "my finger needs support"
+    },
+    {
+      "index": 610,
+      "category": "body comfort and positioning",
+      "text": "my finger needs to move"
+    },
+    {
+      "index": 611,
+      "category": "body comfort and positioning",
+      "text": "my finger feels better"
+    },
+    {
+      "index": 612,
+      "category": "body comfort and positioning",
+      "text": "my finger feels worse"
+    },
+    {
+      "index": 613,
+      "category": "body comfort and positioning",
+      "text": "my back hurts"
+    },
+    {
+      "index": 614,
+      "category": "body comfort and positioning",
+      "text": "my back is tired"
+    },
+    {
+      "index": 615,
+      "category": "body comfort and positioning",
+      "text": "my back is stiff"
+    },
+    {
+      "index": 616,
+      "category": "body comfort and positioning",
+      "text": "my back is uncomfortable"
+    },
+    {
+      "index": 617,
+      "category": "body comfort and positioning",
+      "text": "my back needs support"
+    },
+    {
+      "index": 618,
+      "category": "body comfort and positioning",
+      "text": "my back needs to move"
+    },
+    {
+      "index": 619,
+      "category": "body comfort and positioning",
+      "text": "my back feels better"
+    },
+    {
+      "index": 620,
+      "category": "body comfort and positioning",
+      "text": "my back feels worse"
+    },
+    {
+      "index": 621,
+      "category": "body comfort and positioning",
+      "text": "my hip hurts"
+    },
+    {
+      "index": 622,
+      "category": "body comfort and positioning",
+      "text": "my hip is tired"
+    },
+    {
+      "index": 623,
+      "category": "body comfort and positioning",
+      "text": "my hip is stiff"
+    },
+    {
+      "index": 624,
+      "category": "body comfort and positioning",
+      "text": "my hip is uncomfortable"
+    },
+    {
+      "index": 625,
+      "category": "body comfort and positioning",
+      "text": "my hip needs support"
+    },
+    {
+      "index": 626,
+      "category": "body comfort and positioning",
+      "text": "my hip needs to move"
+    },
+    {
+      "index": 627,
+      "category": "body comfort and positioning",
+      "text": "my hip feels better"
+    },
+    {
+      "index": 628,
+      "category": "body comfort and positioning",
+      "text": "my hip feels worse"
+    },
+    {
+      "index": 629,
+      "category": "body comfort and positioning",
+      "text": "my leg hurts"
+    },
+    {
+      "index": 630,
+      "category": "body comfort and positioning",
+      "text": "my leg is tired"
+    },
+    {
+      "index": 631,
+      "category": "body comfort and positioning",
+      "text": "my leg is stiff"
+    },
+    {
+      "index": 632,
+      "category": "body comfort and positioning",
+      "text": "my leg is uncomfortable"
+    },
+    {
+      "index": 633,
+      "category": "body comfort and positioning",
+      "text": "my leg needs support"
+    },
+    {
+      "index": 634,
+      "category": "body comfort and positioning",
+      "text": "my leg needs to move"
+    },
+    {
+      "index": 635,
+      "category": "body comfort and positioning",
+      "text": "my leg feels better"
+    },
+    {
+      "index": 636,
+      "category": "body comfort and positioning",
+      "text": "my leg feels worse"
+    },
+    {
+      "index": 637,
+      "category": "body comfort and positioning",
+      "text": "my knee hurts"
+    },
+    {
+      "index": 638,
+      "category": "body comfort and positioning",
+      "text": "my knee is tired"
+    },
+    {
+      "index": 639,
+      "category": "body comfort and positioning",
+      "text": "my knee is stiff"
+    },
+    {
+      "index": 640,
+      "category": "body comfort and positioning",
+      "text": "my knee is uncomfortable"
+    },
+    {
+      "index": 641,
+      "category": "body comfort and positioning",
+      "text": "my knee needs support"
+    },
+    {
+      "index": 642,
+      "category": "body comfort and positioning",
+      "text": "my knee needs to move"
+    },
+    {
+      "index": 643,
+      "category": "body comfort and positioning",
+      "text": "my knee feels better"
+    },
+    {
+      "index": 644,
+      "category": "body comfort and positioning",
+      "text": "my knee feels worse"
+    },
+    {
+      "index": 645,
+      "category": "body comfort and positioning",
+      "text": "my foot hurts"
+    },
+    {
+      "index": 646,
+      "category": "body comfort and positioning",
+      "text": "my foot is tired"
+    },
+    {
+      "index": 647,
+      "category": "body comfort and positioning",
+      "text": "my foot is stiff"
+    },
+    {
+      "index": 648,
+      "category": "body comfort and positioning",
+      "text": "my foot is uncomfortable"
+    },
+    {
+      "index": 649,
+      "category": "body comfort and positioning",
+      "text": "my foot needs support"
+    },
+    {
+      "index": 650,
+      "category": "body comfort and positioning",
+      "text": "my foot needs to move"
+    },
+    {
+      "index": 651,
+      "category": "body comfort and positioning",
+      "text": "my foot feels better"
+    },
+    {
+      "index": 652,
+      "category": "body comfort and positioning",
+      "text": "my foot feels worse"
+    },
+    {
+      "index": 653,
+      "category": "body comfort and positioning",
+      "text": "my eyes hurts"
+    },
+    {
+      "index": 654,
+      "category": "body comfort and positioning",
+      "text": "my eyes is tired"
+    },
+    {
+      "index": 655,
+      "category": "body comfort and positioning",
+      "text": "my eyes is stiff"
+    },
+    {
+      "index": 656,
+      "category": "body comfort and positioning",
+      "text": "my eyes is uncomfortable"
+    },
+    {
+      "index": 657,
+      "category": "body comfort and positioning",
+      "text": "my eyes needs support"
+    },
+    {
+      "index": 658,
+      "category": "body comfort and positioning",
+      "text": "my eyes needs to move"
+    },
+    {
+      "index": 659,
+      "category": "body comfort and positioning",
+      "text": "my eyes feels better"
+    },
+    {
+      "index": 660,
+      "category": "body comfort and positioning",
+      "text": "my eyes feels worse"
+    },
+    {
+      "index": 661,
+      "category": "body comfort and positioning",
+      "text": "my ears hurts"
+    },
+    {
+      "index": 662,
+      "category": "body comfort and positioning",
+      "text": "my ears is tired"
+    },
+    {
+      "index": 663,
+      "category": "body comfort and positioning",
+      "text": "my ears is stiff"
+    },
+    {
+      "index": 664,
+      "category": "body comfort and positioning",
+      "text": "my ears is uncomfortable"
+    },
+    {
+      "index": 665,
+      "category": "body comfort and positioning",
+      "text": "my ears needs support"
+    },
+    {
+      "index": 666,
+      "category": "body comfort and positioning",
+      "text": "my ears needs to move"
+    },
+    {
+      "index": 667,
+      "category": "body comfort and positioning",
+      "text": "my ears feels better"
+    },
+    {
+      "index": 668,
+      "category": "body comfort and positioning",
+      "text": "my ears feels worse"
+    },
+    {
+      "index": 669,
+      "category": "body comfort and positioning",
+      "text": "my mouth hurts"
+    },
+    {
+      "index": 670,
+      "category": "body comfort and positioning",
+      "text": "my mouth is tired"
+    },
+    {
+      "index": 671,
+      "category": "body comfort and positioning",
+      "text": "my mouth is stiff"
+    },
+    {
+      "index": 672,
+      "category": "body comfort and positioning",
+      "text": "my mouth is uncomfortable"
+    },
+    {
+      "index": 673,
+      "category": "body comfort and positioning",
+      "text": "my mouth needs support"
+    },
+    {
+      "index": 674,
+      "category": "body comfort and positioning",
+      "text": "my mouth needs to move"
+    },
+    {
+      "index": 675,
+      "category": "body comfort and positioning",
+      "text": "my mouth feels better"
+    },
+    {
+      "index": 676,
+      "category": "body comfort and positioning",
+      "text": "my mouth feels worse"
+    },
+    {
+      "index": 677,
+      "category": "body comfort and positioning",
+      "text": "my throat hurts"
+    },
+    {
+      "index": 678,
+      "category": "body comfort and positioning",
+      "text": "my throat is tired"
+    },
+    {
+      "index": 679,
+      "category": "body comfort and positioning",
+      "text": "my throat is stiff"
+    },
+    {
+      "index": 680,
+      "category": "body comfort and positioning",
+      "text": "my throat is uncomfortable"
+    },
+    {
+      "index": 681,
+      "category": "body comfort and positioning",
+      "text": "my throat needs support"
+    },
+    {
+      "index": 682,
+      "category": "body comfort and positioning",
+      "text": "my throat needs to move"
+    },
+    {
+      "index": 683,
+      "category": "body comfort and positioning",
+      "text": "my throat feels better"
+    },
+    {
+      "index": 684,
+      "category": "body comfort and positioning",
+      "text": "my throat feels worse"
+    },
+    {
+      "index": 685,
+      "category": "body comfort and positioning",
+      "text": "my stomach hurts"
+    },
+    {
+      "index": 686,
+      "category": "body comfort and positioning",
+      "text": "my stomach is tired"
+    },
+    {
+      "index": 687,
+      "category": "body comfort and positioning",
+      "text": "my stomach is stiff"
+    },
+    {
+      "index": 688,
+      "category": "body comfort and positioning",
+      "text": "my stomach is uncomfortable"
+    },
+    {
+      "index": 689,
+      "category": "body comfort and positioning",
+      "text": "my stomach needs support"
+    },
+    {
+      "index": 690,
+      "category": "body comfort and positioning",
+      "text": "my stomach needs to move"
+    },
+    {
+      "index": 691,
+      "category": "body comfort and positioning",
+      "text": "my stomach feels better"
+    },
+    {
+      "index": 692,
+      "category": "body comfort and positioning",
+      "text": "my stomach feels worse"
+    },
+    {
+      "index": 693,
+      "category": "body comfort and positioning",
+      "text": "my chest hurts"
+    },
+    {
+      "index": 694,
+      "category": "body comfort and positioning",
+      "text": "my chest is tired"
+    },
+    {
+      "index": 695,
+      "category": "body comfort and positioning",
+      "text": "my chest is stiff"
+    },
+    {
+      "index": 696,
+      "category": "body comfort and positioning",
+      "text": "my chest is uncomfortable"
+    },
+    {
+      "index": 697,
+      "category": "body comfort and positioning",
+      "text": "my chest needs support"
+    },
+    {
+      "index": 698,
+      "category": "body comfort and positioning",
+      "text": "my chest needs to move"
+    },
+    {
+      "index": 699,
+      "category": "body comfort and positioning",
+      "text": "my chest feels better"
+    },
+    {
+      "index": 700,
+      "category": "body comfort and positioning",
+      "text": "my chest feels worse"
+    },
+    {
+      "index": 701,
+      "category": "body comfort and positioning",
+      "text": "please move my head up"
+    },
+    {
+      "index": 702,
+      "category": "body comfort and positioning",
+      "text": "i need you to move my head up"
+    },
+    {
+      "index": 703,
+      "category": "body comfort and positioning",
+      "text": "please move my head down"
+    },
+    {
+      "index": 704,
+      "category": "body comfort and positioning",
+      "text": "i need you to move my head down"
+    },
+    {
+      "index": 705,
+      "category": "body comfort and positioning",
+      "text": "please turn my head left"
+    },
+    {
+      "index": 706,
+      "category": "body comfort and positioning",
+      "text": "i need you to turn my head left"
+    },
+    {
+      "index": 707,
+      "category": "body comfort and positioning",
+      "text": "please turn my head right"
+    },
+    {
+      "index": 708,
+      "category": "body comfort and positioning",
+      "text": "i need you to turn my head right"
+    },
+    {
+      "index": 709,
+      "category": "body comfort and positioning",
+      "text": "please support my arm"
+    },
+    {
+      "index": 710,
+      "category": "body comfort and positioning",
+      "text": "i need you to support my arm"
+    },
+    {
+      "index": 711,
+      "category": "body comfort and positioning",
+      "text": "please support my wrist"
+    },
+    {
+      "index": 712,
+      "category": "body comfort and positioning",
+      "text": "i need you to support my wrist"
+    },
+    {
+      "index": 713,
+      "category": "body comfort and positioning",
+      "text": "please move my hand"
+    },
+    {
+      "index": 714,
+      "category": "body comfort and positioning",
+      "text": "i need you to move my hand"
+    },
+    {
+      "index": 715,
+      "category": "body comfort and positioning",
+      "text": "please move my foot"
+    },
+    {
+      "index": 716,
+      "category": "body comfort and positioning",
+      "text": "i need you to move my foot"
+    },
+    {
+      "index": 717,
+      "category": "body comfort and positioning",
+      "text": "please raise my chair"
+    },
+    {
+      "index": 718,
+      "category": "body comfort and positioning",
+      "text": "i need you to raise my chair"
+    },
+    {
+      "index": 719,
+      "category": "body comfort and positioning",
+      "text": "please lower my chair"
+    },
+    {
+      "index": 720,
+      "category": "body comfort and positioning",
+      "text": "i need you to lower my chair"
+    },
+    {
+      "index": 721,
+      "category": "body comfort and positioning",
+      "text": "please tilt my chair back"
+    },
+    {
+      "index": 722,
+      "category": "body comfort and positioning",
+      "text": "i need you to tilt my chair back"
+    },
+    {
+      "index": 723,
+      "category": "body comfort and positioning",
+      "text": "please tilt my chair forward"
+    },
+    {
+      "index": 724,
+      "category": "body comfort and positioning",
+      "text": "i need you to tilt my chair forward"
+    },
+    {
+      "index": 725,
+      "category": "body comfort and positioning",
+      "text": "please move the tray closer"
+    },
+    {
+      "index": 726,
+      "category": "body comfort and positioning",
+      "text": "i need you to move the tray closer"
+    },
+    {
+      "index": 727,
+      "category": "body comfort and positioning",
+      "text": "please move the tray away"
+    },
+    {
+      "index": 728,
+      "category": "body comfort and positioning",
+      "text": "i need you to move the tray away"
+    },
+    {
+      "index": 729,
+      "category": "body comfort and positioning",
+      "text": "please move the screen left"
+    },
+    {
+      "index": 730,
+      "category": "body comfort and positioning",
+      "text": "i need you to move the screen left"
+    },
+    {
+      "index": 731,
+      "category": "body comfort and positioning",
+      "text": "please move the screen right"
+    },
+    {
+      "index": 732,
+      "category": "body comfort and positioning",
+      "text": "i need you to move the screen right"
+    },
+    {
+      "index": 733,
+      "category": "body comfort and positioning",
+      "text": "please move the screen closer"
+    },
+    {
+      "index": 734,
+      "category": "body comfort and positioning",
+      "text": "i need you to move the screen closer"
+    },
+    {
+      "index": 735,
+      "category": "body comfort and positioning",
+      "text": "please move the screen farther away"
+    },
+    {
+      "index": 736,
+      "category": "body comfort and positioning",
+      "text": "i need you to move the screen farther away"
+    },
+    {
+      "index": 737,
+      "category": "access and device feedback",
+      "text": "the device is slow"
+    },
+    {
+      "index": 738,
+      "category": "access and device feedback",
+      "text": "the device is fast"
+    },
+    {
+      "index": 739,
+      "category": "access and device feedback",
+      "text": "the device is too slow"
+    },
+    {
+      "index": 740,
+      "category": "access and device feedback",
+      "text": "the device is too fast"
+    },
+    {
+      "index": 741,
+      "category": "access and device feedback",
+      "text": "the device is hard to use"
+    },
+    {
+      "index": 742,
+      "category": "access and device feedback",
+      "text": "the device is easy to use"
+    },
+    {
+      "index": 743,
+      "category": "access and device feedback",
+      "text": "the device is confusing"
+    },
+    {
+      "index": 744,
+      "category": "access and device feedback",
+      "text": "the device is clear"
+    },
+    {
+      "index": 745,
+      "category": "access and device feedback",
+      "text": "the device is helpful"
+    },
+    {
+      "index": 746,
+      "category": "access and device feedback",
+      "text": "the device is frustrating"
+    },
+    {
+      "index": 747,
+      "category": "access and device feedback",
+      "text": "the device is accurate"
+    },
+    {
+      "index": 748,
+      "category": "access and device feedback",
+      "text": "the device is inaccurate"
+    },
+    {
+      "index": 749,
+      "category": "access and device feedback",
+      "text": "the device is comfortable"
+    },
+    {
+      "index": 750,
+      "category": "access and device feedback",
+      "text": "the device is uncomfortable"
+    },
+    {
+      "index": 751,
+      "category": "access and device feedback",
+      "text": "the device is too loud"
+    },
+    {
+      "index": 752,
+      "category": "access and device feedback",
+      "text": "the device is too quiet"
+    },
+    {
+      "index": 753,
+      "category": "access and device feedback",
+      "text": "the device is too small"
+    },
+    {
+      "index": 754,
+      "category": "access and device feedback",
+      "text": "the device is too large"
+    },
+    {
+      "index": 755,
+      "category": "access and device feedback",
+      "text": "the device is hard to see"
+    },
+    {
+      "index": 756,
+      "category": "access and device feedback",
+      "text": "the device is easy to see"
+    },
+    {
+      "index": 757,
+      "category": "access and device feedback",
+      "text": "the communication device is slow"
+    },
+    {
+      "index": 758,
+      "category": "access and device feedback",
+      "text": "the communication device is fast"
+    },
+    {
+      "index": 759,
+      "category": "access and device feedback",
+      "text": "the communication device is too slow"
+    },
+    {
+      "index": 760,
+      "category": "access and device feedback",
+      "text": "the communication device is too fast"
+    },
+    {
+      "index": 761,
+      "category": "access and device feedback",
+      "text": "the communication device is hard to use"
+    },
+    {
+      "index": 762,
+      "category": "access and device feedback",
+      "text": "the communication device is easy to use"
+    },
+    {
+      "index": 763,
+      "category": "access and device feedback",
+      "text": "the communication device is confusing"
+    },
+    {
+      "index": 764,
+      "category": "access and device feedback",
+      "text": "the communication device is clear"
+    },
+    {
+      "index": 765,
+      "category": "access and device feedback",
+      "text": "the communication device is helpful"
+    },
+    {
+      "index": 766,
+      "category": "access and device feedback",
+      "text": "the communication device is frustrating"
+    },
+    {
+      "index": 767,
+      "category": "access and device feedback",
+      "text": "the communication device is accurate"
+    },
+    {
+      "index": 768,
+      "category": "access and device feedback",
+      "text": "the communication device is inaccurate"
+    },
+    {
+      "index": 769,
+      "category": "access and device feedback",
+      "text": "the communication device is comfortable"
+    },
+    {
+      "index": 770,
+      "category": "access and device feedback",
+      "text": "the communication device is uncomfortable"
+    },
+    {
+      "index": 771,
+      "category": "access and device feedback",
+      "text": "the communication device is too loud"
+    },
+    {
+      "index": 772,
+      "category": "access and device feedback",
+      "text": "the communication device is too quiet"
+    },
+    {
+      "index": 773,
+      "category": "access and device feedback",
+      "text": "the communication device is too small"
+    },
+    {
+      "index": 774,
+      "category": "access and device feedback",
+      "text": "the communication device is too large"
+    },
+    {
+      "index": 775,
+      "category": "access and device feedback",
+      "text": "the communication device is hard to see"
+    },
+    {
+      "index": 776,
+      "category": "access and device feedback",
+      "text": "the communication device is easy to see"
+    },
+    {
+      "index": 777,
+      "category": "access and device feedback",
+      "text": "the screen is slow"
+    },
+    {
+      "index": 778,
+      "category": "access and device feedback",
+      "text": "the screen is fast"
+    },
+    {
+      "index": 779,
+      "category": "access and device feedback",
+      "text": "the screen is too slow"
+    },
+    {
+      "index": 780,
+      "category": "access and device feedback",
+      "text": "the screen is too fast"
+    },
+    {
+      "index": 781,
+      "category": "access and device feedback",
+      "text": "the screen is hard to use"
+    },
+    {
+      "index": 782,
+      "category": "access and device feedback",
+      "text": "the screen is easy to use"
+    },
+    {
+      "index": 783,
+      "category": "access and device feedback",
+      "text": "the screen is confusing"
+    },
+    {
+      "index": 784,
+      "category": "access and device feedback",
+      "text": "the screen is clear"
+    },
+    {
+      "index": 785,
+      "category": "access and device feedback",
+      "text": "the screen is helpful"
+    },
+    {
+      "index": 786,
+      "category": "access and device feedback",
+      "text": "the screen is frustrating"
+    },
+    {
+      "index": 787,
+      "category": "access and device feedback",
+      "text": "the screen is accurate"
+    },
+    {
+      "index": 788,
+      "category": "access and device feedback",
+      "text": "the screen is inaccurate"
+    },
+    {
+      "index": 789,
+      "category": "access and device feedback",
+      "text": "the screen is comfortable"
+    },
+    {
+      "index": 790,
+      "category": "access and device feedback",
+      "text": "the screen is uncomfortable"
+    },
+    {
+      "index": 791,
+      "category": "access and device feedback",
+      "text": "the screen is too loud"
+    },
+    {
+      "index": 792,
+      "category": "access and device feedback",
+      "text": "the screen is too quiet"
+    },
+    {
+      "index": 793,
+      "category": "access and device feedback",
+      "text": "the screen is too small"
+    },
+    {
+      "index": 794,
+      "category": "access and device feedback",
+      "text": "the screen is too large"
+    },
+    {
+      "index": 795,
+      "category": "access and device feedback",
+      "text": "the screen is easy to see"
+    },
+    {
+      "index": 796,
+      "category": "access and device feedback",
+      "text": "the keyboard is slow"
+    },
+    {
+      "index": 797,
+      "category": "access and device feedback",
+      "text": "the keyboard is fast"
+    },
+    {
+      "index": 798,
+      "category": "access and device feedback",
+      "text": "the keyboard is too slow"
+    },
+    {
+      "index": 799,
+      "category": "access and device feedback",
+      "text": "the keyboard is too fast"
+    },
+    {
+      "index": 800,
+      "category": "access and device feedback",
+      "text": "the keyboard is easy to use"
+    },
+    {
+      "index": 801,
+      "category": "access and device feedback",
+      "text": "the keyboard is confusing"
+    },
+    {
+      "index": 802,
+      "category": "access and device feedback",
+      "text": "the keyboard is clear"
+    },
+    {
+      "index": 803,
+      "category": "access and device feedback",
+      "text": "the keyboard is helpful"
+    },
+    {
+      "index": 804,
+      "category": "access and device feedback",
+      "text": "the keyboard is frustrating"
+    },
+    {
+      "index": 805,
+      "category": "access and device feedback",
+      "text": "the keyboard is accurate"
+    },
+    {
+      "index": 806,
+      "category": "access and device feedback",
+      "text": "the keyboard is inaccurate"
+    },
+    {
+      "index": 807,
+      "category": "access and device feedback",
+      "text": "the keyboard is comfortable"
+    },
+    {
+      "index": 808,
+      "category": "access and device feedback",
+      "text": "the keyboard is uncomfortable"
+    },
+    {
+      "index": 809,
+      "category": "access and device feedback",
+      "text": "the keyboard is too loud"
+    },
+    {
+      "index": 810,
+      "category": "access and device feedback",
+      "text": "the keyboard is too quiet"
+    },
+    {
+      "index": 811,
+      "category": "access and device feedback",
+      "text": "the keyboard is too small"
+    },
+    {
+      "index": 812,
+      "category": "access and device feedback",
+      "text": "the keyboard is too large"
+    },
+    {
+      "index": 813,
+      "category": "access and device feedback",
+      "text": "the keyboard is hard to see"
+    },
+    {
+      "index": 814,
+      "category": "access and device feedback",
+      "text": "the keyboard is easy to see"
+    },
+    {
+      "index": 815,
+      "category": "access and device feedback",
+      "text": "the layout is slow"
+    },
+    {
+      "index": 816,
+      "category": "access and device feedback",
+      "text": "the layout is fast"
+    },
+    {
+      "index": 817,
+      "category": "access and device feedback",
+      "text": "the layout is too slow"
+    },
+    {
+      "index": 818,
+      "category": "access and device feedback",
+      "text": "the layout is too fast"
+    },
+    {
+      "index": 819,
+      "category": "access and device feedback",
+      "text": "the layout is hard to use"
+    },
+    {
+      "index": 820,
+      "category": "access and device feedback",
+      "text": "the layout is easy to use"
+    },
+    {
+      "index": 821,
+      "category": "access and device feedback",
+      "text": "the layout is confusing"
+    },
+    {
+      "index": 822,
+      "category": "access and device feedback",
+      "text": "the layout is clear"
+    },
+    {
+      "index": 823,
+      "category": "access and device feedback",
+      "text": "the layout is helpful"
+    },
+    {
+      "index": 824,
+      "category": "access and device feedback",
+      "text": "the layout is frustrating"
+    },
+    {
+      "index": 825,
+      "category": "access and device feedback",
+      "text": "the layout is accurate"
+    },
+    {
+      "index": 826,
+      "category": "access and device feedback",
+      "text": "the layout is inaccurate"
+    },
+    {
+      "index": 827,
+      "category": "access and device feedback",
+      "text": "the layout is comfortable"
+    },
+    {
+      "index": 828,
+      "category": "access and device feedback",
+      "text": "the layout is uncomfortable"
+    },
+    {
+      "index": 829,
+      "category": "access and device feedback",
+      "text": "the layout is too loud"
+    },
+    {
+      "index": 830,
+      "category": "access and device feedback",
+      "text": "the layout is too quiet"
+    },
+    {
+      "index": 831,
+      "category": "access and device feedback",
+      "text": "the layout is too small"
+    },
+    {
+      "index": 832,
+      "category": "access and device feedback",
+      "text": "the layout is too large"
+    },
+    {
+      "index": 833,
+      "category": "access and device feedback",
+      "text": "the layout is hard to see"
+    },
+    {
+      "index": 834,
+      "category": "access and device feedback",
+      "text": "the layout is easy to see"
+    },
+    {
+      "index": 835,
+      "category": "access and device feedback",
+      "text": "the display is slow"
+    },
+    {
+      "index": 836,
+      "category": "access and device feedback",
+      "text": "the display is fast"
+    },
+    {
+      "index": 837,
+      "category": "access and device feedback",
+      "text": "the display is too slow"
+    },
+    {
+      "index": 838,
+      "category": "access and device feedback",
+      "text": "the display is too fast"
+    },
+    {
+      "index": 839,
+      "category": "access and device feedback",
+      "text": "the display is hard to use"
+    },
+    {
+      "index": 840,
+      "category": "access and device feedback",
+      "text": "the display is easy to use"
+    },
+    {
+      "index": 841,
+      "category": "access and device feedback",
+      "text": "the display is confusing"
+    },
+    {
+      "index": 842,
+      "category": "access and device feedback",
+      "text": "the display is clear"
+    },
+    {
+      "index": 843,
+      "category": "access and device feedback",
+      "text": "the display is helpful"
+    },
+    {
+      "index": 844,
+      "category": "access and device feedback",
+      "text": "the display is frustrating"
+    },
+    {
+      "index": 845,
+      "category": "access and device feedback",
+      "text": "the display is accurate"
+    },
+    {
+      "index": 846,
+      "category": "access and device feedback",
+      "text": "the display is inaccurate"
+    },
+    {
+      "index": 847,
+      "category": "access and device feedback",
+      "text": "the display is comfortable"
+    },
+    {
+      "index": 848,
+      "category": "access and device feedback",
+      "text": "the display is uncomfortable"
+    },
+    {
+      "index": 849,
+      "category": "access and device feedback",
+      "text": "the display is too loud"
+    },
+    {
+      "index": 850,
+      "category": "access and device feedback",
+      "text": "the display is too quiet"
+    },
+    {
+      "index": 851,
+      "category": "access and device feedback",
+      "text": "the display is too small"
+    },
+    {
+      "index": 852,
+      "category": "access and device feedback",
+      "text": "the display is too large"
+    },
+    {
+      "index": 853,
+      "category": "access and device feedback",
+      "text": "the display is hard to see"
+    },
+    {
+      "index": 854,
+      "category": "access and device feedback",
+      "text": "the display is easy to see"
+    },
+    {
+      "index": 855,
+      "category": "access and device feedback",
+      "text": "the symbol page is slow"
+    },
+    {
+      "index": 856,
+      "category": "access and device feedback",
+      "text": "the symbol page is fast"
+    },
+    {
+      "index": 857,
+      "category": "access and device feedback",
+      "text": "the symbol page is too slow"
+    },
+    {
+      "index": 858,
+      "category": "access and device feedback",
+      "text": "the symbol page is too fast"
+    },
+    {
+      "index": 859,
+      "category": "access and device feedback",
+      "text": "the symbol page is hard to use"
+    },
+    {
+      "index": 860,
+      "category": "access and device feedback",
+      "text": "the symbol page is easy to use"
+    },
+    {
+      "index": 861,
+      "category": "access and device feedback",
+      "text": "the symbol page is confusing"
+    },
+    {
+      "index": 862,
+      "category": "access and device feedback",
+      "text": "the symbol page is clear"
+    },
+    {
+      "index": 863,
+      "category": "access and device feedback",
+      "text": "the symbol page is helpful"
+    },
+    {
+      "index": 864,
+      "category": "access and device feedback",
+      "text": "the symbol page is frustrating"
+    },
+    {
+      "index": 865,
+      "category": "access and device feedback",
+      "text": "the symbol page is accurate"
+    },
+    {
+      "index": 866,
+      "category": "access and device feedback",
+      "text": "the symbol page is inaccurate"
+    },
+    {
+      "index": 867,
+      "category": "access and device feedback",
+      "text": "the symbol page is comfortable"
+    },
+    {
+      "index": 868,
+      "category": "access and device feedback",
+      "text": "the symbol page is uncomfortable"
+    },
+    {
+      "index": 869,
+      "category": "access and device feedback",
+      "text": "the symbol page is too loud"
+    },
+    {
+      "index": 870,
+      "category": "access and device feedback",
+      "text": "the symbol page is too quiet"
+    },
+    {
+      "index": 871,
+      "category": "access and device feedback",
+      "text": "the symbol page is too small"
+    },
+    {
+      "index": 872,
+      "category": "access and device feedback",
+      "text": "the symbol page is too large"
+    },
+    {
+      "index": 873,
+      "category": "access and device feedback",
+      "text": "the symbol page is hard to see"
+    },
+    {
+      "index": 874,
+      "category": "access and device feedback",
+      "text": "the symbol page is easy to see"
+    },
+    {
+      "index": 875,
+      "category": "access and device feedback",
+      "text": "the word prediction is slow"
+    },
+    {
+      "index": 876,
+      "category": "access and device feedback",
+      "text": "the word prediction is fast"
+    },
+    {
+      "index": 877,
+      "category": "access and device feedback",
+      "text": "the word prediction is too slow"
+    },
+    {
+      "index": 878,
+      "category": "access and device feedback",
+      "text": "the word prediction is too fast"
+    },
+    {
+      "index": 879,
+      "category": "access and device feedback",
+      "text": "the word prediction is hard to use"
+    },
+    {
+      "index": 880,
+      "category": "access and device feedback",
+      "text": "the word prediction is easy to use"
+    },
+    {
+      "index": 881,
+      "category": "access and device feedback",
+      "text": "the word prediction is confusing"
+    },
+    {
+      "index": 882,
+      "category": "access and device feedback",
+      "text": "the word prediction is clear"
+    },
+    {
+      "index": 883,
+      "category": "access and device feedback",
+      "text": "the word prediction is helpful"
+    },
+    {
+      "index": 884,
+      "category": "access and device feedback",
+      "text": "the word prediction is frustrating"
+    },
+    {
+      "index": 885,
+      "category": "access and device feedback",
+      "text": "the word prediction is accurate"
+    },
+    {
+      "index": 886,
+      "category": "access and device feedback",
+      "text": "the word prediction is inaccurate"
+    },
+    {
+      "index": 887,
+      "category": "access and device feedback",
+      "text": "the word prediction is comfortable"
+    },
+    {
+      "index": 888,
+      "category": "access and device feedback",
+      "text": "the word prediction is uncomfortable"
+    },
+    {
+      "index": 889,
+      "category": "access and device feedback",
+      "text": "the word prediction is too loud"
+    },
+    {
+      "index": 890,
+      "category": "access and device feedback",
+      "text": "the word prediction is too quiet"
+    },
+    {
+      "index": 891,
+      "category": "access and device feedback",
+      "text": "the word prediction is too small"
+    },
+    {
+      "index": 892,
+      "category": "access and device feedback",
+      "text": "the word prediction is too large"
+    },
+    {
+      "index": 893,
+      "category": "access and device feedback",
+      "text": "the word prediction is hard to see"
+    },
+    {
+      "index": 894,
+      "category": "access and device feedback",
+      "text": "the word prediction is easy to see"
+    },
+    {
+      "index": 895,
+      "category": "access and device feedback",
+      "text": "the prediction list is slow"
+    },
+    {
+      "index": 896,
+      "category": "access and device feedback",
+      "text": "the prediction list is fast"
+    },
+    {
+      "index": 897,
+      "category": "access and device feedback",
+      "text": "the prediction list is too slow"
+    },
+    {
+      "index": 898,
+      "category": "access and device feedback",
+      "text": "the prediction list is too fast"
+    },
+    {
+      "index": 899,
+      "category": "access and device feedback",
+      "text": "the prediction list is hard to use"
+    },
+    {
+      "index": 900,
+      "category": "access and device feedback",
+      "text": "the prediction list is easy to use"
+    },
+    {
+      "index": 901,
+      "category": "access and device feedback",
+      "text": "the prediction list is confusing"
+    },
+    {
+      "index": 902,
+      "category": "access and device feedback",
+      "text": "the prediction list is clear"
+    },
+    {
+      "index": 903,
+      "category": "access and device feedback",
+      "text": "the prediction list is helpful"
+    },
+    {
+      "index": 904,
+      "category": "access and device feedback",
+      "text": "the prediction list is frustrating"
+    },
+    {
+      "index": 905,
+      "category": "access and device feedback",
+      "text": "the prediction list is accurate"
+    },
+    {
+      "index": 906,
+      "category": "access and device feedback",
+      "text": "the prediction list is inaccurate"
+    },
+    {
+      "index": 907,
+      "category": "access and device feedback",
+      "text": "the prediction list is comfortable"
+    },
+    {
+      "index": 908,
+      "category": "access and device feedback",
+      "text": "the prediction list is uncomfortable"
+    },
+    {
+      "index": 909,
+      "category": "access and device feedback",
+      "text": "the prediction list is too loud"
+    },
+    {
+      "index": 910,
+      "category": "access and device feedback",
+      "text": "the prediction list is too quiet"
+    },
+    {
+      "index": 911,
+      "category": "access and device feedback",
+      "text": "the prediction list is too small"
+    },
+    {
+      "index": 912,
+      "category": "access and device feedback",
+      "text": "the prediction list is too large"
+    },
+    {
+      "index": 913,
+      "category": "access and device feedback",
+      "text": "the prediction list is hard to see"
+    },
+    {
+      "index": 914,
+      "category": "access and device feedback",
+      "text": "the prediction list is easy to see"
+    },
+    {
+      "index": 915,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is slow"
+    },
+    {
+      "index": 916,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is fast"
+    },
+    {
+      "index": 917,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is too slow"
+    },
+    {
+      "index": 918,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is too fast"
+    },
+    {
+      "index": 919,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is hard to use"
+    },
+    {
+      "index": 920,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is easy to use"
+    },
+    {
+      "index": 921,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is confusing"
+    },
+    {
+      "index": 922,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is clear"
+    },
+    {
+      "index": 923,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is helpful"
+    },
+    {
+      "index": 924,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is frustrating"
+    },
+    {
+      "index": 925,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is accurate"
+    },
+    {
+      "index": 926,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is inaccurate"
+    },
+    {
+      "index": 927,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is comfortable"
+    },
+    {
+      "index": 928,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is uncomfortable"
+    },
+    {
+      "index": 929,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is too loud"
+    },
+    {
+      "index": 930,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is too quiet"
+    },
+    {
+      "index": 931,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is too small"
+    },
+    {
+      "index": 932,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is too large"
+    },
+    {
+      "index": 933,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is hard to see"
+    },
+    {
+      "index": 934,
+      "category": "access and device feedback",
+      "text": "the ambiguous keyboard is easy to see"
+    },
+    {
+      "index": 935,
+      "category": "access and device feedback",
+      "text": "the icon sequence is slow"
+    },
+    {
+      "index": 936,
+      "category": "access and device feedback",
+      "text": "the icon sequence is fast"
+    },
+    {
+      "index": 937,
+      "category": "access and device feedback",
+      "text": "the icon sequence is too slow"
+    },
+    {
+      "index": 938,
+      "category": "access and device feedback",
+      "text": "the icon sequence is too fast"
+    },
+    {
+      "index": 939,
+      "category": "access and device feedback",
+      "text": "the icon sequence is hard to use"
+    },
+    {
+      "index": 940,
+      "category": "access and device feedback",
+      "text": "the icon sequence is easy to use"
+    },
+    {
+      "index": 941,
+      "category": "access and device feedback",
+      "text": "the icon sequence is confusing"
+    },
+    {
+      "index": 942,
+      "category": "access and device feedback",
+      "text": "the icon sequence is clear"
+    },
+    {
+      "index": 943,
+      "category": "access and device feedback",
+      "text": "the icon sequence is helpful"
+    },
+    {
+      "index": 944,
+      "category": "access and device feedback",
+      "text": "the icon sequence is frustrating"
+    },
+    {
+      "index": 945,
+      "category": "access and device feedback",
+      "text": "the icon sequence is accurate"
+    },
+    {
+      "index": 946,
+      "category": "access and device feedback",
+      "text": "the icon sequence is inaccurate"
+    },
+    {
+      "index": 947,
+      "category": "access and device feedback",
+      "text": "the icon sequence is comfortable"
+    },
+    {
+      "index": 948,
+      "category": "access and device feedback",
+      "text": "the icon sequence is uncomfortable"
+    },
+    {
+      "index": 949,
+      "category": "access and device feedback",
+      "text": "the icon sequence is too loud"
+    },
+    {
+      "index": 950,
+      "category": "access and device feedback",
+      "text": "the icon sequence is too quiet"
+    },
+    {
+      "index": 951,
+      "category": "access and device feedback",
+      "text": "the icon sequence is too small"
+    },
+    {
+      "index": 952,
+      "category": "access and device feedback",
+      "text": "the icon sequence is too large"
+    },
+    {
+      "index": 953,
+      "category": "access and device feedback",
+      "text": "the icon sequence is hard to see"
+    },
+    {
+      "index": 954,
+      "category": "access and device feedback",
+      "text": "the icon sequence is easy to see"
+    },
+    {
+      "index": 955,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is slow"
+    },
+    {
+      "index": 956,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is fast"
+    },
+    {
+      "index": 957,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is too slow"
+    },
+    {
+      "index": 958,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is too fast"
+    },
+    {
+      "index": 959,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is hard to use"
+    },
+    {
+      "index": 960,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is easy to use"
+    },
+    {
+      "index": 961,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is confusing"
+    },
+    {
+      "index": 962,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is clear"
+    },
+    {
+      "index": 963,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is helpful"
+    },
+    {
+      "index": 964,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is frustrating"
+    },
+    {
+      "index": 965,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is accurate"
+    },
+    {
+      "index": 966,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is inaccurate"
+    },
+    {
+      "index": 967,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is comfortable"
+    },
+    {
+      "index": 968,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is uncomfortable"
+    },
+    {
+      "index": 969,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is too loud"
+    },
+    {
+      "index": 970,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is too quiet"
+    },
+    {
+      "index": 971,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is too small"
+    },
+    {
+      "index": 972,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is too large"
+    },
+    {
+      "index": 973,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is hard to see"
+    },
+    {
+      "index": 974,
+      "category": "access and device feedback",
+      "text": "the stored phrase page is easy to see"
+    },
+    {
+      "index": 975,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is slow"
+    },
+    {
+      "index": 976,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is fast"
+    },
+    {
+      "index": 977,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is too slow"
+    },
+    {
+      "index": 978,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is too fast"
+    },
+    {
+      "index": 979,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is hard to use"
+    },
+    {
+      "index": 980,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is easy to use"
+    },
+    {
+      "index": 981,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is confusing"
+    },
+    {
+      "index": 982,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is clear"
+    },
+    {
+      "index": 983,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is helpful"
+    },
+    {
+      "index": 984,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is frustrating"
+    },
+    {
+      "index": 985,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is accurate"
+    },
+    {
+      "index": 986,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is inaccurate"
+    },
+    {
+      "index": 987,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is comfortable"
+    },
+    {
+      "index": 988,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is uncomfortable"
+    },
+    {
+      "index": 989,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is too loud"
+    },
+    {
+      "index": 990,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is too quiet"
+    },
+    {
+      "index": 991,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is too small"
+    },
+    {
+      "index": 992,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is too large"
+    },
+    {
+      "index": 993,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is hard to see"
+    },
+    {
+      "index": 994,
+      "category": "access and device feedback",
+      "text": "the core vocabulary page is easy to see"
+    },
+    {
+      "index": 995,
+      "category": "access and device feedback",
+      "text": "the scanner is slow"
+    },
+    {
+      "index": 996,
+      "category": "access and device feedback",
+      "text": "the scanner is fast"
+    },
+    {
+      "index": 997,
+      "category": "access and device feedback",
+      "text": "the scanner is too slow"
+    },
+    {
+      "index": 998,
+      "category": "access and device feedback",
+      "text": "the scanner is too fast"
+    },
+    {
+      "index": 999,
+      "category": "access and device feedback",
+      "text": "the scanner is hard to use"
+    },
+    {
+      "index": 1000,
+      "category": "access and device feedback",
+      "text": "the scanner is easy to use"
+    },
+    {
+      "index": 1001,
+      "category": "access and device feedback",
+      "text": "the scanner is confusing"
+    },
+    {
+      "index": 1002,
+      "category": "access and device feedback",
+      "text": "the scanner is clear"
+    },
+    {
+      "index": 1003,
+      "category": "access and device feedback",
+      "text": "the scanner is helpful"
+    },
+    {
+      "index": 1004,
+      "category": "access and device feedback",
+      "text": "the scanner is frustrating"
+    },
+    {
+      "index": 1005,
+      "category": "access and device feedback",
+      "text": "the scanner is accurate"
+    },
+    {
+      "index": 1006,
+      "category": "access and device feedback",
+      "text": "the scanner is inaccurate"
+    },
+    {
+      "index": 1007,
+      "category": "access and device feedback",
+      "text": "the scanner is comfortable"
+    },
+    {
+      "index": 1008,
+      "category": "access and device feedback",
+      "text": "the scanner is uncomfortable"
+    },
+    {
+      "index": 1009,
+      "category": "access and device feedback",
+      "text": "the scanner is too loud"
+    },
+    {
+      "index": 1010,
+      "category": "access and device feedback",
+      "text": "the scanner is too quiet"
+    },
+    {
+      "index": 1011,
+      "category": "access and device feedback",
+      "text": "the scanner is too small"
+    },
+    {
+      "index": 1012,
+      "category": "access and device feedback",
+      "text": "the scanner is too large"
+    },
+    {
+      "index": 1013,
+      "category": "access and device feedback",
+      "text": "the scanner is hard to see"
+    },
+    {
+      "index": 1014,
+      "category": "access and device feedback",
+      "text": "the scanner is easy to see"
+    },
+    {
+      "index": 1015,
+      "category": "access and device feedback",
+      "text": "the scan cursor is slow"
+    },
+    {
+      "index": 1016,
+      "category": "access and device feedback",
+      "text": "the scan cursor is fast"
+    },
+    {
+      "index": 1017,
+      "category": "access and device feedback",
+      "text": "the scan cursor is too slow"
+    },
+    {
+      "index": 1018,
+      "category": "access and device feedback",
+      "text": "the scan cursor is too fast"
+    },
+    {
+      "index": 1019,
+      "category": "access and device feedback",
+      "text": "the scan cursor is hard to use"
+    },
+    {
+      "index": 1020,
+      "category": "access and device feedback",
+      "text": "the scan cursor is easy to use"
+    },
+    {
+      "index": 1021,
+      "category": "access and device feedback",
+      "text": "the scan cursor is confusing"
+    },
+    {
+      "index": 1022,
+      "category": "access and device feedback",
+      "text": "the scan cursor is clear"
+    },
+    {
+      "index": 1023,
+      "category": "access and device feedback",
+      "text": "the scan cursor is helpful"
+    },
+    {
+      "index": 1024,
+      "category": "access and device feedback",
+      "text": "the scan cursor is frustrating"
+    },
+    {
+      "index": 1025,
+      "category": "access and device feedback",
+      "text": "the scan cursor is accurate"
+    },
+    {
+      "index": 1026,
+      "category": "access and device feedback",
+      "text": "the scan cursor is inaccurate"
+    },
+    {
+      "index": 1027,
+      "category": "access and device feedback",
+      "text": "the scan cursor is comfortable"
+    },
+    {
+      "index": 1028,
+      "category": "access and device feedback",
+      "text": "the scan cursor is uncomfortable"
+    },
+    {
+      "index": 1029,
+      "category": "access and device feedback",
+      "text": "the scan cursor is too loud"
+    },
+    {
+      "index": 1030,
+      "category": "access and device feedback",
+      "text": "the scan cursor is too quiet"
+    },
+    {
+      "index": 1031,
+      "category": "access and device feedback",
+      "text": "the scan cursor is too small"
+    },
+    {
+      "index": 1032,
+      "category": "access and device feedback",
+      "text": "the scan cursor is too large"
+    },
+    {
+      "index": 1033,
+      "category": "access and device feedback",
+      "text": "the scan cursor is hard to see"
+    },
+    {
+      "index": 1034,
+      "category": "access and device feedback",
+      "text": "the scan cursor is easy to see"
+    },
+    {
+      "index": 1035,
+      "category": "access and device feedback",
+      "text": "the switch is slow"
+    },
+    {
+      "index": 1036,
+      "category": "access and device feedback",
+      "text": "the switch is fast"
+    },
+    {
+      "index": 1037,
+      "category": "access and device feedback",
+      "text": "the switch is too slow"
+    },
+    {
+      "index": 1038,
+      "category": "access and device feedback",
+      "text": "the switch is too fast"
+    },
+    {
+      "index": 1039,
+      "category": "access and device feedback",
+      "text": "the switch is hard to use"
+    },
+    {
+      "index": 1040,
+      "category": "access and device feedback",
+      "text": "the switch is easy to use"
+    },
+    {
+      "index": 1041,
+      "category": "access and device feedback",
+      "text": "the switch is confusing"
+    },
+    {
+      "index": 1042,
+      "category": "access and device feedback",
+      "text": "the switch is clear"
+    },
+    {
+      "index": 1043,
+      "category": "access and device feedback",
+      "text": "the switch is helpful"
+    },
+    {
+      "index": 1044,
+      "category": "access and device feedback",
+      "text": "the switch is frustrating"
+    },
+    {
+      "index": 1045,
+      "category": "access and device feedback",
+      "text": "the switch is accurate"
+    },
+    {
+      "index": 1046,
+      "category": "access and device feedback",
+      "text": "the switch is inaccurate"
+    },
+    {
+      "index": 1047,
+      "category": "access and device feedback",
+      "text": "the switch is comfortable"
+    },
+    {
+      "index": 1048,
+      "category": "access and device feedback",
+      "text": "the switch is uncomfortable"
+    },
+    {
+      "index": 1049,
+      "category": "access and device feedback",
+      "text": "the switch is too loud"
+    },
+    {
+      "index": 1050,
+      "category": "access and device feedback",
+      "text": "the switch is too quiet"
+    },
+    {
+      "index": 1051,
+      "category": "access and device feedback",
+      "text": "the switch is too small"
+    },
+    {
+      "index": 1052,
+      "category": "access and device feedback",
+      "text": "the switch is too large"
+    },
+    {
+      "index": 1053,
+      "category": "access and device feedback",
+      "text": "the switch is hard to see"
+    },
+    {
+      "index": 1054,
+      "category": "access and device feedback",
+      "text": "the switch is easy to see"
+    },
+    {
+      "index": 1055,
+      "category": "access and device feedback",
+      "text": "the joystick is slow"
+    },
+    {
+      "index": 1056,
+      "category": "access and device feedback",
+      "text": "the joystick is fast"
+    },
+    {
+      "index": 1057,
+      "category": "access and device feedback",
+      "text": "the joystick is too slow"
+    },
+    {
+      "index": 1058,
+      "category": "access and device feedback",
+      "text": "the joystick is too fast"
+    },
+    {
+      "index": 1059,
+      "category": "access and device feedback",
+      "text": "the joystick is hard to use"
+    },
+    {
+      "index": 1060,
+      "category": "access and device feedback",
+      "text": "the joystick is easy to use"
+    },
+    {
+      "index": 1061,
+      "category": "access and device feedback",
+      "text": "the joystick is confusing"
+    },
+    {
+      "index": 1062,
+      "category": "access and device feedback",
+      "text": "the joystick is clear"
+    },
+    {
+      "index": 1063,
+      "category": "access and device feedback",
+      "text": "the joystick is helpful"
+    },
+    {
+      "index": 1064,
+      "category": "access and device feedback",
+      "text": "the joystick is frustrating"
+    },
+    {
+      "index": 1065,
+      "category": "access and device feedback",
+      "text": "the joystick is accurate"
+    },
+    {
+      "index": 1066,
+      "category": "access and device feedback",
+      "text": "the joystick is inaccurate"
+    },
+    {
+      "index": 1067,
+      "category": "access and device feedback",
+      "text": "the joystick is comfortable"
+    },
+    {
+      "index": 1068,
+      "category": "access and device feedback",
+      "text": "the joystick is uncomfortable"
+    },
+    {
+      "index": 1069,
+      "category": "access and device feedback",
+      "text": "the joystick is too loud"
+    },
+    {
+      "index": 1070,
+      "category": "access and device feedback",
+      "text": "the joystick is too quiet"
+    },
+    {
+      "index": 1071,
+      "category": "access and device feedback",
+      "text": "the joystick is too small"
+    },
+    {
+      "index": 1072,
+      "category": "access and device feedback",
+      "text": "the joystick is too large"
+    },
+    {
+      "index": 1073,
+      "category": "access and device feedback",
+      "text": "the joystick is hard to see"
+    },
+    {
+      "index": 1074,
+      "category": "access and device feedback",
+      "text": "the joystick is easy to see"
+    },
+    {
+      "index": 1075,
+      "category": "access and device feedback",
+      "text": "the head pointer is slow"
+    },
+    {
+      "index": 1076,
+      "category": "access and device feedback",
+      "text": "the head pointer is fast"
+    },
+    {
+      "index": 1077,
+      "category": "access and device feedback",
+      "text": "the head pointer is too slow"
+    },
+    {
+      "index": 1078,
+      "category": "access and device feedback",
+      "text": "the head pointer is too fast"
+    },
+    {
+      "index": 1079,
+      "category": "access and device feedback",
+      "text": "the head pointer is hard to use"
+    },
+    {
+      "index": 1080,
+      "category": "access and device feedback",
+      "text": "the head pointer is easy to use"
+    },
+    {
+      "index": 1081,
+      "category": "access and device feedback",
+      "text": "the head pointer is confusing"
+    },
+    {
+      "index": 1082,
+      "category": "access and device feedback",
+      "text": "the head pointer is clear"
+    },
+    {
+      "index": 1083,
+      "category": "access and device feedback",
+      "text": "the head pointer is helpful"
+    },
+    {
+      "index": 1084,
+      "category": "access and device feedback",
+      "text": "the head pointer is frustrating"
+    },
+    {
+      "index": 1085,
+      "category": "access and device feedback",
+      "text": "the head pointer is accurate"
+    },
+    {
+      "index": 1086,
+      "category": "access and device feedback",
+      "text": "the head pointer is inaccurate"
+    },
+    {
+      "index": 1087,
+      "category": "access and device feedback",
+      "text": "the head pointer is comfortable"
+    },
+    {
+      "index": 1088,
+      "category": "access and device feedback",
+      "text": "the head pointer is uncomfortable"
+    },
+    {
+      "index": 1089,
+      "category": "access and device feedback",
+      "text": "the head pointer is too loud"
+    },
+    {
+      "index": 1090,
+      "category": "access and device feedback",
+      "text": "the head pointer is too quiet"
+    },
+    {
+      "index": 1091,
+      "category": "access and device feedback",
+      "text": "the head pointer is too small"
+    },
+    {
+      "index": 1092,
+      "category": "access and device feedback",
+      "text": "the head pointer is too large"
+    },
+    {
+      "index": 1093,
+      "category": "access and device feedback",
+      "text": "the head pointer is hard to see"
+    },
+    {
+      "index": 1094,
+      "category": "access and device feedback",
+      "text": "the head pointer is easy to see"
+    },
+    {
+      "index": 1095,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is slow"
+    },
+    {
+      "index": 1096,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is fast"
+    },
+    {
+      "index": 1097,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is too slow"
+    },
+    {
+      "index": 1098,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is too fast"
+    },
+    {
+      "index": 1099,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is hard to use"
+    },
+    {
+      "index": 1100,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is easy to use"
+    },
+    {
+      "index": 1101,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is confusing"
+    },
+    {
+      "index": 1102,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is clear"
+    },
+    {
+      "index": 1103,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is helpful"
+    },
+    {
+      "index": 1104,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is frustrating"
+    },
+    {
+      "index": 1105,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is accurate"
+    },
+    {
+      "index": 1106,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is inaccurate"
+    },
+    {
+      "index": 1107,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is comfortable"
+    },
+    {
+      "index": 1108,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is uncomfortable"
+    },
+    {
+      "index": 1109,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is too loud"
+    },
+    {
+      "index": 1110,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is too quiet"
+    },
+    {
+      "index": 1111,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is too small"
+    },
+    {
+      "index": 1112,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is too large"
+    },
+    {
+      "index": 1113,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is hard to see"
+    },
+    {
+      "index": 1114,
+      "category": "access and device feedback",
+      "text": "the eye gaze system is easy to see"
+    },
+    {
+      "index": 1115,
+      "category": "access and device feedback",
+      "text": "the touch screen is slow"
+    },
+    {
+      "index": 1116,
+      "category": "access and device feedback",
+      "text": "the touch screen is fast"
+    },
+    {
+      "index": 1117,
+      "category": "access and device feedback",
+      "text": "the touch screen is too slow"
+    },
+    {
+      "index": 1118,
+      "category": "access and device feedback",
+      "text": "the touch screen is too fast"
+    },
+    {
+      "index": 1119,
+      "category": "access and device feedback",
+      "text": "the touch screen is hard to use"
+    },
+    {
+      "index": 1120,
+      "category": "access and device feedback",
+      "text": "the touch screen is easy to use"
+    },
+    {
+      "index": 1121,
+      "category": "access and device feedback",
+      "text": "the touch screen is confusing"
+    },
+    {
+      "index": 1122,
+      "category": "access and device feedback",
+      "text": "the touch screen is clear"
+    },
+    {
+      "index": 1123,
+      "category": "access and device feedback",
+      "text": "the touch screen is helpful"
+    },
+    {
+      "index": 1124,
+      "category": "access and device feedback",
+      "text": "the touch screen is frustrating"
+    },
+    {
+      "index": 1125,
+      "category": "access and device feedback",
+      "text": "the touch screen is accurate"
+    },
+    {
+      "index": 1126,
+      "category": "access and device feedback",
+      "text": "the touch screen is inaccurate"
+    },
+    {
+      "index": 1127,
+      "category": "access and device feedback",
+      "text": "the touch screen is comfortable"
+    },
+    {
+      "index": 1128,
+      "category": "access and device feedback",
+      "text": "the touch screen is uncomfortable"
+    },
+    {
+      "index": 1129,
+      "category": "access and device feedback",
+      "text": "the touch screen is too loud"
+    },
+    {
+      "index": 1130,
+      "category": "access and device feedback",
+      "text": "the touch screen is too quiet"
+    },
+    {
+      "index": 1131,
+      "category": "access and device feedback",
+      "text": "the touch screen is too small"
+    },
+    {
+      "index": 1132,
+      "category": "access and device feedback",
+      "text": "the touch screen is too large"
+    },
+    {
+      "index": 1133,
+      "category": "access and device feedback",
+      "text": "the touch screen is hard to see"
+    },
+    {
+      "index": 1134,
+      "category": "access and device feedback",
+      "text": "the touch screen is easy to see"
+    },
+    {
+      "index": 1135,
+      "category": "access and device feedback",
+      "text": "the target is slow"
+    },
+    {
+      "index": 1136,
+      "category": "access and device feedback",
+      "text": "the target is fast"
+    },
+    {
+      "index": 1137,
+      "category": "access and device feedback",
+      "text": "the target is too slow"
+    },
+    {
+      "index": 1138,
+      "category": "access and device feedback",
+      "text": "the target is too fast"
+    },
+    {
+      "index": 1139,
+      "category": "access and device feedback",
+      "text": "the target is hard to use"
+    },
+    {
+      "index": 1140,
+      "category": "access and device feedback",
+      "text": "the target is easy to use"
+    },
+    {
+      "index": 1141,
+      "category": "access and device feedback",
+      "text": "the target is confusing"
+    },
+    {
+      "index": 1142,
+      "category": "access and device feedback",
+      "text": "the target is clear"
+    },
+    {
+      "index": 1143,
+      "category": "access and device feedback",
+      "text": "the target is helpful"
+    },
+    {
+      "index": 1144,
+      "category": "access and device feedback",
+      "text": "the target is frustrating"
+    },
+    {
+      "index": 1145,
+      "category": "access and device feedback",
+      "text": "the target is accurate"
+    },
+    {
+      "index": 1146,
+      "category": "access and device feedback",
+      "text": "the target is inaccurate"
+    },
+    {
+      "index": 1147,
+      "category": "access and device feedback",
+      "text": "the target is comfortable"
+    },
+    {
+      "index": 1148,
+      "category": "access and device feedback",
+      "text": "the target is uncomfortable"
+    },
+    {
+      "index": 1149,
+      "category": "access and device feedback",
+      "text": "the target is too loud"
+    },
+    {
+      "index": 1150,
+      "category": "access and device feedback",
+      "text": "the target is too quiet"
+    },
+    {
+      "index": 1151,
+      "category": "access and device feedback",
+      "text": "the target is too large"
+    },
+    {
+      "index": 1152,
+      "category": "access and device feedback",
+      "text": "the target is hard to see"
+    },
+    {
+      "index": 1153,
+      "category": "access and device feedback",
+      "text": "the target is easy to see"
+    },
+    {
+      "index": 1154,
+      "category": "access and device feedback",
+      "text": "the button is slow"
+    },
+    {
+      "index": 1155,
+      "category": "access and device feedback",
+      "text": "the button is fast"
+    },
+    {
+      "index": 1156,
+      "category": "access and device feedback",
+      "text": "the button is too slow"
+    },
+    {
+      "index": 1157,
+      "category": "access and device feedback",
+      "text": "the button is too fast"
+    },
+    {
+      "index": 1158,
+      "category": "access and device feedback",
+      "text": "the button is hard to use"
+    },
+    {
+      "index": 1159,
+      "category": "access and device feedback",
+      "text": "the button is easy to use"
+    },
+    {
+      "index": 1160,
+      "category": "access and device feedback",
+      "text": "the button is confusing"
+    },
+    {
+      "index": 1161,
+      "category": "access and device feedback",
+      "text": "the button is clear"
+    },
+    {
+      "index": 1162,
+      "category": "access and device feedback",
+      "text": "the button is helpful"
+    },
+    {
+      "index": 1163,
+      "category": "access and device feedback",
+      "text": "the button is frustrating"
+    },
+    {
+      "index": 1164,
+      "category": "access and device feedback",
+      "text": "the button is accurate"
+    },
+    {
+      "index": 1165,
+      "category": "access and device feedback",
+      "text": "the button is inaccurate"
+    },
+    {
+      "index": 1166,
+      "category": "access and device feedback",
+      "text": "the button is comfortable"
+    },
+    {
+      "index": 1167,
+      "category": "access and device feedback",
+      "text": "the button is uncomfortable"
+    },
+    {
+      "index": 1168,
+      "category": "access and device feedback",
+      "text": "the button is too loud"
+    },
+    {
+      "index": 1169,
+      "category": "access and device feedback",
+      "text": "the button is too quiet"
+    },
+    {
+      "index": 1170,
+      "category": "access and device feedback",
+      "text": "the button is too small"
+    },
+    {
+      "index": 1171,
+      "category": "access and device feedback",
+      "text": "the button is too large"
+    },
+    {
+      "index": 1172,
+      "category": "access and device feedback",
+      "text": "the button is hard to see"
+    },
+    {
+      "index": 1173,
+      "category": "access and device feedback",
+      "text": "the button is easy to see"
+    },
+    {
+      "index": 1174,
+      "category": "access and device feedback",
+      "text": "the message window is slow"
+    },
+    {
+      "index": 1175,
+      "category": "access and device feedback",
+      "text": "the message window is fast"
+    },
+    {
+      "index": 1176,
+      "category": "access and device feedback",
+      "text": "the message window is too slow"
+    },
+    {
+      "index": 1177,
+      "category": "access and device feedback",
+      "text": "the message window is too fast"
+    },
+    {
+      "index": 1178,
+      "category": "access and device feedback",
+      "text": "the message window is hard to use"
+    },
+    {
+      "index": 1179,
+      "category": "access and device feedback",
+      "text": "the message window is easy to use"
+    },
+    {
+      "index": 1180,
+      "category": "access and device feedback",
+      "text": "the message window is confusing"
+    },
+    {
+      "index": 1181,
+      "category": "access and device feedback",
+      "text": "the message window is clear"
+    },
+    {
+      "index": 1182,
+      "category": "access and device feedback",
+      "text": "the message window is helpful"
+    },
+    {
+      "index": 1183,
+      "category": "access and device feedback",
+      "text": "the message window is frustrating"
+    },
+    {
+      "index": 1184,
+      "category": "access and device feedback",
+      "text": "the message window is accurate"
+    },
+    {
+      "index": 1185,
+      "category": "access and device feedback",
+      "text": "the message window is inaccurate"
+    },
+    {
+      "index": 1186,
+      "category": "access and device feedback",
+      "text": "the message window is comfortable"
+    },
+    {
+      "index": 1187,
+      "category": "access and device feedback",
+      "text": "the message window is uncomfortable"
+    },
+    {
+      "index": 1188,
+      "category": "access and device feedback",
+      "text": "the message window is too loud"
+    },
+    {
+      "index": 1189,
+      "category": "access and device feedback",
+      "text": "the message window is too quiet"
+    },
+    {
+      "index": 1190,
+      "category": "access and device feedback",
+      "text": "the message window is too small"
+    },
+    {
+      "index": 1191,
+      "category": "access and device feedback",
+      "text": "the message window is too large"
+    },
+    {
+      "index": 1192,
+      "category": "access and device feedback",
+      "text": "the message window is hard to see"
+    },
+    {
+      "index": 1193,
+      "category": "access and device feedback",
+      "text": "the message window is easy to see"
+    },
+    {
+      "index": 1194,
+      "category": "access and device feedback",
+      "text": "the speech output is slow"
+    },
+    {
+      "index": 1195,
+      "category": "access and device feedback",
+      "text": "the speech output is fast"
+    },
+    {
+      "index": 1196,
+      "category": "access and device feedback",
+      "text": "the speech output is too slow"
+    },
+    {
+      "index": 1197,
+      "category": "access and device feedback",
+      "text": "the speech output is too fast"
+    },
+    {
+      "index": 1198,
+      "category": "access and device feedback",
+      "text": "the speech output is hard to use"
+    },
+    {
+      "index": 1199,
+      "category": "access and device feedback",
+      "text": "the speech output is easy to use"
+    },
+    {
+      "index": 1200,
+      "category": "access and device feedback",
+      "text": "the speech output is confusing"
+    },
+    {
+      "index": 1201,
+      "category": "access and device feedback",
+      "text": "the speech output is clear"
+    },
+    {
+      "index": 1202,
+      "category": "access and device feedback",
+      "text": "the speech output is helpful"
+    },
+    {
+      "index": 1203,
+      "category": "access and device feedback",
+      "text": "the speech output is frustrating"
+    },
+    {
+      "index": 1204,
+      "category": "access and device feedback",
+      "text": "the speech output is accurate"
+    },
+    {
+      "index": 1205,
+      "category": "access and device feedback",
+      "text": "the speech output is inaccurate"
+    },
+    {
+      "index": 1206,
+      "category": "access and device feedback",
+      "text": "the speech output is comfortable"
+    },
+    {
+      "index": 1207,
+      "category": "access and device feedback",
+      "text": "the speech output is uncomfortable"
+    },
+    {
+      "index": 1208,
+      "category": "access and device feedback",
+      "text": "the speech output is too loud"
+    },
+    {
+      "index": 1209,
+      "category": "access and device feedback",
+      "text": "the speech output is too quiet"
+    },
+    {
+      "index": 1210,
+      "category": "access and device feedback",
+      "text": "the speech output is too small"
+    },
+    {
+      "index": 1211,
+      "category": "access and device feedback",
+      "text": "the speech output is too large"
+    },
+    {
+      "index": 1212,
+      "category": "access and device feedback",
+      "text": "the speech output is hard to see"
+    },
+    {
+      "index": 1213,
+      "category": "access and device feedback",
+      "text": "the speech output is easy to see"
+    },
+    {
+      "index": 1214,
+      "category": "access and device feedback",
+      "text": "the volume is slow"
+    },
+    {
+      "index": 1215,
+      "category": "access and device feedback",
+      "text": "the volume is fast"
+    },
+    {
+      "index": 1216,
+      "category": "access and device feedback",
+      "text": "the volume is too slow"
+    },
+    {
+      "index": 1217,
+      "category": "access and device feedback",
+      "text": "the volume is too fast"
+    },
+    {
+      "index": 1218,
+      "category": "access and device feedback",
+      "text": "the volume is hard to use"
+    },
+    {
+      "index": 1219,
+      "category": "access and device feedback",
+      "text": "the volume is easy to use"
+    },
+    {
+      "index": 1220,
+      "category": "access and device feedback",
+      "text": "the volume is confusing"
+    },
+    {
+      "index": 1221,
+      "category": "access and device feedback",
+      "text": "the volume is clear"
+    },
+    {
+      "index": 1222,
+      "category": "access and device feedback",
+      "text": "the volume is helpful"
+    },
+    {
+      "index": 1223,
+      "category": "access and device feedback",
+      "text": "the volume is frustrating"
+    },
+    {
+      "index": 1224,
+      "category": "access and device feedback",
+      "text": "the volume is accurate"
+    },
+    {
+      "index": 1225,
+      "category": "access and device feedback",
+      "text": "the volume is inaccurate"
+    },
+    {
+      "index": 1226,
+      "category": "access and device feedback",
+      "text": "the volume is comfortable"
+    },
+    {
+      "index": 1227,
+      "category": "access and device feedback",
+      "text": "the volume is uncomfortable"
+    },
+    {
+      "index": 1228,
+      "category": "access and device feedback",
+      "text": "the volume is too loud"
+    },
+    {
+      "index": 1229,
+      "category": "access and device feedback",
+      "text": "the volume is too quiet"
+    },
+    {
+      "index": 1230,
+      "category": "access and device feedback",
+      "text": "the volume is too small"
+    },
+    {
+      "index": 1231,
+      "category": "access and device feedback",
+      "text": "the volume is too large"
+    },
+    {
+      "index": 1232,
+      "category": "access and device feedback",
+      "text": "the volume is hard to see"
+    },
+    {
+      "index": 1233,
+      "category": "access and device feedback",
+      "text": "the volume is easy to see"
+    },
+    {
+      "index": 1234,
+      "category": "access and device feedback",
+      "text": "make the scan speed faster"
+    },
+    {
+      "index": 1235,
+      "category": "access and device feedback",
+      "text": "the scan speed should be faster"
+    },
+    {
+      "index": 1236,
+      "category": "access and device feedback",
+      "text": "make the scan speed slower"
+    },
+    {
+      "index": 1237,
+      "category": "access and device feedback",
+      "text": "the scan speed should be slower"
+    },
+    {
+      "index": 1238,
+      "category": "access and device feedback",
+      "text": "make the scan speed larger"
+    },
+    {
+      "index": 1239,
+      "category": "access and device feedback",
+      "text": "the scan speed should be larger"
+    },
+    {
+      "index": 1240,
+      "category": "access and device feedback",
+      "text": "make the scan speed smaller"
+    },
+    {
+      "index": 1241,
+      "category": "access and device feedback",
+      "text": "the scan speed should be smaller"
+    },
+    {
+      "index": 1242,
+      "category": "access and device feedback",
+      "text": "make the scan speed higher"
+    },
+    {
+      "index": 1243,
+      "category": "access and device feedback",
+      "text": "the scan speed should be higher"
+    },
+    {
+      "index": 1244,
+      "category": "access and device feedback",
+      "text": "make the scan speed lower"
+    },
+    {
+      "index": 1245,
+      "category": "access and device feedback",
+      "text": "the scan speed should be lower"
+    },
+    {
+      "index": 1246,
+      "category": "access and device feedback",
+      "text": "make the scan speed easier"
+    },
+    {
+      "index": 1247,
+      "category": "access and device feedback",
+      "text": "the scan speed should be easier"
+    },
+    {
+      "index": 1248,
+      "category": "access and device feedback",
+      "text": "make the scan speed harder"
+    },
+    {
+      "index": 1249,
+      "category": "access and device feedback",
+      "text": "the scan speed should be harder"
+    },
+    {
+      "index": 1250,
+      "category": "access and device feedback",
+      "text": "make the scan speed more stable"
+    },
+    {
+      "index": 1251,
+      "category": "access and device feedback",
+      "text": "the scan speed should be more stable"
+    },
+    {
+      "index": 1252,
+      "category": "access and device feedback",
+      "text": "make the scan speed less sensitive"
+    },
+    {
+      "index": 1253,
+      "category": "access and device feedback",
+      "text": "the scan speed should be less sensitive"
+    },
+    {
+      "index": 1254,
+      "category": "access and device feedback",
+      "text": "make the scan speed more sensitive"
+    },
+    {
+      "index": 1255,
+      "category": "access and device feedback",
+      "text": "the scan speed should be more sensitive"
+    },
+    {
+      "index": 1256,
+      "category": "access and device feedback",
+      "text": "make the scan speed clearer"
+    },
+    {
+      "index": 1257,
+      "category": "access and device feedback",
+      "text": "the scan speed should be clearer"
+    },
+    {
+      "index": 1258,
+      "category": "access and device feedback",
+      "text": "make the scan delay faster"
+    },
+    {
+      "index": 1259,
+      "category": "access and device feedback",
+      "text": "the scan delay should be faster"
+    },
+    {
+      "index": 1260,
+      "category": "access and device feedback",
+      "text": "make the scan delay slower"
+    },
+    {
+      "index": 1261,
+      "category": "access and device feedback",
+      "text": "the scan delay should be slower"
+    },
+    {
+      "index": 1262,
+      "category": "access and device feedback",
+      "text": "make the scan delay larger"
+    },
+    {
+      "index": 1263,
+      "category": "access and device feedback",
+      "text": "the scan delay should be larger"
+    },
+    {
+      "index": 1264,
+      "category": "access and device feedback",
+      "text": "make the scan delay smaller"
+    },
+    {
+      "index": 1265,
+      "category": "access and device feedback",
+      "text": "the scan delay should be smaller"
+    },
+    {
+      "index": 1266,
+      "category": "access and device feedback",
+      "text": "make the scan delay higher"
+    },
+    {
+      "index": 1267,
+      "category": "access and device feedback",
+      "text": "the scan delay should be higher"
+    },
+    {
+      "index": 1268,
+      "category": "access and device feedback",
+      "text": "make the scan delay lower"
+    },
+    {
+      "index": 1269,
+      "category": "access and device feedback",
+      "text": "the scan delay should be lower"
+    },
+    {
+      "index": 1270,
+      "category": "access and device feedback",
+      "text": "make the scan delay easier"
+    },
+    {
+      "index": 1271,
+      "category": "access and device feedback",
+      "text": "the scan delay should be easier"
+    },
+    {
+      "index": 1272,
+      "category": "access and device feedback",
+      "text": "make the scan delay harder"
+    },
+    {
+      "index": 1273,
+      "category": "access and device feedback",
+      "text": "the scan delay should be harder"
+    },
+    {
+      "index": 1274,
+      "category": "access and device feedback",
+      "text": "make the scan delay more stable"
+    },
+    {
+      "index": 1275,
+      "category": "access and device feedback",
+      "text": "the scan delay should be more stable"
+    },
+    {
+      "index": 1276,
+      "category": "access and device feedback",
+      "text": "make the scan delay less sensitive"
+    },
+    {
+      "index": 1277,
+      "category": "access and device feedback",
+      "text": "the scan delay should be less sensitive"
+    },
+    {
+      "index": 1278,
+      "category": "access and device feedback",
+      "text": "make the scan delay more sensitive"
+    },
+    {
+      "index": 1279,
+      "category": "access and device feedback",
+      "text": "the scan delay should be more sensitive"
+    },
+    {
+      "index": 1280,
+      "category": "access and device feedback",
+      "text": "make the scan delay clearer"
+    },
+    {
+      "index": 1281,
+      "category": "access and device feedback",
+      "text": "the scan delay should be clearer"
+    },
+    {
+      "index": 1282,
+      "category": "access and device feedback",
+      "text": "make the selection delay faster"
+    },
+    {
+      "index": 1283,
+      "category": "access and device feedback",
+      "text": "the selection delay should be faster"
+    },
+    {
+      "index": 1284,
+      "category": "access and device feedback",
+      "text": "make the selection delay slower"
+    },
+    {
+      "index": 1285,
+      "category": "access and device feedback",
+      "text": "the selection delay should be slower"
+    },
+    {
+      "index": 1286,
+      "category": "access and device feedback",
+      "text": "make the selection delay larger"
+    },
+    {
+      "index": 1287,
+      "category": "access and device feedback",
+      "text": "the selection delay should be larger"
+    },
+    {
+      "index": 1288,
+      "category": "access and device feedback",
+      "text": "make the selection delay smaller"
+    },
+    {
+      "index": 1289,
+      "category": "access and device feedback",
+      "text": "the selection delay should be smaller"
+    },
+    {
+      "index": 1290,
+      "category": "access and device feedback",
+      "text": "make the selection delay higher"
+    },
+    {
+      "index": 1291,
+      "category": "access and device feedback",
+      "text": "the selection delay should be higher"
+    },
+    {
+      "index": 1292,
+      "category": "access and device feedback",
+      "text": "make the selection delay lower"
+    },
+    {
+      "index": 1293,
+      "category": "access and device feedback",
+      "text": "the selection delay should be lower"
+    },
+    {
+      "index": 1294,
+      "category": "access and device feedback",
+      "text": "make the selection delay easier"
+    },
+    {
+      "index": 1295,
+      "category": "access and device feedback",
+      "text": "the selection delay should be easier"
+    },
+    {
+      "index": 1296,
+      "category": "access and device feedback",
+      "text": "make the selection delay harder"
+    },
+    {
+      "index": 1297,
+      "category": "access and device feedback",
+      "text": "the selection delay should be harder"
+    },
+    {
+      "index": 1298,
+      "category": "access and device feedback",
+      "text": "make the selection delay more stable"
+    },
+    {
+      "index": 1299,
+      "category": "access and device feedback",
+      "text": "the selection delay should be more stable"
+    },
+    {
+      "index": 1300,
+      "category": "access and device feedback",
+      "text": "make the selection delay less sensitive"
+    },
+    {
+      "index": 1301,
+      "category": "access and device feedback",
+      "text": "the selection delay should be less sensitive"
+    },
+    {
+      "index": 1302,
+      "category": "access and device feedback",
+      "text": "make the selection delay more sensitive"
+    },
+    {
+      "index": 1303,
+      "category": "access and device feedback",
+      "text": "the selection delay should be more sensitive"
+    },
+    {
+      "index": 1304,
+      "category": "access and device feedback",
+      "text": "make the selection delay clearer"
+    },
+    {
+      "index": 1305,
+      "category": "access and device feedback",
+      "text": "the selection delay should be clearer"
+    },
+    {
+      "index": 1306,
+      "category": "access and device feedback",
+      "text": "make the dwell time faster"
+    },
+    {
+      "index": 1307,
+      "category": "access and device feedback",
+      "text": "the dwell time should be faster"
+    },
+    {
+      "index": 1308,
+      "category": "access and device feedback",
+      "text": "make the dwell time slower"
+    },
+    {
+      "index": 1309,
+      "category": "access and device feedback",
+      "text": "the dwell time should be slower"
+    },
+    {
+      "index": 1310,
+      "category": "access and device feedback",
+      "text": "make the dwell time larger"
+    },
+    {
+      "index": 1311,
+      "category": "access and device feedback",
+      "text": "the dwell time should be larger"
+    },
+    {
+      "index": 1312,
+      "category": "access and device feedback",
+      "text": "make the dwell time smaller"
+    },
+    {
+      "index": 1313,
+      "category": "access and device feedback",
+      "text": "the dwell time should be smaller"
+    },
+    {
+      "index": 1314,
+      "category": "access and device feedback",
+      "text": "make the dwell time higher"
+    },
+    {
+      "index": 1315,
+      "category": "access and device feedback",
+      "text": "the dwell time should be higher"
+    },
+    {
+      "index": 1316,
+      "category": "access and device feedback",
+      "text": "make the dwell time lower"
+    },
+    {
+      "index": 1317,
+      "category": "access and device feedback",
+      "text": "the dwell time should be lower"
+    },
+    {
+      "index": 1318,
+      "category": "access and device feedback",
+      "text": "make the dwell time easier"
+    },
+    {
+      "index": 1319,
+      "category": "access and device feedback",
+      "text": "the dwell time should be easier"
+    },
+    {
+      "index": 1320,
+      "category": "access and device feedback",
+      "text": "make the dwell time harder"
+    },
+    {
+      "index": 1321,
+      "category": "access and device feedback",
+      "text": "the dwell time should be harder"
+    },
+    {
+      "index": 1322,
+      "category": "access and device feedback",
+      "text": "make the dwell time more stable"
+    },
+    {
+      "index": 1323,
+      "category": "access and device feedback",
+      "text": "the dwell time should be more stable"
+    },
+    {
+      "index": 1324,
+      "category": "access and device feedback",
+      "text": "make the dwell time less sensitive"
+    },
+    {
+      "index": 1325,
+      "category": "access and device feedback",
+      "text": "the dwell time should be less sensitive"
+    },
+    {
+      "index": 1326,
+      "category": "access and device feedback",
+      "text": "make the dwell time more sensitive"
+    },
+    {
+      "index": 1327,
+      "category": "access and device feedback",
+      "text": "the dwell time should be more sensitive"
+    },
+    {
+      "index": 1328,
+      "category": "access and device feedback",
+      "text": "make the dwell time clearer"
+    },
+    {
+      "index": 1329,
+      "category": "access and device feedback",
+      "text": "the dwell time should be clearer"
+    },
+    {
+      "index": 1330,
+      "category": "access and device feedback",
+      "text": "make the target size faster"
+    },
+    {
+      "index": 1331,
+      "category": "access and device feedback",
+      "text": "the target size should be faster"
+    },
+    {
+      "index": 1332,
+      "category": "access and device feedback",
+      "text": "make the target size slower"
+    },
+    {
+      "index": 1333,
+      "category": "access and device feedback",
+      "text": "the target size should be slower"
+    },
+    {
+      "index": 1334,
+      "category": "access and device feedback",
+      "text": "make the target size larger"
+    },
+    {
+      "index": 1335,
+      "category": "access and device feedback",
+      "text": "the target size should be larger"
+    },
+    {
+      "index": 1336,
+      "category": "access and device feedback",
+      "text": "make the target size smaller"
+    },
+    {
+      "index": 1337,
+      "category": "access and device feedback",
+      "text": "the target size should be smaller"
+    },
+    {
+      "index": 1338,
+      "category": "access and device feedback",
+      "text": "make the target size higher"
+    },
+    {
+      "index": 1339,
+      "category": "access and device feedback",
+      "text": "the target size should be higher"
+    },
+    {
+      "index": 1340,
+      "category": "access and device feedback",
+      "text": "make the target size lower"
+    },
+    {
+      "index": 1341,
+      "category": "access and device feedback",
+      "text": "the target size should be lower"
+    },
+    {
+      "index": 1342,
+      "category": "access and device feedback",
+      "text": "make the target size easier"
+    },
+    {
+      "index": 1343,
+      "category": "access and device feedback",
+      "text": "the target size should be easier"
+    },
+    {
+      "index": 1344,
+      "category": "access and device feedback",
+      "text": "make the target size harder"
+    },
+    {
+      "index": 1345,
+      "category": "access and device feedback",
+      "text": "the target size should be harder"
+    },
+    {
+      "index": 1346,
+      "category": "access and device feedback",
+      "text": "make the target size more stable"
+    },
+    {
+      "index": 1347,
+      "category": "access and device feedback",
+      "text": "the target size should be more stable"
+    },
+    {
+      "index": 1348,
+      "category": "access and device feedback",
+      "text": "make the target size less sensitive"
+    },
+    {
+      "index": 1349,
+      "category": "access and device feedback",
+      "text": "the target size should be less sensitive"
+    },
+    {
+      "index": 1350,
+      "category": "access and device feedback",
+      "text": "make the target size more sensitive"
+    },
+    {
+      "index": 1351,
+      "category": "access and device feedback",
+      "text": "the target size should be more sensitive"
+    },
+    {
+      "index": 1352,
+      "category": "access and device feedback",
+      "text": "make the target size clearer"
+    },
+    {
+      "index": 1353,
+      "category": "access and device feedback",
+      "text": "the target size should be clearer"
+    },
+    {
+      "index": 1354,
+      "category": "access and device feedback",
+      "text": "make the button spacing faster"
+    },
+    {
+      "index": 1355,
+      "category": "access and device feedback",
+      "text": "the button spacing should be faster"
+    },
+    {
+      "index": 1356,
+      "category": "access and device feedback",
+      "text": "make the button spacing slower"
+    },
+    {
+      "index": 1357,
+      "category": "access and device feedback",
+      "text": "the button spacing should be slower"
+    },
+    {
+      "index": 1358,
+      "category": "access and device feedback",
+      "text": "make the button spacing larger"
+    },
+    {
+      "index": 1359,
+      "category": "access and device feedback",
+      "text": "the button spacing should be larger"
+    },
+    {
+      "index": 1360,
+      "category": "access and device feedback",
+      "text": "make the button spacing smaller"
+    },
+    {
+      "index": 1361,
+      "category": "access and device feedback",
+      "text": "the button spacing should be smaller"
+    },
+    {
+      "index": 1362,
+      "category": "access and device feedback",
+      "text": "make the button spacing higher"
+    },
+    {
+      "index": 1363,
+      "category": "access and device feedback",
+      "text": "the button spacing should be higher"
+    },
+    {
+      "index": 1364,
+      "category": "access and device feedback",
+      "text": "make the button spacing lower"
+    },
+    {
+      "index": 1365,
+      "category": "access and device feedback",
+      "text": "the button spacing should be lower"
+    },
+    {
+      "index": 1366,
+      "category": "access and device feedback",
+      "text": "make the button spacing easier"
+    },
+    {
+      "index": 1367,
+      "category": "access and device feedback",
+      "text": "the button spacing should be easier"
+    },
+    {
+      "index": 1368,
+      "category": "access and device feedback",
+      "text": "make the button spacing harder"
+    },
+    {
+      "index": 1369,
+      "category": "access and device feedback",
+      "text": "the button spacing should be harder"
+    },
+    {
+      "index": 1370,
+      "category": "access and device feedback",
+      "text": "make the button spacing more stable"
+    },
+    {
+      "index": 1371,
+      "category": "access and device feedback",
+      "text": "the button spacing should be more stable"
+    },
+    {
+      "index": 1372,
+      "category": "access and device feedback",
+      "text": "make the button spacing less sensitive"
+    },
+    {
+      "index": 1373,
+      "category": "access and device feedback",
+      "text": "the button spacing should be less sensitive"
+    },
+    {
+      "index": 1374,
+      "category": "access and device feedback",
+      "text": "make the button spacing more sensitive"
+    },
+    {
+      "index": 1375,
+      "category": "access and device feedback",
+      "text": "the button spacing should be more sensitive"
+    },
+    {
+      "index": 1376,
+      "category": "access and device feedback",
+      "text": "make the button spacing clearer"
+    },
+    {
+      "index": 1377,
+      "category": "access and device feedback",
+      "text": "the button spacing should be clearer"
+    },
+    {
+      "index": 1378,
+      "category": "access and device feedback",
+      "text": "make the font size faster"
+    },
+    {
+      "index": 1379,
+      "category": "access and device feedback",
+      "text": "the font size should be faster"
+    },
+    {
+      "index": 1380,
+      "category": "access and device feedback",
+      "text": "make the font size slower"
+    },
+    {
+      "index": 1381,
+      "category": "access and device feedback",
+      "text": "the font size should be slower"
+    },
+    {
+      "index": 1382,
+      "category": "access and device feedback",
+      "text": "make the font size larger"
+    },
+    {
+      "index": 1383,
+      "category": "access and device feedback",
+      "text": "the font size should be larger"
+    },
+    {
+      "index": 1384,
+      "category": "access and device feedback",
+      "text": "make the font size smaller"
+    },
+    {
+      "index": 1385,
+      "category": "access and device feedback",
+      "text": "the font size should be smaller"
+    },
+    {
+      "index": 1386,
+      "category": "access and device feedback",
+      "text": "make the font size higher"
+    },
+    {
+      "index": 1387,
+      "category": "access and device feedback",
+      "text": "the font size should be higher"
+    },
+    {
+      "index": 1388,
+      "category": "access and device feedback",
+      "text": "make the font size lower"
+    },
+    {
+      "index": 1389,
+      "category": "access and device feedback",
+      "text": "the font size should be lower"
+    },
+    {
+      "index": 1390,
+      "category": "access and device feedback",
+      "text": "make the font size easier"
+    },
+    {
+      "index": 1391,
+      "category": "access and device feedback",
+      "text": "the font size should be easier"
+    },
+    {
+      "index": 1392,
+      "category": "access and device feedback",
+      "text": "make the font size harder"
+    },
+    {
+      "index": 1393,
+      "category": "access and device feedback",
+      "text": "the font size should be harder"
+    },
+    {
+      "index": 1394,
+      "category": "access and device feedback",
+      "text": "make the font size more stable"
+    },
+    {
+      "index": 1395,
+      "category": "access and device feedback",
+      "text": "the font size should be more stable"
+    },
+    {
+      "index": 1396,
+      "category": "access and device feedback",
+      "text": "make the font size less sensitive"
+    },
+    {
+      "index": 1397,
+      "category": "access and device feedback",
+      "text": "the font size should be less sensitive"
+    },
+    {
+      "index": 1398,
+      "category": "access and device feedback",
+      "text": "make the font size more sensitive"
+    },
+    {
+      "index": 1399,
+      "category": "access and device feedback",
+      "text": "the font size should be more sensitive"
+    },
+    {
+      "index": 1400,
+      "category": "access and device feedback",
+      "text": "make the font size clearer"
+    },
+    {
+      "index": 1401,
+      "category": "access and device feedback",
+      "text": "the font size should be clearer"
+    },
+    {
+      "index": 1402,
+      "category": "access and device feedback",
+      "text": "make the contrast faster"
+    },
+    {
+      "index": 1403,
+      "category": "access and device feedback",
+      "text": "the contrast should be faster"
+    },
+    {
+      "index": 1404,
+      "category": "access and device feedback",
+      "text": "make the contrast slower"
+    },
+    {
+      "index": 1405,
+      "category": "access and device feedback",
+      "text": "the contrast should be slower"
+    },
+    {
+      "index": 1406,
+      "category": "access and device feedback",
+      "text": "make the contrast larger"
+    },
+    {
+      "index": 1407,
+      "category": "access and device feedback",
+      "text": "the contrast should be larger"
+    },
+    {
+      "index": 1408,
+      "category": "access and device feedback",
+      "text": "make the contrast smaller"
+    },
+    {
+      "index": 1409,
+      "category": "access and device feedback",
+      "text": "the contrast should be smaller"
+    },
+    {
+      "index": 1410,
+      "category": "access and device feedback",
+      "text": "make the contrast higher"
+    },
+    {
+      "index": 1411,
+      "category": "access and device feedback",
+      "text": "the contrast should be higher"
+    },
+    {
+      "index": 1412,
+      "category": "access and device feedback",
+      "text": "make the contrast lower"
+    },
+    {
+      "index": 1413,
+      "category": "access and device feedback",
+      "text": "the contrast should be lower"
+    },
+    {
+      "index": 1414,
+      "category": "access and device feedback",
+      "text": "make the contrast easier"
+    },
+    {
+      "index": 1415,
+      "category": "access and device feedback",
+      "text": "the contrast should be easier"
+    },
+    {
+      "index": 1416,
+      "category": "access and device feedback",
+      "text": "make the contrast harder"
+    },
+    {
+      "index": 1417,
+      "category": "access and device feedback",
+      "text": "the contrast should be harder"
+    },
+    {
+      "index": 1418,
+      "category": "access and device feedback",
+      "text": "make the contrast more stable"
+    },
+    {
+      "index": 1419,
+      "category": "access and device feedback",
+      "text": "the contrast should be more stable"
+    },
+    {
+      "index": 1420,
+      "category": "access and device feedback",
+      "text": "make the contrast less sensitive"
+    },
+    {
+      "index": 1421,
+      "category": "access and device feedback",
+      "text": "the contrast should be less sensitive"
+    },
+    {
+      "index": 1422,
+      "category": "access and device feedback",
+      "text": "make the contrast more sensitive"
+    },
+    {
+      "index": 1423,
+      "category": "access and device feedback",
+      "text": "the contrast should be more sensitive"
+    },
+    {
+      "index": 1424,
+      "category": "access and device feedback",
+      "text": "make the contrast clearer"
+    },
+    {
+      "index": 1425,
+      "category": "access and device feedback",
+      "text": "the contrast should be clearer"
+    },
+    {
+      "index": 1426,
+      "category": "access and device feedback",
+      "text": "make the volume faster"
+    },
+    {
+      "index": 1427,
+      "category": "access and device feedback",
+      "text": "the volume should be faster"
+    },
+    {
+      "index": 1428,
+      "category": "access and device feedback",
+      "text": "make the volume slower"
+    },
+    {
+      "index": 1429,
+      "category": "access and device feedback",
+      "text": "the volume should be slower"
+    },
+    {
+      "index": 1430,
+      "category": "access and device feedback",
+      "text": "make the volume larger"
+    },
+    {
+      "index": 1431,
+      "category": "access and device feedback",
+      "text": "the volume should be larger"
+    },
+    {
+      "index": 1432,
+      "category": "access and device feedback",
+      "text": "make the volume smaller"
+    },
+    {
+      "index": 1433,
+      "category": "access and device feedback",
+      "text": "the volume should be smaller"
+    },
+    {
+      "index": 1434,
+      "category": "access and device feedback",
+      "text": "make the volume higher"
+    },
+    {
+      "index": 1435,
+      "category": "access and device feedback",
+      "text": "the volume should be higher"
+    },
+    {
+      "index": 1436,
+      "category": "access and device feedback",
+      "text": "make the volume lower"
+    },
+    {
+      "index": 1437,
+      "category": "access and device feedback",
+      "text": "the volume should be lower"
+    },
+    {
+      "index": 1438,
+      "category": "access and device feedback",
+      "text": "make the volume easier"
+    },
+    {
+      "index": 1439,
+      "category": "access and device feedback",
+      "text": "the volume should be easier"
+    },
+    {
+      "index": 1440,
+      "category": "access and device feedback",
+      "text": "make the volume harder"
+    },
+    {
+      "index": 1441,
+      "category": "access and device feedback",
+      "text": "the volume should be harder"
+    },
+    {
+      "index": 1442,
+      "category": "access and device feedback",
+      "text": "make the volume more stable"
+    },
+    {
+      "index": 1443,
+      "category": "access and device feedback",
+      "text": "the volume should be more stable"
+    },
+    {
+      "index": 1444,
+      "category": "access and device feedback",
+      "text": "make the volume less sensitive"
+    },
+    {
+      "index": 1445,
+      "category": "access and device feedback",
+      "text": "the volume should be less sensitive"
+    },
+    {
+      "index": 1446,
+      "category": "access and device feedback",
+      "text": "make the volume more sensitive"
+    },
+    {
+      "index": 1447,
+      "category": "access and device feedback",
+      "text": "the volume should be more sensitive"
+    },
+    {
+      "index": 1448,
+      "category": "access and device feedback",
+      "text": "make the volume clearer"
+    },
+    {
+      "index": 1449,
+      "category": "access and device feedback",
+      "text": "the volume should be clearer"
+    },
+    {
+      "index": 1450,
+      "category": "access and device feedback",
+      "text": "make the pointer speed faster"
+    },
+    {
+      "index": 1451,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be faster"
+    },
+    {
+      "index": 1452,
+      "category": "access and device feedback",
+      "text": "make the pointer speed slower"
+    },
+    {
+      "index": 1453,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be slower"
+    },
+    {
+      "index": 1454,
+      "category": "access and device feedback",
+      "text": "make the pointer speed larger"
+    },
+    {
+      "index": 1455,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be larger"
+    },
+    {
+      "index": 1456,
+      "category": "access and device feedback",
+      "text": "make the pointer speed smaller"
+    },
+    {
+      "index": 1457,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be smaller"
+    },
+    {
+      "index": 1458,
+      "category": "access and device feedback",
+      "text": "make the pointer speed higher"
+    },
+    {
+      "index": 1459,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be higher"
+    },
+    {
+      "index": 1460,
+      "category": "access and device feedback",
+      "text": "make the pointer speed lower"
+    },
+    {
+      "index": 1461,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be lower"
+    },
+    {
+      "index": 1462,
+      "category": "access and device feedback",
+      "text": "make the pointer speed easier"
+    },
+    {
+      "index": 1463,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be easier"
+    },
+    {
+      "index": 1464,
+      "category": "access and device feedback",
+      "text": "make the pointer speed harder"
+    },
+    {
+      "index": 1465,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be harder"
+    },
+    {
+      "index": 1466,
+      "category": "access and device feedback",
+      "text": "make the pointer speed more stable"
+    },
+    {
+      "index": 1467,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be more stable"
+    },
+    {
+      "index": 1468,
+      "category": "access and device feedback",
+      "text": "make the pointer speed less sensitive"
+    },
+    {
+      "index": 1469,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be less sensitive"
+    },
+    {
+      "index": 1470,
+      "category": "access and device feedback",
+      "text": "make the pointer speed more sensitive"
+    },
+    {
+      "index": 1471,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be more sensitive"
+    },
+    {
+      "index": 1472,
+      "category": "access and device feedback",
+      "text": "make the pointer speed clearer"
+    },
+    {
+      "index": 1473,
+      "category": "access and device feedback",
+      "text": "the pointer speed should be clearer"
+    },
+    {
+      "index": 1474,
+      "category": "access and device feedback",
+      "text": "make the joystick speed faster"
+    },
+    {
+      "index": 1475,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be faster"
+    },
+    {
+      "index": 1476,
+      "category": "access and device feedback",
+      "text": "make the joystick speed slower"
+    },
+    {
+      "index": 1477,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be slower"
+    },
+    {
+      "index": 1478,
+      "category": "access and device feedback",
+      "text": "make the joystick speed larger"
+    },
+    {
+      "index": 1479,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be larger"
+    },
+    {
+      "index": 1480,
+      "category": "access and device feedback",
+      "text": "make the joystick speed smaller"
+    },
+    {
+      "index": 1481,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be smaller"
+    },
+    {
+      "index": 1482,
+      "category": "access and device feedback",
+      "text": "make the joystick speed higher"
+    },
+    {
+      "index": 1483,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be higher"
+    },
+    {
+      "index": 1484,
+      "category": "access and device feedback",
+      "text": "make the joystick speed lower"
+    },
+    {
+      "index": 1485,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be lower"
+    },
+    {
+      "index": 1486,
+      "category": "access and device feedback",
+      "text": "make the joystick speed easier"
+    },
+    {
+      "index": 1487,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be easier"
+    },
+    {
+      "index": 1488,
+      "category": "access and device feedback",
+      "text": "make the joystick speed harder"
+    },
+    {
+      "index": 1489,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be harder"
+    },
+    {
+      "index": 1490,
+      "category": "access and device feedback",
+      "text": "make the joystick speed more stable"
+    },
+    {
+      "index": 1491,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be more stable"
+    },
+    {
+      "index": 1492,
+      "category": "access and device feedback",
+      "text": "make the joystick speed less sensitive"
+    },
+    {
+      "index": 1493,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be less sensitive"
+    },
+    {
+      "index": 1494,
+      "category": "access and device feedback",
+      "text": "make the joystick speed more sensitive"
+    },
+    {
+      "index": 1495,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be more sensitive"
+    },
+    {
+      "index": 1496,
+      "category": "access and device feedback",
+      "text": "make the joystick speed clearer"
+    },
+    {
+      "index": 1497,
+      "category": "access and device feedback",
+      "text": "the joystick speed should be clearer"
+    },
+    {
+      "index": 1498,
+      "category": "access and device feedback",
+      "text": "make the switch sensitivity faster"
+    },
+    {
+      "index": 1499,
+      "category": "access and device feedback",
+      "text": "the switch sensitivity should be faster"
+    },
+    {
+      "index": 1500,
+      "category": "access and device feedback",
+      "text": "make the switch sensitivity slower"
+    }
+  ]
+}

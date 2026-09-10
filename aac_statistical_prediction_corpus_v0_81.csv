@@ -1,0 +1,1501 @@
+index,category,training_string
+1,core/high-frequency AAC phrases,i need help
+2,core/high-frequency AAC phrases,i need help with my wheelchair
+3,core/high-frequency AAC phrases,i want to go outside
+4,core/high-frequency AAC phrases,i do not understand
+5,core/high-frequency AAC phrases,can you say that again
+6,core/high-frequency AAC phrases,i am tired
+7,core/high-frequency AAC phrases,i need a break
+8,core/high-frequency AAC phrases,please stop
+9,core/high-frequency AAC phrases,that is funny
+10,core/high-frequency AAC phrases,i want a drink
+11,core/high-frequency AAC phrases,thank you
+12,core/high-frequency AAC phrases,no thank you
+13,core/high-frequency AAC phrases,yes please
+14,core/high-frequency AAC phrases,i need more time
+15,core/high-frequency AAC phrases,i need to try again
+16,core/high-frequency AAC phrases,wait a minute
+17,core/high-frequency AAC phrases,i am still typing
+18,core/high-frequency AAC phrases,please wait while i type
+19,core/high-frequency AAC phrases,that is not what i meant
+20,core/high-frequency AAC phrases,let me try again
+21,core/high-frequency AAC phrases,you misunderstood me
+22,core/high-frequency AAC phrases,i have something to say
+23,core/high-frequency AAC phrases,i want to talk
+24,core/high-frequency AAC phrases,i want to answer
+25,core/high-frequency AAC phrases,i have a question
+26,core/high-frequency AAC phrases,can i ask a question
+27,core/high-frequency AAC phrases,please slow down
+28,core/high-frequency AAC phrases,please give me time
+29,core/high-frequency AAC phrases,please ask me again
+30,core/high-frequency AAC phrases,i am ready
+31,core/high-frequency AAC phrases,i am not ready
+32,core/high-frequency AAC phrases,i am finished
+33,core/high-frequency AAC phrases,i am not finished
+34,core/high-frequency AAC phrases,the scan is too fast
+35,core/high-frequency AAC phrases,the scan is too slow
+36,core/high-frequency AAC phrases,the dwell time is too long
+37,core/high-frequency AAC phrases,the dwell time is too short
+38,core/high-frequency AAC phrases,the target is too small
+39,core/high-frequency AAC phrases,the keyboard is hard to use
+40,core/high-frequency AAC phrases,the prediction is helpful
+41,core/high-frequency AAC phrases,the prediction is wrong
+42,core/high-frequency AAC phrases,the device is not working
+43,core/high-frequency AAC phrases,the screen is hard to see
+44,core/high-frequency AAC phrases,my switch is not working
+45,core/high-frequency AAC phrases,my pointer is stuck
+46,core/high-frequency AAC phrases,i selected the wrong word
+47,core/high-frequency AAC phrases,i made a mistake
+48,core/high-frequency AAC phrases,please erase that
+49,core/high-frequency AAC phrases,please clear that
+50,core/high-frequency AAC phrases,please repeat that
+51,core/high-frequency AAC phrases,speak my message
+52,core/high-frequency AAC phrases,can you hear my device
+53,basic needs and requests,i need help with the wheelchair
+54,partner requests,can you help me with the wheelchair
+55,basic needs and requests,i need help with my communication device
+56,partner requests,can you help me with my communication device
+57,basic needs and requests,i need help with my switch
+58,partner requests,can you help me with my switch
+59,basic needs and requests,i need help with my head pointer
+60,partner requests,can you help me with my head pointer
+61,basic needs and requests,i need help with my eye gaze
+62,partner requests,can you help me with my eye gaze
+63,basic needs and requests,i need help with my positioning
+64,partner requests,can you help me with my positioning
+65,basic needs and requests,i need help with my homework
+66,partner requests,can you help me with my homework
+67,basic needs and requests,i need help with my assignment
+68,partner requests,can you help me with my assignment
+69,basic needs and requests,i need help with my tablet
+70,partner requests,can you help me with my tablet
+71,basic needs and requests,i need help with my keyboard
+72,partner requests,can you help me with my keyboard
+73,basic needs and requests,i need help with my mouse
+74,partner requests,can you help me with my mouse
+75,basic needs and requests,i need help with my trackball
+76,partner requests,can you help me with my trackball
+77,basic needs and requests,i need help with my joystick
+78,partner requests,can you help me with my joystick
+79,basic needs and requests,i need help with my scanner
+80,partner requests,can you help me with my scanner
+81,basic needs and requests,i need help with my screen
+82,partner requests,can you help me with my screen
+83,basic needs and requests,i need help with my mount
+84,partner requests,can you help me with my mount
+85,basic needs and requests,i need help with my tray
+86,partner requests,can you help me with my tray
+87,basic needs and requests,i need help with my headrest
+88,partner requests,can you help me with my headrest
+89,basic needs and requests,i need help with my footrest
+90,partner requests,can you help me with my footrest
+91,basic needs and requests,i need help with my message
+92,partner requests,can you help me with my message
+93,basic needs and requests,i need help with my sentence
+94,partner requests,can you help me with my sentence
+95,basic needs and requests,i need help with my word prediction
+96,partner requests,can you help me with my word prediction
+97,basic needs and requests,i need help with my dwell setting
+98,partner requests,can you help me with my dwell setting
+99,basic needs and requests,i need help with my volume
+100,partner requests,can you help me with my volume
+101,basic needs and requests,i need help with my sound
+102,partner requests,can you help me with my sound
+103,basic needs and requests,i need help with my camera
+104,partner requests,can you help me with my camera
+105,basic needs and requests,i need help with my webcam
+106,partner requests,can you help me with my webcam
+107,basic needs and requests,i need help with my calibration
+108,partner requests,can you help me with my calibration
+109,basic needs and requests,i need help with my access method
+110,partner requests,can you help me with my access method
+111,basic needs and requests,i need help with my selection technique
+112,partner requests,can you help me with my selection technique
+113,basic needs and requests,i need help with my layout
+114,partner requests,can you help me with my layout
+115,basic needs and requests,i need help with my target
+116,partner requests,can you help me with my target
+117,basic needs and requests,i need help with my practice run
+118,partner requests,can you help me with my practice run
+119,basic needs and requests,i need help with my test run
+120,partner requests,can you help me with my test run
+121,basic needs and requests,i need help with my data sheet
+122,partner requests,can you help me with my data sheet
+123,basic needs and requests,i need help with my rubric
+124,partner requests,can you help me with my rubric
+125,basic needs and requests,i need help with my worksheet
+126,partner requests,can you help me with my worksheet
+127,basic needs and requests,i need help with my field note
+128,partner requests,can you help me with my field note
+129,basic needs and requests,i need help with the chair
+130,partner requests,can you help me with the chair
+131,basic needs and requests,i need help with the book
+132,partner requests,can you help me with the book
+133,basic needs and requests,i need help with the phone
+134,partner requests,can you help me with the phone
+135,basic needs and requests,i need help with the bag
+136,partner requests,can you help me with the bag
+137,basic needs and requests,i need help with the jacket
+138,partner requests,can you help me with the jacket
+139,basic needs and requests,i need help with the water bottle
+140,partner requests,can you help me with the water bottle
+141,basic needs and requests,i need help with the door
+142,partner requests,can you help me with the door
+143,basic needs and requests,i need help with the light
+144,partner requests,can you help me with the light
+145,basic needs and requests,i need help with the computer
+146,partner requests,can you help me with the computer
+147,basic needs and requests,i need help with the charger
+148,partner requests,can you help me with the charger
+149,partner requests,please give me a break
+150,basic needs and requests,i need a drink
+151,partner requests,please give me a drink
+152,basic needs and requests,i need water
+153,partner requests,please give me water
+154,basic needs and requests,i need food
+155,partner requests,please give me food
+156,basic needs and requests,i need medicine
+157,partner requests,please help me get medicine
+158,basic needs and requests,i need rest
+159,partner requests,please help me get rest
+160,partner requests,please give me more time
+161,basic needs and requests,i need more space
+162,partner requests,please give me more space
+163,basic needs and requests,i need privacy
+164,partner requests,please give me privacy
+165,basic needs and requests,i need attention
+166,partner requests,please give me attention
+167,basic needs and requests,i need quiet
+168,partner requests,please give me quiet
+169,partner requests,please help me get help
+170,basic needs and requests,i need the bathroom
+171,partner requests,please help me get the bathroom
+172,basic needs and requests,i need my glasses
+173,partner requests,please help me get my glasses
+174,basic needs and requests,i need my hearing aids
+175,partner requests,please help me get my hearing aids
+176,basic needs and requests,i need my jacket
+177,partner requests,please help me get my jacket
+178,basic needs and requests,i need my notebook
+179,partner requests,please help me get my notebook
+180,basic needs and requests,i need my phone
+181,partner requests,please help me get my phone
+182,basic needs and requests,i need my charger
+183,partner requests,please help me get my charger
+184,basic needs and requests,i need my communication device
+185,partner requests,please help me get my communication device
+186,basic needs and requests,i need my wheelchair
+187,partner requests,please help me get my wheelchair
+188,basic needs and requests,i need my switch
+189,partner requests,please help me get my switch
+190,basic needs and requests,i need my headrest adjusted
+191,partner requests,please help me get my headrest adjusted
+192,basic needs and requests,i need my tray moved
+193,partner requests,please help me get my tray moved
+194,basic needs and requests,i need my arm supported
+195,partner requests,please help me get my arm supported
+196,basic needs and requests,i need my legs moved
+197,partner requests,please help me get my legs moved
+198,basic needs and requests,i need my feet repositioned
+199,partner requests,please help me get my feet repositioned
+200,basic needs and requests,i need my back supported
+201,partner requests,please help me get my back supported
+202,basic needs and requests,i need my head repositioned
+203,partner requests,please help me get my head repositioned
+204,basic needs and requests,i need the screen closer
+205,partner requests,please help me get the screen closer
+206,basic needs and requests,i need the screen farther away
+207,partner requests,please help me get the screen farther away
+208,basic needs and requests,i need the volume up
+209,partner requests,please help me get the volume up
+210,basic needs and requests,i need the volume down
+211,partner requests,please help me get the volume down
+212,basic needs and requests,i need the lights dimmed
+213,partner requests,please help me get the lights dimmed
+214,basic needs and requests,i need the door opened
+215,partner requests,please help me get the door opened
+216,basic needs and requests,i need the door closed
+217,partner requests,please help me get the door closed
+218,basic needs and requests,i need the window opened
+219,partner requests,please help me get the window opened
+220,basic needs and requests,i need the window closed
+221,partner requests,please help me get the window closed
+222,basic needs and requests,i need to stop
+223,partner requests,please help me get to stop
+224,basic needs and requests,i need to go home
+225,partner requests,please help me get to go home
+226,basic needs and requests,i need to go outside
+227,partner requests,please help me get to go outside
+228,basic needs and requests,i need to talk to you
+229,partner requests,please help me get to talk to you
+230,basic needs and requests,i need to ask something
+231,partner requests,please help me get to ask something
+232,basic needs and requests,i need to answer that
+233,partner requests,please help me get to answer that
+234,partner requests,please help me get to try again
+235,basic needs and requests,i need to finish this
+236,partner requests,please help me get to finish this
+237,basic needs and requests,i need to change activities
+238,partner requests,please help me get to change activities
+239,basic needs and requests,i need to rest now
+240,partner requests,please help me get to rest now
+241,wants and choices,do you want to go outside
+242,wants and choices,we can go outside
+243,wants and choices,i want to go home
+244,wants and choices,do you want to go home
+245,wants and choices,we can go home
+246,wants and choices,i want to go to class
+247,wants and choices,do you want to go to class
+248,wants and choices,we can go to class
+249,wants and choices,i want to go to school
+250,wants and choices,do you want to go to school
+251,wants and choices,we can go to school
+252,wants and choices,i want to go back
+253,wants and choices,do you want to go back
+254,wants and choices,we can go back
+255,wants and choices,i want to go now
+256,wants and choices,do you want to go now
+257,wants and choices,we can go now
+258,wants and choices,do you want to talk
+259,wants and choices,we can talk
+260,wants and choices,i want to stop
+261,wants and choices,do you want to stop
+262,wants and choices,we can stop
+263,wants and choices,i want to rest
+264,wants and choices,do you want to rest
+265,wants and choices,we can rest
+266,wants and choices,i want to eat
+267,wants and choices,do you want to eat
+268,wants and choices,we can eat
+269,wants and choices,i want to drink
+270,wants and choices,do you want to drink
+271,wants and choices,we can drink
+272,wants and choices,i want to watch a movie
+273,wants and choices,do you want to watch a movie
+274,wants and choices,we can watch a movie
+275,wants and choices,i want to listen to music
+276,wants and choices,do you want to listen to music
+277,wants and choices,we can listen to music
+278,wants and choices,i want to read
+279,wants and choices,do you want to read
+280,wants and choices,we can read
+281,wants and choices,i want to play a game
+282,wants and choices,do you want to play a game
+283,wants and choices,we can play a game
+284,wants and choices,i want to join the group
+285,wants and choices,do you want to join the group
+286,wants and choices,we can join the group
+287,wants and choices,i want to leave the room
+288,wants and choices,do you want to leave the room
+289,wants and choices,we can leave the room
+290,wants and choices,i want to sit up
+291,wants and choices,do you want to sit up
+292,wants and choices,we can sit up
+293,wants and choices,i want to lie down
+294,wants and choices,do you want to lie down
+295,wants and choices,we can lie down
+296,wants and choices,i want to move closer
+297,wants and choices,do you want to move closer
+298,wants and choices,we can move closer
+299,wants and choices,i want to move away
+300,wants and choices,do you want to move away
+301,wants and choices,we can move away
+302,wants and choices,i want to call my family
+303,wants and choices,do you want to call my family
+304,wants and choices,we can call my family
+305,wants and choices,i want to send a message
+306,wants and choices,do you want to send a message
+307,wants and choices,we can send a message
+308,wants and choices,i want to tell a story
+309,wants and choices,do you want to tell a story
+310,wants and choices,we can tell a story
+311,wants and choices,i want to make a joke
+312,wants and choices,do you want to make a joke
+313,wants and choices,we can make a joke
+314,wants and choices,i want to ask a question
+315,wants and choices,do you want to ask a question
+316,wants and choices,we can ask a question
+317,wants and choices,i want to answer the question
+318,wants and choices,do you want to answer the question
+319,wants and choices,we can answer the question
+320,wants and choices,i want to choose another activity
+321,wants and choices,do you want to choose another activity
+322,wants and choices,we can choose another activity
+323,wants and choices,i want to try that again
+324,wants and choices,do you want to try that again
+325,wants and choices,we can try that again
+326,wants and choices,i want to use the keyboard
+327,wants and choices,do you want to use the keyboard
+328,wants and choices,we can use the keyboard
+329,wants and choices,i want to use scanning
+330,wants and choices,do you want to use scanning
+331,wants and choices,we can use scanning
+332,wants and choices,i want to use the joystick
+333,wants and choices,do you want to use the joystick
+334,wants and choices,we can use the joystick
+335,wants and choices,i want to use word prediction
+336,wants and choices,do you want to use word prediction
+337,wants and choices,we can use word prediction
+338,wants and choices,i want to use a bigger target
+339,wants and choices,do you want to use a bigger target
+340,wants and choices,we can use a bigger target
+341,wants and choices,i want to use a slower scan
+342,wants and choices,do you want to use a slower scan
+343,wants and choices,we can use a slower scan
+344,wants and choices,i want to use a different layout
+345,wants and choices,do you want to use a different layout
+346,wants and choices,we can use a different layout
+347,wants and choices,i want to practice first
+348,wants and choices,do you want to practice first
+349,wants and choices,we can practice first
+350,wants and choices,i want to take the test
+351,wants and choices,do you want to take the test
+352,wants and choices,we can take the test
+353,wants and choices,i want to see the results
+354,wants and choices,do you want to see the results
+355,wants and choices,we can see the results
+356,wants and choices,i want to compare the methods
+357,wants and choices,do you want to compare the methods
+358,wants and choices,we can compare the methods
+359,wants and choices,i want to change the setting
+360,wants and choices,do you want to change the setting
+361,wants and choices,we can change the setting
+362,wants and choices,i want to save my work
+363,wants and choices,do you want to save my work
+364,wants and choices,we can save my work
+365,wants and choices,i want to print the worksheet
+366,wants and choices,do you want to print the worksheet
+367,wants and choices,we can print the worksheet
+368,partner requests,please wait
+369,partner requests,can you wait
+370,partner requests,can you stop
+371,partner requests,please listen
+372,partner requests,can you listen
+373,partner requests,can you slow down
+374,partner requests,can you give me time
+375,partner requests,please ask again
+376,partner requests,can you ask again
+377,partner requests,please say that again
+378,partner requests,can you repeat that
+379,partner requests,please move closer
+380,partner requests,can you move closer
+381,partner requests,please move away
+382,partner requests,can you move away
+383,partner requests,please speak louder
+384,partner requests,can you speak louder
+385,partner requests,please speak softer
+386,partner requests,can you speak softer
+387,partner requests,please look at me
+388,partner requests,can you look at me
+389,partner requests,please watch the screen
+390,partner requests,can you watch the screen
+391,partner requests,please check my device
+392,partner requests,can you check my device
+393,partner requests,please check my switch
+394,partner requests,can you check my switch
+395,partner requests,please fix my device
+396,partner requests,can you fix my device
+397,partner requests,please change the volume
+398,partner requests,can you change the volume
+399,partner requests,please move my chair
+400,partner requests,can you move my chair
+401,partner requests,please adjust my headrest
+402,partner requests,can you adjust my headrest
+403,partner requests,please move my arm
+404,partner requests,can you move my arm
+405,partner requests,please move my tray
+406,partner requests,can you move my tray
+407,partner requests,please turn the page
+408,partner requests,can you turn the page
+409,partner requests,please open the door
+410,partner requests,can you open the door
+411,partner requests,please close the door
+412,partner requests,can you close the door
+413,partner requests,please turn on the light
+414,partner requests,can you turn on the light
+415,partner requests,please turn off the light
+416,partner requests,can you turn off the light
+417,partner requests,please clear the message
+418,partner requests,can you clear the message
+419,partner requests,please delete that word
+420,partner requests,can you delete that word
+421,partner requests,please start over
+422,partner requests,can you start over
+423,partner requests,please try again
+424,partner requests,can you try again
+425,partner requests,please save this
+426,partner requests,can you save this
+427,partner requests,please write that down
+428,partner requests,can you write that down
+429,partner requests,please call my mom
+430,partner requests,can you call my mom
+431,partner requests,please call my dad
+432,partner requests,can you call my dad
+433,partner requests,please call the nurse
+434,partner requests,can you call the nurse
+435,partner requests,please call the teacher
+436,partner requests,can you call the teacher
+437,partner requests,please tell the group
+438,partner requests,can you tell the group
+439,partner requests,please help me choose
+440,partner requests,can you help me choose
+441,partner requests,please help me practice
+442,partner requests,can you help me practice
+443,partner requests,please help me finish
+444,partner requests,can you help me finish
+445,partner requests,please help me explain
+446,partner requests,can you help me explain
+447,feelings and states,i feel tired
+448,feelings and states,are you tired
+449,feelings and states,i am hungry
+450,feelings and states,i feel hungry
+451,feelings and states,are you hungry
+452,feelings and states,i am thirsty
+453,feelings and states,i feel thirsty
+454,feelings and states,are you thirsty
+455,feelings and states,i feel finished
+456,feelings and states,are you finished
+457,feelings and states,i feel ready
+458,feelings and states,are you ready
+459,feelings and states,i feel not ready
+460,feelings and states,are you not ready
+461,feelings and states,i am happy
+462,feelings and states,i feel happy
+463,feelings and states,are you happy
+464,feelings and states,i am sad
+465,feelings and states,i feel sad
+466,feelings and states,are you sad
+467,feelings and states,i am frustrated
+468,feelings and states,i feel frustrated
+469,feelings and states,are you frustrated
+470,feelings and states,i am uncomfortable
+471,feelings and states,i feel uncomfortable
+472,feelings and states,are you uncomfortable
+473,feelings and states,i am comfortable
+474,feelings and states,i feel comfortable
+475,feelings and states,are you comfortable
+476,feelings and states,i am okay
+477,feelings and states,i feel okay
+478,feelings and states,are you okay
+479,feelings and states,i am not okay
+480,feelings and states,i feel not okay
+481,feelings and states,are you not okay
+482,feelings and states,i am angry
+483,feelings and states,i feel angry
+484,feelings and states,are you angry
+485,feelings and states,i am worried
+486,feelings and states,i feel worried
+487,feelings and states,are you worried
+488,feelings and states,i am excited
+489,feelings and states,i feel excited
+490,feelings and states,are you excited
+491,feelings and states,i am bored
+492,feelings and states,i feel bored
+493,feelings and states,are you bored
+494,feelings and states,i am confused
+495,feelings and states,i feel confused
+496,feelings and states,are you confused
+497,feelings and states,i am interested
+498,feelings and states,i feel interested
+499,feelings and states,are you interested
+500,feelings and states,i am cold
+501,feelings and states,i feel cold
+502,feelings and states,are you cold
+503,feelings and states,i am hot
+504,feelings and states,i feel hot
+505,feelings and states,are you hot
+506,feelings and states,i am sore
+507,feelings and states,i feel sore
+508,feelings and states,are you sore
+509,feelings and states,i am dizzy
+510,feelings and states,i feel dizzy
+511,feelings and states,are you dizzy
+512,feelings and states,i am nervous
+513,feelings and states,i feel nervous
+514,feelings and states,are you nervous
+515,feelings and states,i am calm
+516,feelings and states,i feel calm
+517,feelings and states,are you calm
+518,feelings and states,i am proud
+519,feelings and states,i feel proud
+520,feelings and states,are you proud
+521,feelings and states,i am embarrassed
+522,feelings and states,i feel embarrassed
+523,feelings and states,are you embarrassed
+524,feelings and states,i am afraid
+525,feelings and states,i feel afraid
+526,feelings and states,are you afraid
+527,feelings and states,i am safe
+528,feelings and states,i feel safe
+529,feelings and states,are you safe
+530,feelings and states,i am unsafe
+531,feelings and states,i feel unsafe
+532,feelings and states,are you unsafe
+533,feelings and states,i am busy
+534,feelings and states,i feel busy
+535,feelings and states,are you busy
+536,feelings and states,i feel still typing
+537,feelings and states,are you still typing
+538,feelings and states,i am thinking
+539,feelings and states,i feel thinking
+540,feelings and states,are you thinking
+541,feelings and states,i am listening
+542,feelings and states,i feel listening
+543,feelings and states,are you listening
+544,feelings and states,i am waiting
+545,feelings and states,i feel waiting
+546,feelings and states,are you waiting
+547,feelings and states,i am trying
+548,feelings and states,i feel trying
+549,feelings and states,are you trying
+550,feelings and states,i am done
+551,feelings and states,i feel done
+552,feelings and states,are you done
+553,feelings and states,i am in pain
+554,feelings and states,i feel in pain
+555,feelings and states,are you in pain
+556,feelings and states,i am having trouble
+557,feelings and states,i feel having trouble
+558,feelings and states,are you having trouble
+559,feelings and states,i am doing better
+560,feelings and states,i feel doing better
+561,feelings and states,are you doing better
+562,feelings and states,i am having fun
+563,feelings and states,i feel having fun
+564,feelings and states,are you having fun
+565,body comfort and positioning,my head hurts
+566,body comfort and positioning,my head is tired
+567,body comfort and positioning,my head is stiff
+568,body comfort and positioning,my head is uncomfortable
+569,body comfort and positioning,my head needs support
+570,body comfort and positioning,my head needs to move
+571,body comfort and positioning,my head feels better
+572,body comfort and positioning,my head feels worse
+573,body comfort and positioning,my neck hurts
+574,body comfort and positioning,my neck is tired
+575,body comfort and positioning,my neck is stiff
+576,body comfort and positioning,my neck is uncomfortable
+577,body comfort and positioning,my neck needs support
+578,body comfort and positioning,my neck needs to move
+579,body comfort and positioning,my neck feels better
+580,body comfort and positioning,my neck feels worse
+581,body comfort and positioning,my shoulder hurts
+582,body comfort and positioning,my shoulder is tired
+583,body comfort and positioning,my shoulder is stiff
+584,body comfort and positioning,my shoulder is uncomfortable
+585,body comfort and positioning,my shoulder needs support
+586,body comfort and positioning,my shoulder needs to move
+587,body comfort and positioning,my shoulder feels better
+588,body comfort and positioning,my shoulder feels worse
+589,body comfort and positioning,my arm hurts
+590,body comfort and positioning,my arm is tired
+591,body comfort and positioning,my arm is stiff
+592,body comfort and positioning,my arm is uncomfortable
+593,body comfort and positioning,my arm needs support
+594,body comfort and positioning,my arm needs to move
+595,body comfort and positioning,my arm feels better
+596,body comfort and positioning,my arm feels worse
+597,body comfort and positioning,my hand hurts
+598,body comfort and positioning,my hand is tired
+599,body comfort and positioning,my hand is stiff
+600,body comfort and positioning,my hand is uncomfortable
+601,body comfort and positioning,my hand needs support
+602,body comfort and positioning,my hand needs to move
+603,body comfort and positioning,my hand feels better
+604,body comfort and positioning,my hand feels worse
+605,body comfort and positioning,my finger hurts
+606,body comfort and positioning,my finger is tired
+607,body comfort and positioning,my finger is stiff
+608,body comfort and positioning,my finger is uncomfortable
+609,body comfort and positioning,my finger needs support
+610,body comfort and positioning,my finger needs to move
+611,body comfort and positioning,my finger feels better
+612,body comfort and positioning,my finger feels worse
+613,body comfort and positioning,my back hurts
+614,body comfort and positioning,my back is tired
+615,body comfort and positioning,my back is stiff
+616,body comfort and positioning,my back is uncomfortable
+617,body comfort and positioning,my back needs support
+618,body comfort and positioning,my back needs to move
+619,body comfort and positioning,my back feels better
+620,body comfort and positioning,my back feels worse
+621,body comfort and positioning,my hip hurts
+622,body comfort and positioning,my hip is tired
+623,body comfort and positioning,my hip is stiff
+624,body comfort and positioning,my hip is uncomfortable
+625,body comfort and positioning,my hip needs support
+626,body comfort and positioning,my hip needs to move
+627,body comfort and positioning,my hip feels better
+628,body comfort and positioning,my hip feels worse
+629,body comfort and positioning,my leg hurts
+630,body comfort and positioning,my leg is tired
+631,body comfort and positioning,my leg is stiff
+632,body comfort and positioning,my leg is uncomfortable
+633,body comfort and positioning,my leg needs support
+634,body comfort and positioning,my leg needs to move
+635,body comfort and positioning,my leg feels better
+636,body comfort and positioning,my leg feels worse
+637,body comfort and positioning,my knee hurts
+638,body comfort and positioning,my knee is tired
+639,body comfort and positioning,my knee is stiff
+640,body comfort and positioning,my knee is uncomfortable
+641,body comfort and positioning,my knee needs support
+642,body comfort and positioning,my knee needs to move
+643,body comfort and positioning,my knee feels better
+644,body comfort and positioning,my knee feels worse
+645,body comfort and positioning,my foot hurts
+646,body comfort and positioning,my foot is tired
+647,body comfort and positioning,my foot is stiff
+648,body comfort and positioning,my foot is uncomfortable
+649,body comfort and positioning,my foot needs support
+650,body comfort and positioning,my foot needs to move
+651,body comfort and positioning,my foot feels better
+652,body comfort and positioning,my foot feels worse
+653,body comfort and positioning,my eyes hurts
+654,body comfort and positioning,my eyes is tired
+655,body comfort and positioning,my eyes is stiff
+656,body comfort and positioning,my eyes is uncomfortable
+657,body comfort and positioning,my eyes needs support
+658,body comfort and positioning,my eyes needs to move
+659,body comfort and positioning,my eyes feels better
+660,body comfort and positioning,my eyes feels worse
+661,body comfort and positioning,my ears hurts
+662,body comfort and positioning,my ears is tired
+663,body comfort and positioning,my ears is stiff
+664,body comfort and positioning,my ears is uncomfortable
+665,body comfort and positioning,my ears needs support
+666,body comfort and positioning,my ears needs to move
+667,body comfort and positioning,my ears feels better
+668,body comfort and positioning,my ears feels worse
+669,body comfort and positioning,my mouth hurts
+670,body comfort and positioning,my mouth is tired
+671,body comfort and positioning,my mouth is stiff
+672,body comfort and positioning,my mouth is uncomfortable
+673,body comfort and positioning,my mouth needs support
+674,body comfort and positioning,my mouth needs to move
+675,body comfort and positioning,my mouth feels better
+676,body comfort and positioning,my mouth feels worse
+677,body comfort and positioning,my throat hurts
+678,body comfort and positioning,my throat is tired
+679,body comfort and positioning,my throat is stiff
+680,body comfort and positioning,my throat is uncomfortable
+681,body comfort and positioning,my throat needs support
+682,body comfort and positioning,my throat needs to move
+683,body comfort and positioning,my throat feels better
+684,body comfort and positioning,my throat feels worse
+685,body comfort and positioning,my stomach hurts
+686,body comfort and positioning,my stomach is tired
+687,body comfort and positioning,my stomach is stiff
+688,body comfort and positioning,my stomach is uncomfortable
+689,body comfort and positioning,my stomach needs support
+690,body comfort and positioning,my stomach needs to move
+691,body comfort and positioning,my stomach feels better
+692,body comfort and positioning,my stomach feels worse
+693,body comfort and positioning,my chest hurts
+694,body comfort and positioning,my chest is tired
+695,body comfort and positioning,my chest is stiff
+696,body comfort and positioning,my chest is uncomfortable
+697,body comfort and positioning,my chest needs support
+698,body comfort and positioning,my chest needs to move
+699,body comfort and positioning,my chest feels better
+700,body comfort and positioning,my chest feels worse
+701,body comfort and positioning,please move my head up
+702,body comfort and positioning,i need you to move my head up
+703,body comfort and positioning,please move my head down
+704,body comfort and positioning,i need you to move my head down
+705,body comfort and positioning,please turn my head left
+706,body comfort and positioning,i need you to turn my head left
+707,body comfort and positioning,please turn my head right
+708,body comfort and positioning,i need you to turn my head right
+709,body comfort and positioning,please support my arm
+710,body comfort and positioning,i need you to support my arm
+711,body comfort and positioning,please support my wrist
+712,body comfort and positioning,i need you to support my wrist
+713,body comfort and positioning,please move my hand
+714,body comfort and positioning,i need you to move my hand
+715,body comfort and positioning,please move my foot
+716,body comfort and positioning,i need you to move my foot
+717,body comfort and positioning,please raise my chair
+718,body comfort and positioning,i need you to raise my chair
+719,body comfort and positioning,please lower my chair
+720,body comfort and positioning,i need you to lower my chair
+721,body comfort and positioning,please tilt my chair back
+722,body comfort and positioning,i need you to tilt my chair back
+723,body comfort and positioning,please tilt my chair forward
+724,body comfort and positioning,i need you to tilt my chair forward
+725,body comfort and positioning,please move the tray closer
+726,body comfort and positioning,i need you to move the tray closer
+727,body comfort and positioning,please move the tray away
+728,body comfort and positioning,i need you to move the tray away
+729,body comfort and positioning,please move the screen left
+730,body comfort and positioning,i need you to move the screen left
+731,body comfort and positioning,please move the screen right
+732,body comfort and positioning,i need you to move the screen right
+733,body comfort and positioning,please move the screen closer
+734,body comfort and positioning,i need you to move the screen closer
+735,body comfort and positioning,please move the screen farther away
+736,body comfort and positioning,i need you to move the screen farther away
+737,access and device feedback,the device is slow
+738,access and device feedback,the device is fast
+739,access and device feedback,the device is too slow
+740,access and device feedback,the device is too fast
+741,access and device feedback,the device is hard to use
+742,access and device feedback,the device is easy to use
+743,access and device feedback,the device is confusing
+744,access and device feedback,the device is clear
+745,access and device feedback,the device is helpful
+746,access and device feedback,the device is frustrating
+747,access and device feedback,the device is accurate
+748,access and device feedback,the device is inaccurate
+749,access and device feedback,the device is comfortable
+750,access and device feedback,the device is uncomfortable
+751,access and device feedback,the device is too loud
+752,access and device feedback,the device is too quiet
+753,access and device feedback,the device is too small
+754,access and device feedback,the device is too large
+755,access and device feedback,the device is hard to see
+756,access and device feedback,the device is easy to see
+757,access and device feedback,the communication device is slow
+758,access and device feedback,the communication device is fast
+759,access and device feedback,the communication device is too slow
+760,access and device feedback,the communication device is too fast
+761,access and device feedback,the communication device is hard to use
+762,access and device feedback,the communication device is easy to use
+763,access and device feedback,the communication device is confusing
+764,access and device feedback,the communication device is clear
+765,access and device feedback,the communication device is helpful
+766,access and device feedback,the communication device is frustrating
+767,access and device feedback,the communication device is accurate
+768,access and device feedback,the communication device is inaccurate
+769,access and device feedback,the communication device is comfortable
+770,access and device feedback,the communication device is uncomfortable
+771,access and device feedback,the communication device is too loud
+772,access and device feedback,the communication device is too quiet
+773,access and device feedback,the communication device is too small
+774,access and device feedback,the communication device is too large
+775,access and device feedback,the communication device is hard to see
+776,access and device feedback,the communication device is easy to see
+777,access and device feedback,the screen is slow
+778,access and device feedback,the screen is fast
+779,access and device feedback,the screen is too slow
+780,access and device feedback,the screen is too fast
+781,access and device feedback,the screen is hard to use
+782,access and device feedback,the screen is easy to use
+783,access and device feedback,the screen is confusing
+784,access and device feedback,the screen is clear
+785,access and device feedback,the screen is helpful
+786,access and device feedback,the screen is frustrating
+787,access and device feedback,the screen is accurate
+788,access and device feedback,the screen is inaccurate
+789,access and device feedback,the screen is comfortable
+790,access and device feedback,the screen is uncomfortable
+791,access and device feedback,the screen is too loud
+792,access and device feedback,the screen is too quiet
+793,access and device feedback,the screen is too small
+794,access and device feedback,the screen is too large
+795,access and device feedback,the screen is easy to see
+796,access and device feedback,the keyboard is slow
+797,access and device feedback,the keyboard is fast
+798,access and device feedback,the keyboard is too slow
+799,access and device feedback,the keyboard is too fast
+800,access and device feedback,the keyboard is easy to use
+801,access and device feedback,the keyboard is confusing
+802,access and device feedback,the keyboard is clear
+803,access and device feedback,the keyboard is helpful
+804,access and device feedback,the keyboard is frustrating
+805,access and device feedback,the keyboard is accurate
+806,access and device feedback,the keyboard is inaccurate
+807,access and device feedback,the keyboard is comfortable
+808,access and device feedback,the keyboard is uncomfortable
+809,access and device feedback,the keyboard is too loud
+810,access and device feedback,the keyboard is too quiet
+811,access and device feedback,the keyboard is too small
+812,access and device feedback,the keyboard is too large
+813,access and device feedback,the keyboard is hard to see
+814,access and device feedback,the keyboard is easy to see
+815,access and device feedback,the layout is slow
+816,access and device feedback,the layout is fast
+817,access and device feedback,the layout is too slow
+818,access and device feedback,the layout is too fast
+819,access and device feedback,the layout is hard to use
+820,access and device feedback,the layout is easy to use
+821,access and device feedback,the layout is confusing
+822,access and device feedback,the layout is clear
+823,access and device feedback,the layout is helpful
+824,access and device feedback,the layout is frustrating
+825,access and device feedback,the layout is accurate
+826,access and device feedback,the layout is inaccurate
+827,access and device feedback,the layout is comfortable
+828,access and device feedback,the layout is uncomfortable
+829,access and device feedback,the layout is too loud
+830,access and device feedback,the layout is too quiet
+831,access and device feedback,the layout is too small
+832,access and device feedback,the layout is too large
+833,access and device feedback,the layout is hard to see
+834,access and device feedback,the layout is easy to see
+835,access and device feedback,the display is slow
+836,access and device feedback,the display is fast
+837,access and device feedback,the display is too slow
+838,access and device feedback,the display is too fast
+839,access and device feedback,the display is hard to use
+840,access and device feedback,the display is easy to use
+841,access and device feedback,the display is confusing
+842,access and device feedback,the display is clear
+843,access and device feedback,the display is helpful
+844,access and device feedback,the display is frustrating
+845,access and device feedback,the display is accurate
+846,access and device feedback,the display is inaccurate
+847,access and device feedback,the display is comfortable
+848,access and device feedback,the display is uncomfortable
+849,access and device feedback,the display is too loud
+850,access and device feedback,the display is too quiet
+851,access and device feedback,the display is too small
+852,access and device feedback,the display is too large
+853,access and device feedback,the display is hard to see
+854,access and device feedback,the display is easy to see
+855,access and device feedback,the symbol page is slow
+856,access and device feedback,the symbol page is fast
+857,access and device feedback,the symbol page is too slow
+858,access and device feedback,the symbol page is too fast
+859,access and device feedback,the symbol page is hard to use
+860,access and device feedback,the symbol page is easy to use
+861,access and device feedback,the symbol page is confusing
+862,access and device feedback,the symbol page is clear
+863,access and device feedback,the symbol page is helpful
+864,access and device feedback,the symbol page is frustrating
+865,access and device feedback,the symbol page is accurate
+866,access and device feedback,the symbol page is inaccurate
+867,access and device feedback,the symbol page is comfortable
+868,access and device feedback,the symbol page is uncomfortable
+869,access and device feedback,the symbol page is too loud
+870,access and device feedback,the symbol page is too quiet
+871,access and device feedback,the symbol page is too small
+872,access and device feedback,the symbol page is too large
+873,access and device feedback,the symbol page is hard to see
+874,access and device feedback,the symbol page is easy to see
+875,access and device feedback,the word prediction is slow
+876,access and device feedback,the word prediction is fast
+877,access and device feedback,the word prediction is too slow
+878,access and device feedback,the word prediction is too fast
+879,access and device feedback,the word prediction is hard to use
+880,access and device feedback,the word prediction is easy to use
+881,access and device feedback,the word prediction is confusing
+882,access and device feedback,the word prediction is clear
+883,access and device feedback,the word prediction is helpful
+884,access and device feedback,the word prediction is frustrating
+885,access and device feedback,the word prediction is accurate
+886,access and device feedback,the word prediction is inaccurate
+887,access and device feedback,the word prediction is comfortable
+888,access and device feedback,the word prediction is uncomfortable
+889,access and device feedback,the word prediction is too loud
+890,access and device feedback,the word prediction is too quiet
+891,access and device feedback,the word prediction is too small
+892,access and device feedback,the word prediction is too large
+893,access and device feedback,the word prediction is hard to see
+894,access and device feedback,the word prediction is easy to see
+895,access and device feedback,the prediction list is slow
+896,access and device feedback,the prediction list is fast
+897,access and device feedback,the prediction list is too slow
+898,access and device feedback,the prediction list is too fast
+899,access and device feedback,the prediction list is hard to use
+900,access and device feedback,the prediction list is easy to use
+901,access and device feedback,the prediction list is confusing
+902,access and device feedback,the prediction list is clear
+903,access and device feedback,the prediction list is helpful
+904,access and device feedback,the prediction list is frustrating
+905,access and device feedback,the prediction list is accurate
+906,access and device feedback,the prediction list is inaccurate
+907,access and device feedback,the prediction list is comfortable
+908,access and device feedback,the prediction list is uncomfortable
+909,access and device feedback,the prediction list is too loud
+910,access and device feedback,the prediction list is too quiet
+911,access and device feedback,the prediction list is too small
+912,access and device feedback,the prediction list is too large
+913,access and device feedback,the prediction list is hard to see
+914,access and device feedback,the prediction list is easy to see
+915,access and device feedback,the ambiguous keyboard is slow
+916,access and device feedback,the ambiguous keyboard is fast
+917,access and device feedback,the ambiguous keyboard is too slow
+918,access and device feedback,the ambiguous keyboard is too fast
+919,access and device feedback,the ambiguous keyboard is hard to use
+920,access and device feedback,the ambiguous keyboard is easy to use
+921,access and device feedback,the ambiguous keyboard is confusing
+922,access and device feedback,the ambiguous keyboard is clear
+923,access and device feedback,the ambiguous keyboard is helpful
+924,access and device feedback,the ambiguous keyboard is frustrating
+925,access and device feedback,the ambiguous keyboard is accurate
+926,access and device feedback,the ambiguous keyboard is inaccurate
+927,access and device feedback,the ambiguous keyboard is comfortable
+928,access and device feedback,the ambiguous keyboard is uncomfortable
+929,access and device feedback,the ambiguous keyboard is too loud
+930,access and device feedback,the ambiguous keyboard is too quiet
+931,access and device feedback,the ambiguous keyboard is too small
+932,access and device feedback,the ambiguous keyboard is too large
+933,access and device feedback,the ambiguous keyboard is hard to see
+934,access and device feedback,the ambiguous keyboard is easy to see
+935,access and device feedback,the icon sequence is slow
+936,access and device feedback,the icon sequence is fast
+937,access and device feedback,the icon sequence is too slow
+938,access and device feedback,the icon sequence is too fast
+939,access and device feedback,the icon sequence is hard to use
+940,access and device feedback,the icon sequence is easy to use
+941,access and device feedback,the icon sequence is confusing
+942,access and device feedback,the icon sequence is clear
+943,access and device feedback,the icon sequence is helpful
+944,access and device feedback,the icon sequence is frustrating
+945,access and device feedback,the icon sequence is accurate
+946,access and device feedback,the icon sequence is inaccurate
+947,access and device feedback,the icon sequence is comfortable
+948,access and device feedback,the icon sequence is uncomfortable
+949,access and device feedback,the icon sequence is too loud
+950,access and device feedback,the icon sequence is too quiet
+951,access and device feedback,the icon sequence is too small
+952,access and device feedback,the icon sequence is too large
+953,access and device feedback,the icon sequence is hard to see
+954,access and device feedback,the icon sequence is easy to see
+955,access and device feedback,the stored phrase page is slow
+956,access and device feedback,the stored phrase page is fast
+957,access and device feedback,the stored phrase page is too slow
+958,access and device feedback,the stored phrase page is too fast
+959,access and device feedback,the stored phrase page is hard to use
+960,access and device feedback,the stored phrase page is easy to use
+961,access and device feedback,the stored phrase page is confusing
+962,access and device feedback,the stored phrase page is clear
+963,access and device feedback,the stored phrase page is helpful
+964,access and device feedback,the stored phrase page is frustrating
+965,access and device feedback,the stored phrase page is accurate
+966,access and device feedback,the stored phrase page is inaccurate
+967,access and device feedback,the stored phrase page is comfortable
+968,access and device feedback,the stored phrase page is uncomfortable
+969,access and device feedback,the stored phrase page is too loud
+970,access and device feedback,the stored phrase page is too quiet
+971,access and device feedback,the stored phrase page is too small
+972,access and device feedback,the stored phrase page is too large
+973,access and device feedback,the stored phrase page is hard to see
+974,access and device feedback,the stored phrase page is easy to see
+975,access and device feedback,the core vocabulary page is slow
+976,access and device feedback,the core vocabulary page is fast
+977,access and device feedback,the core vocabulary page is too slow
+978,access and device feedback,the core vocabulary page is too fast
+979,access and device feedback,the core vocabulary page is hard to use
+980,access and device feedback,the core vocabulary page is easy to use
+981,access and device feedback,the core vocabulary page is confusing
+982,access and device feedback,the core vocabulary page is clear
+983,access and device feedback,the core vocabulary page is helpful
+984,access and device feedback,the core vocabulary page is frustrating
+985,access and device feedback,the core vocabulary page is accurate
+986,access and device feedback,the core vocabulary page is inaccurate
+987,access and device feedback,the core vocabulary page is comfortable
+988,access and device feedback,the core vocabulary page is uncomfortable
+989,access and device feedback,the core vocabulary page is too loud
+990,access and device feedback,the core vocabulary page is too quiet
+991,access and device feedback,the core vocabulary page is too small
+992,access and device feedback,the core vocabulary page is too large
+993,access and device feedback,the core vocabulary page is hard to see
+994,access and device feedback,the core vocabulary page is easy to see
+995,access and device feedback,the scanner is slow
+996,access and device feedback,the scanner is fast
+997,access and device feedback,the scanner is too slow
+998,access and device feedback,the scanner is too fast
+999,access and device feedback,the scanner is hard to use
+1000,access and device feedback,the scanner is easy to use
+1001,access and device feedback,the scanner is confusing
+1002,access and device feedback,the scanner is clear
+1003,access and device feedback,the scanner is helpful
+1004,access and device feedback,the scanner is frustrating
+1005,access and device feedback,the scanner is accurate
+1006,access and device feedback,the scanner is inaccurate
+1007,access and device feedback,the scanner is comfortable
+1008,access and device feedback,the scanner is uncomfortable
+1009,access and device feedback,the scanner is too loud
+1010,access and device feedback,the scanner is too quiet
+1011,access and device feedback,the scanner is too small
+1012,access and device feedback,the scanner is too large
+1013,access and device feedback,the scanner is hard to see
+1014,access and device feedback,the scanner is easy to see
+1015,access and device feedback,the scan cursor is slow
+1016,access and device feedback,the scan cursor is fast
+1017,access and device feedback,the scan cursor is too slow
+1018,access and device feedback,the scan cursor is too fast
+1019,access and device feedback,the scan cursor is hard to use
+1020,access and device feedback,the scan cursor is easy to use
+1021,access and device feedback,the scan cursor is confusing
+1022,access and device feedback,the scan cursor is clear
+1023,access and device feedback,the scan cursor is helpful
+1024,access and device feedback,the scan cursor is frustrating
+1025,access and device feedback,the scan cursor is accurate
+1026,access and device feedback,the scan cursor is inaccurate
+1027,access and device feedback,the scan cursor is comfortable
+1028,access and device feedback,the scan cursor is uncomfortable
+1029,access and device feedback,the scan cursor is too loud
+1030,access and device feedback,the scan cursor is too quiet
+1031,access and device feedback,the scan cursor is too small
+1032,access and device feedback,the scan cursor is too large
+1033,access and device feedback,the scan cursor is hard to see
+1034,access and device feedback,the scan cursor is easy to see
+1035,access and device feedback,the switch is slow
+1036,access and device feedback,the switch is fast
+1037,access and device feedback,the switch is too slow
+1038,access and device feedback,the switch is too fast
+1039,access and device feedback,the switch is hard to use
+1040,access and device feedback,the switch is easy to use
+1041,access and device feedback,the switch is confusing
+1042,access and device feedback,the switch is clear
+1043,access and device feedback,the switch is helpful
+1044,access and device feedback,the switch is frustrating
+1045,access and device feedback,the switch is accurate
+1046,access and device feedback,the switch is inaccurate
+1047,access and device feedback,the switch is comfortable
+1048,access and device feedback,the switch is uncomfortable
+1049,access and device feedback,the switch is too loud
+1050,access and device feedback,the switch is too quiet
+1051,access and device feedback,the switch is too small
+1052,access and device feedback,the switch is too large
+1053,access and device feedback,the switch is hard to see
+1054,access and device feedback,the switch is easy to see
+1055,access and device feedback,the joystick is slow
+1056,access and device feedback,the joystick is fast
+1057,access and device feedback,the joystick is too slow
+1058,access and device feedback,the joystick is too fast
+1059,access and device feedback,the joystick is hard to use
+1060,access and device feedback,the joystick is easy to use
+1061,access and device feedback,the joystick is confusing
+1062,access and device feedback,the joystick is clear
+1063,access and device feedback,the joystick is helpful
+1064,access and device feedback,the joystick is frustrating
+1065,access and device feedback,the joystick is accurate
+1066,access and device feedback,the joystick is inaccurate
+1067,access and device feedback,the joystick is comfortable
+1068,access and device feedback,the joystick is uncomfortable
+1069,access and device feedback,the joystick is too loud
+1070,access and device feedback,the joystick is too quiet
+1071,access and device feedback,the joystick is too small
+1072,access and device feedback,the joystick is too large
+1073,access and device feedback,the joystick is hard to see
+1074,access and device feedback,the joystick is easy to see
+1075,access and device feedback,the head pointer is slow
+1076,access and device feedback,the head pointer is fast
+1077,access and device feedback,the head pointer is too slow
+1078,access and device feedback,the head pointer is too fast
+1079,access and device feedback,the head pointer is hard to use
+1080,access and device feedback,the head pointer is easy to use
+1081,access and device feedback,the head pointer is confusing
+1082,access and device feedback,the head pointer is clear
+1083,access and device feedback,the head pointer is helpful
+1084,access and device feedback,the head pointer is frustrating
+1085,access and device feedback,the head pointer is accurate
+1086,access and device feedback,the head pointer is inaccurate
+1087,access and device feedback,the head pointer is comfortable
+1088,access and device feedback,the head pointer is uncomfortable
+1089,access and device feedback,the head pointer is too loud
+1090,access and device feedback,the head pointer is too quiet
+1091,access and device feedback,the head pointer is too small
+1092,access and device feedback,the head pointer is too large
+1093,access and device feedback,the head pointer is hard to see
+1094,access and device feedback,the head pointer is easy to see
+1095,access and device feedback,the eye gaze system is slow
+1096,access and device feedback,the eye gaze system is fast
+1097,access and device feedback,the eye gaze system is too slow
+1098,access and device feedback,the eye gaze system is too fast
+1099,access and device feedback,the eye gaze system is hard to use
+1100,access and device feedback,the eye gaze system is easy to use
+1101,access and device feedback,the eye gaze system is confusing
+1102,access and device feedback,the eye gaze system is clear
+1103,access and device feedback,the eye gaze system is helpful
+1104,access and device feedback,the eye gaze system is frustrating
+1105,access and device feedback,the eye gaze system is accurate
+1106,access and device feedback,the eye gaze system is inaccurate
+1107,access and device feedback,the eye gaze system is comfortable
+1108,access and device feedback,the eye gaze system is uncomfortable
+1109,access and device feedback,the eye gaze system is too loud
+1110,access and device feedback,the eye gaze system is too quiet
+1111,access and device feedback,the eye gaze system is too small
+1112,access and device feedback,the eye gaze system is too large
+1113,access and device feedback,the eye gaze system is hard to see
+1114,access and device feedback,the eye gaze system is easy to see
+1115,access and device feedback,the touch screen is slow
+1116,access and device feedback,the touch screen is fast
+1117,access and device feedback,the touch screen is too slow
+1118,access and device feedback,the touch screen is too fast
+1119,access and device feedback,the touch screen is hard to use
+1120,access and device feedback,the touch screen is easy to use
+1121,access and device feedback,the touch screen is confusing
+1122,access and device feedback,the touch screen is clear
+1123,access and device feedback,the touch screen is helpful
+1124,access and device feedback,the touch screen is frustrating
+1125,access and device feedback,the touch screen is accurate
+1126,access and device feedback,the touch screen is inaccurate
+1127,access and device feedback,the touch screen is comfortable
+1128,access and device feedback,the touch screen is uncomfortable
+1129,access and device feedback,the touch screen is too loud
+1130,access and device feedback,the touch screen is too quiet
+1131,access and device feedback,the touch screen is too small
+1132,access and device feedback,the touch screen is too large
+1133,access and device feedback,the touch screen is hard to see
+1134,access and device feedback,the touch screen is easy to see
+1135,access and device feedback,the target is slow
+1136,access and device feedback,the target is fast
+1137,access and device feedback,the target is too slow
+1138,access and device feedback,the target is too fast
+1139,access and device feedback,the target is hard to use
+1140,access and device feedback,the target is easy to use
+1141,access and device feedback,the target is confusing
+1142,access and device feedback,the target is clear
+1143,access and device feedback,the target is helpful
+1144,access and device feedback,the target is frustrating
+1145,access and device feedback,the target is accurate
+1146,access and device feedback,the target is inaccurate
+1147,access and device feedback,the target is comfortable
+1148,access and device feedback,the target is uncomfortable
+1149,access and device feedback,the target is too loud
+1150,access and device feedback,the target is too quiet
+1151,access and device feedback,the target is too large
+1152,access and device feedback,the target is hard to see
+1153,access and device feedback,the target is easy to see
+1154,access and device feedback,the button is slow
+1155,access and device feedback,the button is fast
+1156,access and device feedback,the button is too slow
+1157,access and device feedback,the button is too fast
+1158,access and device feedback,the button is hard to use
+1159,access and device feedback,the button is easy to use
+1160,access and device feedback,the button is confusing
+1161,access and device feedback,the button is clear
+1162,access and device feedback,the button is helpful
+1163,access and device feedback,the button is frustrating
+1164,access and device feedback,the button is accurate
+1165,access and device feedback,the button is inaccurate
+1166,access and device feedback,the button is comfortable
+1167,access and device feedback,the button is uncomfortable
+1168,access and device feedback,the button is too loud
+1169,access and device feedback,the button is too quiet
+1170,access and device feedback,the button is too small
+1171,access and device feedback,the button is too large
+1172,access and device feedback,the button is hard to see
+1173,access and device feedback,the button is easy to see
+1174,access and device feedback,the message window is slow
+1175,access and device feedback,the message window is fast
+1176,access and device feedback,the message window is too slow
+1177,access and device feedback,the message window is too fast
+1178,access and device feedback,the message window is hard to use
+1179,access and device feedback,the message window is easy to use
+1180,access and device feedback,the message window is confusing
+1181,access and device feedback,the message window is clear
+1182,access and device feedback,the message window is helpful
+1183,access and device feedback,the message window is frustrating
+1184,access and device feedback,the message window is accurate
+1185,access and device feedback,the message window is inaccurate
+1186,access and device feedback,the message window is comfortable
+1187,access and device feedback,the message window is uncomfortable
+1188,access and device feedback,the message window is too loud
+1189,access and device feedback,the message window is too quiet
+1190,access and device feedback,the message window is too small
+1191,access and device feedback,the message window is too large
+1192,access and device feedback,the message window is hard to see
+1193,access and device feedback,the message window is easy to see
+1194,access and device feedback,the speech output is slow
+1195,access and device feedback,the speech output is fast
+1196,access and device feedback,the speech output is too slow
+1197,access and device feedback,the speech output is too fast
+1198,access and device feedback,the speech output is hard to use
+1199,access and device feedback,the speech output is easy to use
+1200,access and device feedback,the speech output is confusing
+1201,access and device feedback,the speech output is clear
+1202,access and device feedback,the speech output is helpful
+1203,access and device feedback,the speech output is frustrating
+1204,access and device feedback,the speech output is accurate
+1205,access and device feedback,the speech output is inaccurate
+1206,access and device feedback,the speech output is comfortable
+1207,access and device feedback,the speech output is uncomfortable
+1208,access and device feedback,the speech output is too loud
+1209,access and device feedback,the speech output is too quiet
+1210,access and device feedback,the speech output is too small
+1211,access and device feedback,the speech output is too large
+1212,access and device feedback,the speech output is hard to see
+1213,access and device feedback,the speech output is easy to see
+1214,access and device feedback,the volume is slow
+1215,access and device feedback,the volume is fast
+1216,access and device feedback,the volume is too slow
+1217,access and device feedback,the volume is too fast
+1218,access and device feedback,the volume is hard to use
+1219,access and device feedback,the volume is easy to use
+1220,access and device feedback,the volume is confusing
+1221,access and device feedback,the volume is clear
+1222,access and device feedback,the volume is helpful
+1223,access and device feedback,the volume is frustrating
+1224,access and device feedback,the volume is accurate
+1225,access and device feedback,the volume is inaccurate
+1226,access and device feedback,the volume is comfortable
+1227,access and device feedback,the volume is uncomfortable
+1228,access and device feedback,the volume is too loud
+1229,access and device feedback,the volume is too quiet
+1230,access and device feedback,the volume is too small
+1231,access and device feedback,the volume is too large
+1232,access and device feedback,the volume is hard to see
+1233,access and device feedback,the volume is easy to see
+1234,access and device feedback,make the scan speed faster
+1235,access and device feedback,the scan speed should be faster
+1236,access and device feedback,make the scan speed slower
+1237,access and device feedback,the scan speed should be slower
+1238,access and device feedback,make the scan speed larger
+1239,access and device feedback,the scan speed should be larger
+1240,access and device feedback,make the scan speed smaller
+1241,access and device feedback,the scan speed should be smaller
+1242,access and device feedback,make the scan speed higher
+1243,access and device feedback,the scan speed should be higher
+1244,access and device feedback,make the scan speed lower
+1245,access and device feedback,the scan speed should be lower
+1246,access and device feedback,make the scan speed easier
+1247,access and device feedback,the scan speed should be easier
+1248,access and device feedback,make the scan speed harder
+1249,access and device feedback,the scan speed should be harder
+1250,access and device feedback,make the scan speed more stable
+1251,access and device feedback,the scan speed should be more stable
+1252,access and device feedback,make the scan speed less sensitive
+1253,access and device feedback,the scan speed should be less sensitive
+1254,access and device feedback,make the scan speed more sensitive
+1255,access and device feedback,the scan speed should be more sensitive
+1256,access and device feedback,make the scan speed clearer
+1257,access and device feedback,the scan speed should be clearer
+1258,access and device feedback,make the scan delay faster
+1259,access and device feedback,the scan delay should be faster
+1260,access and device feedback,make the scan delay slower
+1261,access and device feedback,the scan delay should be slower
+1262,access and device feedback,make the scan delay larger
+1263,access and device feedback,the scan delay should be larger
+1264,access and device feedback,make the scan delay smaller
+1265,access and device feedback,the scan delay should be smaller
+1266,access and device feedback,make the scan delay higher
+1267,access and device feedback,the scan delay should be higher
+1268,access and device feedback,make the scan delay lower
+1269,access and device feedback,the scan delay should be lower
+1270,access and device feedback,make the scan delay easier
+1271,access and device feedback,the scan delay should be easier
+1272,access and device feedback,make the scan delay harder
+1273,access and device feedback,the scan delay should be harder
+1274,access and device feedback,make the scan delay more stable
+1275,access and device feedback,the scan delay should be more stable
+1276,access and device feedback,make the scan delay less sensitive
+1277,access and device feedback,the scan delay should be less sensitive
+1278,access and device feedback,make the scan delay more sensitive
+1279,access and device feedback,the scan delay should be more sensitive
+1280,access and device feedback,make the scan delay clearer
+1281,access and device feedback,the scan delay should be clearer
+1282,access and device feedback,make the selection delay faster
+1283,access and device feedback,the selection delay should be faster
+1284,access and device feedback,make the selection delay slower
+1285,access and device feedback,the selection delay should be slower
+1286,access and device feedback,make the selection delay larger
+1287,access and device feedback,the selection delay should be larger
+1288,access and device feedback,make the selection delay smaller
+1289,access and device feedback,the selection delay should be smaller
+1290,access and device feedback,make the selection delay higher
+1291,access and device feedback,the selection delay should be higher
+1292,access and device feedback,make the selection delay lower
+1293,access and device feedback,the selection delay should be lower
+1294,access and device feedback,make the selection delay easier
+1295,access and device feedback,the selection delay should be easier
+1296,access and device feedback,make the selection delay harder
+1297,access and device feedback,the selection delay should be harder
+1298,access and device feedback,make the selection delay more stable
+1299,access and device feedback,the selection delay should be more stable
+1300,access and device feedback,make the selection delay less sensitive
+1301,access and device feedback,the selection delay should be less sensitive
+1302,access and device feedback,make the selection delay more sensitive
+1303,access and device feedback,the selection delay should be more sensitive
+1304,access and device feedback,make the selection delay clearer
+1305,access and device feedback,the selection delay should be clearer
+1306,access and device feedback,make the dwell time faster
+1307,access and device feedback,the dwell time should be faster
+1308,access and device feedback,make the dwell time slower
+1309,access and device feedback,the dwell time should be slower
+1310,access and device feedback,make the dwell time larger
+1311,access and device feedback,the dwell time should be larger
+1312,access and device feedback,make the dwell time smaller
+1313,access and device feedback,the dwell time should be smaller
+1314,access and device feedback,make the dwell time higher
+1315,access and device feedback,the dwell time should be higher
+1316,access and device feedback,make the dwell time lower
+1317,access and device feedback,the dwell time should be lower
+1318,access and device feedback,make the dwell time easier
+1319,access and device feedback,the dwell time should be easier
+1320,access and device feedback,make the dwell time harder
+1321,access and device feedback,the dwell time should be harder
+1322,access and device feedback,make the dwell time more stable
+1323,access and device feedback,the dwell time should be more stable
+1324,access and device feedback,make the dwell time less sensitive
+1325,access and device feedback,the dwell time should be less sensitive
+1326,access and device feedback,make the dwell time more sensitive
+1327,access and device feedback,the dwell time should be more sensitive
+1328,access and device feedback,make the dwell time clearer
+1329,access and device feedback,the dwell time should be clearer
+1330,access and device feedback,make the target size faster
+1331,access and device feedback,the target size should be faster
+1332,access and device feedback,make the target size slower
+1333,access and device feedback,the target size should be slower
+1334,access and device feedback,make the target size larger
+1335,access and device feedback,the target size should be larger
+1336,access and device feedback,make the target size smaller
+1337,access and device feedback,the target size should be smaller
+1338,access and device feedback,make the target size higher
+1339,access and device feedback,the target size should be higher
+1340,access and device feedback,make the target size lower
+1341,access and device feedback,the target size should be lower
+1342,access and device feedback,make the target size easier
+1343,access and device feedback,the target size should be easier
+1344,access and device feedback,make the target size harder
+1345,access and device feedback,the target size should be harder
+1346,access and device feedback,make the target size more stable
+1347,access and device feedback,the target size should be more stable
+1348,access and device feedback,make the target size less sensitive
+1349,access and device feedback,the target size should be less sensitive
+1350,access and device feedback,make the target size more sensitive
+1351,access and device feedback,the target size should be more sensitive
+1352,access and device feedback,make the target size clearer
+1353,access and device feedback,the target size should be clearer
+1354,access and device feedback,make the button spacing faster
+1355,access and device feedback,the button spacing should be faster
+1356,access and device feedback,make the button spacing slower
+1357,access and device feedback,the button spacing should be slower
+1358,access and device feedback,make the button spacing larger
+1359,access and device feedback,the button spacing should be larger
+1360,access and device feedback,make the button spacing smaller
+1361,access and device feedback,the button spacing should be smaller
+1362,access and device feedback,make the button spacing higher
+1363,access and device feedback,the button spacing should be higher
+1364,access and device feedback,make the button spacing lower
+1365,access and device feedback,the button spacing should be lower
+1366,access and device feedback,make the button spacing easier
+1367,access and device feedback,the button spacing should be easier
+1368,access and device feedback,make the button spacing harder
+1369,access and device feedback,the button spacing should be harder
+1370,access and device feedback,make the button spacing more stable
+1371,access and device feedback,the button spacing should be more stable
+1372,access and device feedback,make the button spacing less sensitive
+1373,access and device feedback,the button spacing should be less sensitive
+1374,access and device feedback,make the button spacing more sensitive
+1375,access and device feedback,the button spacing should be more sensitive
+1376,access and device feedback,make the button spacing clearer
+1377,access and device feedback,the button spacing should be clearer
+1378,access and device feedback,make the font size faster
+1379,access and device feedback,the font size should be faster
+1380,access and device feedback,make the font size slower
+1381,access and device feedback,the font size should be slower
+1382,access and device feedback,make the font size larger
+1383,access and device feedback,the font size should be larger
+1384,access and device feedback,make the font size smaller
+1385,access and device feedback,the font size should be smaller
+1386,access and device feedback,make the font size higher
+1387,access and device feedback,the font size should be higher
+1388,access and device feedback,make the font size lower
+1389,access and device feedback,the font size should be lower
+1390,access and device feedback,make the font size easier
+1391,access and device feedback,the font size should be easier
+1392,access and device feedback,make the font size harder
+1393,access and device feedback,the font size should be harder
+1394,access and device feedback,make the font size more stable
+1395,access and device feedback,the font size should be more stable
+1396,access and device feedback,make the font size less sensitive
+1397,access and device feedback,the font size should be less sensitive
+1398,access and device feedback,make the font size more sensitive
+1399,access and device feedback,the font size should be more sensitive
+1400,access and device feedback,make the font size clearer
+1401,access and device feedback,the font size should be clearer
+1402,access and device feedback,make the contrast faster
+1403,access and device feedback,the contrast should be faster
+1404,access and device feedback,make the contrast slower
+1405,access and device feedback,the contrast should be slower
+1406,access and device feedback,make the contrast larger
+1407,access and device feedback,the contrast should be larger
+1408,access and device feedback,make the contrast smaller
+1409,access and device feedback,the contrast should be smaller
+1410,access and device feedback,make the contrast higher
+1411,access and device feedback,the contrast should be higher
+1412,access and device feedback,make the contrast lower
+1413,access and device feedback,the contrast should be lower
+1414,access and device feedback,make the contrast easier
+1415,access and device feedback,the contrast should be easier
+1416,access and device feedback,make the contrast harder
+1417,access and device feedback,the contrast should be harder
+1418,access and device feedback,make the contrast more stable
+1419,access and device feedback,the contrast should be more stable
+1420,access and device feedback,make the contrast less sensitive
+1421,access and device feedback,the contrast should be less sensitive
+1422,access and device feedback,make the contrast more sensitive
+1423,access and device feedback,the contrast should be more sensitive
+1424,access and device feedback,make the contrast clearer
+1425,access and device feedback,the contrast should be clearer
+1426,access and device feedback,make the volume faster
+1427,access and device feedback,the volume should be faster
+1428,access and device feedback,make the volume slower
+1429,access and device feedback,the volume should be slower
+1430,access and device feedback,make the volume larger
+1431,access and device feedback,the volume should be larger
+1432,access and device feedback,make the volume smaller
+1433,access and device feedback,the volume should be smaller
+1434,access and device feedback,make the volume higher
+1435,access and device feedback,the volume should be higher
+1436,access and device feedback,make the volume lower
+1437,access and device feedback,the volume should be lower
+1438,access and device feedback,make the volume easier
+1439,access and device feedback,the volume should be easier
+1440,access and device feedback,make the volume harder
+1441,access and device feedback,the volume should be harder
+1442,access and device feedback,make the volume more stable
+1443,access and device feedback,the volume should be more stable
+1444,access and device feedback,make the volume less sensitive
+1445,access and device feedback,the volume should be less sensitive
+1446,access and device feedback,make the volume more sensitive
+1447,access and device feedback,the volume should be more sensitive
+1448,access and device feedback,make the volume clearer
+1449,access and device feedback,the volume should be clearer
+1450,access and device feedback,make the pointer speed faster
+1451,access and device feedback,the pointer speed should be faster
+1452,access and device feedback,make the pointer speed slower
+1453,access and device feedback,the pointer speed should be slower
+1454,access and device feedback,make the pointer speed larger
+1455,access and device feedback,the pointer speed should be larger
+1456,access and device feedback,make the pointer speed smaller
+1457,access and device feedback,the pointer speed should be smaller
+1458,access and device feedback,make the pointer speed higher
+1459,access and device feedback,the pointer speed should be higher
+1460,access and device feedback,make the pointer speed lower
+1461,access and device feedback,the pointer speed should be lower
+1462,access and device feedback,make the pointer speed easier
+1463,access and device feedback,the pointer speed should be easier
+1464,access and device feedback,make the pointer speed harder
+1465,access and device feedback,the pointer speed should be harder
+1466,access and device feedback,make the pointer speed more stable
+1467,access and device feedback,the pointer speed should be more stable
+1468,access and device feedback,make the pointer speed less sensitive
+1469,access and device feedback,the pointer speed should be less sensitive
+1470,access and device feedback,make the pointer speed more sensitive
+1471,access and device feedback,the pointer speed should be more sensitive
+1472,access and device feedback,make the pointer speed clearer
+1473,access and device feedback,the pointer speed should be clearer
+1474,access and device feedback,make the joystick speed faster
+1475,access and device feedback,the joystick speed should be faster
+1476,access and device feedback,make the joystick speed slower
+1477,access and device feedback,the joystick speed should be slower
+1478,access and device feedback,make the joystick speed larger
+1479,access and device feedback,the joystick speed should be larger
+1480,access and device feedback,make the joystick speed smaller
+1481,access and device feedback,the joystick speed should be smaller
+1482,access and device feedback,make the joystick speed higher
+1483,access and device feedback,the joystick speed should be higher
+1484,access and device feedback,make the joystick speed lower
+1485,access and device feedback,the joystick speed should be lower
+1486,access and device feedback,make the joystick speed easier
+1487,access and device feedback,the joystick speed should be easier
+1488,access and device feedback,make the joystick speed harder
+1489,access and device feedback,the joystick speed should be harder
+1490,access and device feedback,make the joystick speed more stable
+1491,access and device feedback,the joystick speed should be more stable
+1492,access and device feedback,make the joystick speed less sensitive
+1493,access and device feedback,the joystick speed should be less sensitive
+1494,access and device feedback,make the joystick speed more sensitive
+1495,access and device feedback,the joystick speed should be more sensitive
+1496,access and device feedback,make the joystick speed clearer
+1497,access and device feedback,the joystick speed should be clearer
+1498,access and device feedback,make the switch sensitivity faster
+1499,access and device feedback,the switch sensitivity should be faster
+1500,access and device feedback,make the switch sensitivity slower
